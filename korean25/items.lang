@@ -1,4 +1,4 @@
-<lang name="Korean-test" max-bold="0" fonts="unicode">
+<lang name="Korean25" max-bold="0" fonts="unicode">
 
 	<!-- Trinkets -->
 
@@ -139,7 +139,7 @@
 	<!-- Rare -->
 	<string name="trinket.apothecarys_sickle.name">Apothecary's Sickle</string>
 	<string name="trinket.apothecarys_sickle.desc">\c00bfff연금술사의 낫\d\n적 처치시 포션 회복 확률 %num%%</string>
-	<string name="trinket.assassin_mask.name">Assassin's Mask</string>
+	<string name="trinket.assassin_mask.name">Assassin's Mask 도적의 마스크</string>
 	<string name="trinket.assassin_mask.desc">\c00bfff도적의 마스크\d\n적이 플레이어를 탐지하는 범위가 %rng%% 감소합니다.\n플레이어를 탐지하지 못한 적에게 %dmg%% 추가 피해를 입힙니다.</string>
 	<string name="trinket.chaos_orb.name">Chaos Orb</string>
 	<string name="trinket.chaos_orb.desc">\c00bfff카오스 오브\d\n주문 적중 시 무작위 속성으로 추가 %dmg% 피해를 입힐 확률을 얻습니다.\n각 속성은 개별적으로 %chns%% 확률로 발동됩니다.</string>
@@ -330,7 +330,7 @@
 	<string name="item.brass_statuette">황동 조각상</string>
 	<string name="item.fine_painting">고급 그림</string>
 	<string name="item.ceramic_vase">꽃병</string>
-	<string name="item.silver_goblet">Silver Goblet</string>
+	<string name="item.silver_goblet">은 술잔</string>
 	<string name="item.chalice_silver">은 성배</string>
 	<string name="item.silver_mirror">은 거울</string>
 	<string name="item.silver_plate">은 접시</string>

@@ -1,4 +1,4 @@
-<lang name="Korean-test" max-bold="0" fonts="unicode">
+<lang name="Korean25" max-bold="0" fonts="unicode">
 
 	<string name="item.system.epic_name">%prefix% %suffix%</string>
 	<string name="item.system.eqipment_pfx">%prefix% %base%</string>
