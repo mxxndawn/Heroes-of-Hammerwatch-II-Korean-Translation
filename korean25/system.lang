@@ -68,8 +68,15 @@
 	<string name="misc.timeletters.hours">시간</string>
 	<string name="misc.timeletters.minutes">분</string>
 	<string name="misc.timeletters.seconds">초</string>
+	<string name="misc.distletters.kilometer">km</string>
+	<string name="misc.distletters.meter">m</string>
+	<string name="misc.amntletters.thousand">k</string>
+	<string name="misc.amntletters.million">m</string>
+	<string name="misc.amntletters.billion">b</string>
+	<string name="misc.amntletters.trillion">t</string>
 
-	<string name="misc.unknown">알 수 없음</string>
+
+	<string name="misc.unknown">Unknown</string>
 	<string name="misc.locked">잠김</string>
 	<string name="misc.hold">홀드</string>
 
@@ -251,6 +258,8 @@
 	<string name="menu.loadout.waiting_num">Waiting for %num% players.</string>
 	<string name="menu.loadout.waiting_plrs">Waiting for %players%.</string>
 	<string name="menu.loadout.ngp">New Game+ %ngp%</string>
+	<string name="menu.loadout.food">Food </string>
+	<string name="menu.loadout.drinks">Drinks </string>
 
 
 	<string name="menu.mission_end.completed">임무 완료!</string>
@@ -324,10 +333,10 @@
 	<string name="mainmenu.serverlist.title">로비</string>
 	<string name="mainmenu.multiplayer.disabled">멀티플레이는 현재 사용할 수 없습니다.</string>
 	<string name="mainmenu.multiplayer.connecting">Connecting...</string>
+	<string name="mainmenu.lobby.suffix">'s lobby</string>
 
 
-
-
+	<string name="menu.cost">Cost</string>
 
 	<string name="building.apothecary.name">Apothecary</string>
 	<string name="building.apothecary.desc1">포션의 업그레이드를 잠금 해제합니다.</string>
@@ -1063,6 +1072,8 @@
 	<string name="location.act.barracks">Barracks</string>
 	<string name="location.act.courts">Courts</string>
 	<string name="location.act.dark_halls">Dark Halls</string>
+	<string name="location.shortcut.dark_citadel">Dark Citadel</string>
+	<string name="location.shortcut.entrance">Entrance</string>
 	
 	<string name="boss.totems">토템 기둥</string>
 	<string name="boss.totem_ice">빙결의 토템</string>

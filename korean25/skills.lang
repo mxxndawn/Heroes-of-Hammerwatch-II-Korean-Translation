@@ -101,6 +101,7 @@
 	<string name="skills.desc.params.heal">회복:</string>
 	<string name="skills.desc.params.restore.health.max">생명력 회복:</string>
 	<string name="skills.desc.params.restore.stamina.max">스태미너 회복:</string>
+	<string name="skills.desc.params.restore.stamina.max">Stamina Restored:</string>
 
 	<string name="skills.desc.params.dmg_taken">받는 피해량:</string>
 	<string name="skills.desc.params.dmg_threshold">Damage Threshold:</string>
@@ -124,6 +125,9 @@
 	<string name="skills.desc.params.ice_pen">빙결 관통:</string>
 	<string name="skills.desc.params.lightning_pen">번개 관통:</string>
 	<string name="skills.desc.params.poison_pen">중독 관통:</string>
+	<string name="skills.desc.params.ele_res.lvl">Elemental Resistances per Level:</string>
+	<string name="skills.desc.params.ele_pen">Fire/Ice/Lightning Penetration:</string>
+	
 
 	<string name="skills.desc.params.evasion">회피율:</string>
 	<string name="skills.desc.params.mspeed">이동 속도:</string>
@@ -155,14 +159,17 @@
 	<string name="skills.desc.params.stacks.cast_speed">스택당 주문 시전 속도:</string>
 	<string name="skills.desc.params.stacks.crit.weapon">스택당 무기 치명타 확률:</string>
 	<string name="skills.desc.params.stacks.crit.spell">스택당 주문 치명타 확률:</string>
-	<string name="skills.desc.params.stacks.healthregen">스택당 생명력 재생:</string>
+	<string name="skills.desc.params.stacks.crit">Crit Chance per Stack:</string>
+	<string name="skills.desc.params.stacks.healthregen">Health Regen per Stack:</string>
 	<string name="skills.desc.params.stacks.manaregen">스택당 마나 재생:</string>
 	<string name="skills.desc.params.stacks.mana_cost">스택당 마나 비용:</string>
 	<string name="skills.desc.params.stacks.max.regen">Regen at Max Stacks:</string>
 	<string name="skills.desc.params.stacks.max.crit">Crit Chance at Max Stacks:</string>
 	<string name="skills.desc.params.stacks.max.dmg_taken">Damage Taken at Max Stacks:</string>
 	<string name="skills.desc.params.stacks.gain">Stacks Gained:</string>
-	<string name="skills.desc.params.stacks.bleeding">출혈 스택:</string>
+	<string name="skills.desc.params.stacks.bleeding">Bleeding Stacks:</string>
+	<string name="skills.desc.params.stacks.fire_res">Fire Resistance per Stack:</string>
+	<string name="skills.desc.params.stacks.fire_pen">Fire Penetration per Stack:</string>
 
 	<string name="skills.desc.params.status_effect">Status Effect:</string>
 	<string name="skills.desc.params.affliction.mul">Affliction Multiplier:</string>
@@ -226,6 +233,12 @@
 	<string name="skills.combo.none.desc">Disables combo.</string>	
 	<string name="skills.combo.selected"> (selected)</string>
 
+	<string name="skills.combo.nova.name">Combo Nova</string>
+	<string name="skills.combo.nova.desc">Shoots a nova of projectiles every second while combo is active.</string>
+
+
+
+
 
 	<!-- Attacks -->
 
@@ -251,12 +264,14 @@
 	<string name="skills.attacks.offhand.crossbow.desc">Quickly release a fast bolt that deal 75% Physical damage.</string>
 	<string name="skills.attacks.offhand.shield.name">Shield Bash</string>
 	<string name="skills.attacks.offhand.shield.desc">Bash enemies with your shield inflicting \cb0dfffStun\d.</string>
+	<string name="skills.attacks.offhand.shield.block.desc">Blocks up to %amnt% damage from most projectiles in a 180-degree arc.</string>
 	<string name="skills.attacks.offhand.tome.fire.name">Glyph of Fire</string>
 	<string name="skills.attacks.offhand.tome.fire.desc">Place a glyph at the ground that activates when an enemy gets near, producing an area of flames for 5 seconds, dealing 75% Weapon damage.</string>
 	<string name="skills.attacks.offhand.tome.ice.name">Glyph of Ice</string>
 	<string name="skills.attacks.offhand.tome.ice.desc">Place a glyph at the ground that activates when an enemy gets near, triggering a blast of ice dealing 100% Weapon damage in an area.</string>
 	<string name="skills.attacks.offhand.tome.lightning.name">Glyph of Lightning</string>
 	<string name="skills.attacks.offhand.tome.lightning.desc">Place a glyph at the ground that activates when an enemy gets near, causing three bolts of lightning to strike the area, each dealing 75% Weapon damage.</string>
+
 
 	<string name="skills.attacks.twohanded.shortbow1.name">Quick Shot</string>
 	<string name="skills.attacks.twohanded.shortbow1.desc">Rapidly fires an arrow that deal 50% Weapon damage.</string>
@@ -1122,6 +1137,10 @@
 	<string name="modifiers.attributes.dex.suffix">of Agility</string>
 	<string name="modifiers.attributes.int.prefix">Keen</string>
 	<string name="modifiers.attributes.int.suffix">of Intellect</string>
+		<string name="modifiers.attributes.vit.prefix">Hale</string>
+	<string name="modifiers.attributes.vit.suffix">of Vitality</string>
+	<string name="modifiers.attributes.foc.prefix">Insightful</string>
+	<string name="modifiers.attributes.foc.suffix">of Focus</string>
 	<string name="modifiers.attributes.str_pct.prefix"></string>
 	<string name="modifiers.attributes.str_pct.suffix">of the Ox</string>
 	<string name="modifiers.attributes.dex_pct.prefix"></string>
@@ -1254,8 +1273,12 @@
 	<string name="modifiers.skills.attack_crit.suffix">of the Marksman</string>
 	<string name="modifiers.skills.attack_crit_dmg.prefix">Lethal</string>
 	<string name="modifiers.skills.attack_crit_dmg.suffix">of the Butcher</string>
+	<string name="modifiers.skills.attack_power.prefix">Mighty</string>
+	<string name="modifiers.skills.attack_power.suffix">of Might</string>
 	<string name="modifiers.skills.spell_speed.prefix">Spellslinger's</string>
 	<string name="modifiers.skills.spell_speed.suffix">of Alacrity</string>
+	<string name="modifiers.skills.spell_power.prefix">Powerful</string>
+	<string name="modifiers.skills.spell_power.suffix">of Power</string>
 	<string name="modifiers.skills.spell_crit.prefix">Exalted</string>
 	<string name="modifiers.skills.spell_crit.suffix">of Excellence</string>
 	<string name="modifiers.skills.spell_crit_dmg.prefix">Deadly</string>
@@ -1321,8 +1344,7 @@
 	<string name="modifiers.weapons.poison.suffix">of Venom</string>
 	<string name="modifiers.weapons.pure.prefix">Disintegrating</string>
 	<string name="modifiers.weapons.pure.suffix">of Disintegration</string>
-
-
+	
 	<string name="modifiers.equipment.damage.weapon.suffix">of Combat</string>
 	<string name="modifiers.equipment.damage.weapon.desc">%amnt% Weapon Attack Damage</string>
 	<string name="modifiers.equipment.damage.spell.suffix">of Prowess</string>
@@ -1355,7 +1377,7 @@
 	<string name="modifiers.equipment.goldgain.suffix">of Wealth</string>
 	<string name="modifiers.equipment.goldgain.desc">%amnt% Gold Gain</string>
 	<string name="modifiers.equipment.expgain.suffix">of Learning</string>
-	<string name="modifiers.equipment.expgain.desc">Experience Gain</string>
+	<string name="modifiers.equipment.expgain.desc">%amnt% Experience Gain</string>
 	<string name="modifiers.equipment.armor_pen.suffix">of Sundering</string>
 	<string name="modifiers.equipment.poison_pen.suffix">of Corrosion</string>
 	<string name="modifiers.equipment.fire_pen.suffix">of Conflagration</string>
