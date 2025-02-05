@@ -1,4 +1,4 @@
-<lang name="Korean25" max-bold="0" fonts="unicode">
+<lang name="Korean25" max-bold="0" min-size="10" max-bold="0" use-autohint="true" fonts="unicode">
 	<!-- Skills -->
 
 
@@ -223,15 +223,15 @@
 	<string name="skills.desc.params.health_prc_per_stack">스택당 생명력 %:</string>
 	<string name="skills.desc.params.mana_prc_per_stack">스택당 마나 %:</string>
 
-	<string name="skills.combo.kills.name">Combo: Kills</string>	
+	<string name="skills.combo.kills.name">콤보: 처치</string>	
 	<string name="skills.combo.kills.desc">Triggers combo after 10 kills in quick succession.</string>	
-	<string name="skills.combo.dash.name">Combo: Dash</string>	
+	<string name="skills.combo.dash.name">콤보: 대쉬</string>	
 	<string name="skills.combo.dash.desc">Triggers combo after 3 dashes in quick succession.</string>	
-	<string name="skills.combo.parry.name">Combo: Parry</string>	
+	<string name="skills.combo.parry.name">콤보: 패링</string>	
 	<string name="skills.combo.parry.desc">Triggers combo after 8 parries in quick succession.</string>	
-	<string name="skills.combo.none.name">Combo: None</string>	
+	<string name="skills.combo.none.name">콤보: 없음</string>	
 	<string name="skills.combo.none.desc">Disables combo.</string>	
-	<string name="skills.combo.selected"> (selected)</string>
+	<string name="skills.combo.selected"> (선택됨)</string>
 
 	<string name="skills.combo.nova.name">Combo Nova</string>
 	<string name="skills.combo.nova.desc">Shoots a nova of projectiles every second while combo is active.</string>

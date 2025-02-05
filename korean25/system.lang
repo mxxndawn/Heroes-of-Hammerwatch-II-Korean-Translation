@@ -1,4 +1,4 @@
-<lang name="Korean25" max-bold="0" fonts="unicode">
+<lang name="Korean25" max-bold="0" min-size="10" max-bold="0" use-autohint="true" fonts="unicode">
 
 	<string name="skill.tag.weapon">\cffdfb0무기\d</string>
 	<string name="skill.tag.spell">\cffdfb0주문\d</string>
@@ -31,7 +31,7 @@
 	<string name="menu.nav.unready">준비 안 됨</string>
 	<string name="menu.nav.ngp+">NGP+</string>
 	<string name="menu.nav.ngp-">NGP-</string>
-	<string name="menu.nav.bind">Bind</string>
+	<string name="menu.nav.bind">바인딩</string>
 	<string name="menu.nav.save">저장</string>
 	<string name="menu.nav.revert">되돌리기</string>
 	<string name="menu.nav.reset">재설정</string>
@@ -61,7 +61,7 @@
 	<string name="menu.nav.withdraw">꺼내기</string>
 	<string name="menu.nav.deposit_to">'%to%'에 보관</string>
 	<string name="menu.nav.rename">Rename</string>
-
+	<string name="menu.nav.link_item">Link Item</string>
 
 
 
@@ -76,20 +76,20 @@
 	<string name="misc.amntletters.trillion">t</string>
 
 
-	<string name="misc.unknown">Unknown</string>
+	<string name="misc.unknown">알 수 없음</string>
 	<string name="misc.locked">잠김</string>
 	<string name="misc.hold">홀드</string>
 
 	<string name="menu.dead.died_title">사망 했습니다!</string>
 	<string name="menu.dead.died_text">마을로 돌아가시겠습니까?</string>
 
-	<string name="menu.class.paladin">Paladin</string>
-	<string name="menu.class.ranger">Ranger</string>
-	<string name="menu.class.rogue">Rogue</string>
-	<string name="menu.class.wizard">Wizard</string>
-	<string name="menu.class.warlock">Warlock</string>
-	<string name="menu.class.sorcerer">Sorcerer</string>
-	<string name="menu.class.warrior">Warrior</string>
+	<string name="menu.class.paladin">팔라딘</string>
+	<string name="menu.class.ranger">레인저</string>
+	<string name="menu.class.rogue">로그</string>
+	<string name="menu.class.wizard">위자드</string>
+	<string name="menu.class.warlock">워록</string>
+	<string name="menu.class.sorcerer">소서러</string>
+	<string name="menu.class.warrior">워리어</string>
 
 	<string name="menu.class.paladin.description">법과 질서를 지키기 위해 강한 힘과 확고한 신념으로 싸우는 의로운 챔피언</string>
 	<string name="menu.class.ranger.description">숲과 하나가 되어 자연의 힘을 다룰 수 있는 타고난 사냥꾼</string>
@@ -147,7 +147,7 @@
 	<string name="menu.charcreate.custom.hair">머리</string>
 
 
-	<string name="menu.loadgame.charlevel">레벨 %level%</string>
+	<string name="menu.loadgame.charlevel">Level %level%</string>
 	<string name="menu.loadgame.charlevel_short">Lvl %level%</string>
 	<string name="menu.loadgame.ngplevel">ng+%ngp%</string>
 	<string name="menu.loadgame.run_resume">'%name%'에서 진행 중이던 플레이를 재개하시겠습니까?</string>
@@ -155,16 +155,16 @@
 	<string name="menu.loadgame.delete">레벨 %level% %class%, '%name%'을(를) 삭제하시겠습니까?</string>
 
 
-	<string name="menu.guild.statistics">Statistics</string>
+	<string name="menu.guild.statistics">통계</string>
 	<string name="menu.guild.statistics.run">이번 도전</string>
 	<string name="menu.guild.statistics.char">캐릭터</string>
 	<string name="menu.guild.statistics.total">총합</string>
-	<string name="menu.guild.accomplishments">Accomplishments</string>
+	<string name="menu.guild.accomplishments">업적</string>
 	<string name="menu.guild.accomplishments.info">보상 보너스는 모든 캐릭터에 적용됩니다.</string>
 	<string name="menu.guild.accomplishments.awarded">획득한 보상:</string>
-	<string name="menu.guild.itemiary">Trinkets</string>
+	<string name="menu.guild.itemiary">장신구</string>
 	<string name="menu.guild.itemiary.empty">이 목록을 채우기 위해 장신구를 찾아보세요.</string>
-	<string name="menu.guild.titles">Titles</string>
+	<string name="menu.guild.titles">칭호</string>
 	<string name="menu.guild.titles.info">칭호 보너스는 모든 캐릭터에 적용됩니다.</string>
 	
 	
@@ -178,8 +178,8 @@
 
 
 	<!-- Player Menu -->
-	<string name="menu.player.map">Map</string>
-	<string name="menu.player.char">Character</string>
+	<string name="menu.player.map">지도</string>
+	<string name="menu.player.char">캐릭터</string>
 	<string name="menu.player.char.experience">경험치: %exp%/%expmax% (%prog%%)</string>
 	<string name="menu.player.char.level">레벨 %lvl%</string>
 	<string name="menu.player.char.level_cap">레벨 제한: %lvl%</string>
@@ -190,7 +190,7 @@
 	<string name="menu.player.char.materials">재료</string>
 	<string name="menu.player.char.materials.run">이번 도전</string>
 	<string name="menu.player.char.materials.town">마을</string>
-	<string name="menu.player.mods">Info</string>
+	<string name="menu.player.mods">정보</string>
 	<string name="menu.player.mods.skills">스킬</string>
 	<string name="menu.player.mods.stats">스탯</string>
 	<string name="menu.player.mods.effects">효과</string>
@@ -244,8 +244,8 @@
 	<string name="menu.skills.respec_cant_afford">스킬 포인트 %points%\"icn-skillpt"의\n재분배 비용이 부족합니다.\n비용 : %cost%</string>
 
 
-	<string name="menu.char_custom.title">Customize Character</string>
-	<string name="menu.char_custom.rename">Enter a new name for your character:</string>
+	<string name="menu.char_custom.title">캐릭터 커스터마이즈</string>
+	<string name="menu.char_custom.rename">캐릭터의 새 이름을 입력하세요:</string>
 
 
 
@@ -255,11 +255,11 @@
 	<string name="menu.loadout.starting_mission">Starting\n%mission%</string>
 	<string name="menu.loadout.alterations">변경 사항</string>
 	<string name="menu.loadout.numready">%ready%/%total% 준비 완료!</string>
-	<string name="menu.loadout.waiting_num">Waiting for %num% players.</string>
-	<string name="menu.loadout.waiting_plrs">Waiting for %players%.</string>
+	<string name="menu.loadout.waiting_num">준비되지 않은 플레이어 %num%명</string>
+	<string name="menu.loadout.waiting_plrs">준비되지 않은 플레이어 : %players%</string>
 	<string name="menu.loadout.ngp">New Game+ %ngp%</string>
-	<string name="menu.loadout.food">Food </string>
-	<string name="menu.loadout.drinks">Drinks </string>
+	<string name="menu.loadout.food">음식 </string>
+	<string name="menu.loadout.drinks">음료 </string>
 
 
 	<string name="menu.mission_end.completed">임무 완료!</string>
@@ -280,8 +280,8 @@
 	<string name="menu.mission_end.step.revive">부활로 인한 "기부" (%rate%%) </string>
 	<string name="menu.mission_end.step.reward">임무 보상: </string>
 
-	<string name="menu.player_stash.withdraw">Storage</string>
-	<string name="menu.player_stash.deposit">Inventory</string>
+	<string name="menu.player_stash.withdraw">창고</string>
+	<string name="menu.player_stash.deposit">소지품</string>
 	<string name="menu.player_stash.new_tab">새 탭</string>
 	<string name="menu.player_stash.rename">이름 변경</string>
 	<string name="menu.player_stash.rename_tab">새 탭의 이름을 입력하세요:</string>
@@ -332,54 +332,54 @@
 	<string name="mainmenu.languages.restart-confirm">언어 변경을 위해 게임을 다시 시작해 주세요!</string>
 	<string name="mainmenu.serverlist.title">로비</string>
 	<string name="mainmenu.multiplayer.disabled">멀티플레이는 현재 사용할 수 없습니다.</string>
-	<string name="mainmenu.multiplayer.connecting">Connecting...</string>
-	<string name="mainmenu.lobby.suffix">'s lobby</string>
+	<string name="mainmenu.multiplayer.connecting">연결중...</string>
+	<string name="mainmenu.lobby.suffix">의 로비</string>
 
 
-	<string name="menu.cost">Cost</string>
+	<string name="menu.cost">비용</string>
 
-	<string name="building.apothecary.name">Apothecary</string>
+	<string name="building.apothecary.name">약제사</string>
 	<string name="building.apothecary.desc1">포션의 업그레이드를 잠금 해제합니다.</string>
 	<string name="building.apothecary.desc2">더 많은 포션 업그레이드를 잠금 해제합니다.</string>
 
-	<string name="building.architect.name">Architect</string>
+	<string name="building.architect.name">건축가</string>
 	<string name="building.architect.desc1">건축가의 집으로, 어둠의 성채 도전에서 여러 요소를 변경할 수 있게 해줍니다.</string>
 	<string name="building.architect.desc2">더 많은 효과를 변경할 수 있으며, 여러 효과를 동시에 적용하는 비용을 낮춥니다.</string>
 
-	<string name="building.blacksmith.name">Blacksmith</string>
+	<string name="building.blacksmith.name">대장장이이</string>
 	<string name="building.blacksmith.desc1">무기와 방어구를 강화할 수 있습니다.</string>
 	<string name="building.blacksmith.desc2">갑옷과 무기를 더 좋게 업그레이드할 수 있으며, 개별 장비를 업그레이드할 수 있습니다.</string>
 	<string name="building.blacksmith.desc3">갑옷과 무기를 더 좋게 업그레이드할 수 있으며, 장비 업그레이드 비용이 더 저렴해집니다.</string>
 
-	<string name="building.chapel.name">Chapel</string>
-	<string name="building.chapel.desc1">예배당 입니다.\n신을 위한 집으로, 당신의 도전에서 두 가지 축복 중 하나를 선택할 수 있습니다.\n\n부활 비용 -5%</string>
-	<string name="building.chapel.desc2">예배당 입니다.\n두 가지 축복을 더 선택할 수 있습니다.\n\n부활 비용 -5%</string>
-	<string name="building.chapel.desc3">예배당 입니다.\n또 다른 축복을 더 선택할 수 있습니다.\n\n부활 비용 -5%</string>
+	<string name="building.chapel.name">예배당</string>
+	<string name="building.chapel.desc1">신을 위한 집으로, 당신의 도전에서 두 가지 축복 중 하나를 선택할 수 있습니다.\n\n부활 비용 -5%</string>
+	<string name="building.chapel.desc2">두 가지 축복을 더 선택할 수 있습니다.\n\n부활 비용 -5%</string>
+	<string name="building.chapel.desc3">또 다른 축복을 더 선택할 수 있습니다.\n\n부활 비용 -5%</string>
 
-	<string name="building.enchanter.name">Enchanter</string>
+	<string name="building.enchanter.name">마법 부여사</string>
 	<string name="building.enchanter.desc1">장비를 마밥처럼 수정할 수 있습니다.\n\n인챈트 블루프린트를 획득할 수 있습니다.</string>
 	<string name="building.enchanter.desc2">인챈트 비용이 저렴해집니다.\n\n희귀한 인챈트 블루프린트를 획득할 수 있습니다.</string>
 
-	<string name="building.general_store.name">General Store</string>
+	<string name="building.general_store.name">잡화점</string>
 	<string name="building.general_store.desc1">장비를 사고 팔 수 있습니다.</string>
 	<string name="building.general_store.desc2">더 높은 아이템 레벨의 장비를 판매합니다.\n판매가격이 개선됩니다.</string>
 	<string name="building.general_store.desc3">판매하는 장비의 아이템 레벨 제한이 없어집니다.\n판매가격이 개선됩니다.</string>
 
-	<string name="building.guild_hall.name">Guild Hall</string>
+	<string name="building.guild_hall.name">길드 홀</string>
 	<string name="building.guild_hall.desc1">마을을 발전시키고, 건설 가능한 건물이 추가됩니다.</string>
 	<string name="building.guild_hall.desc3">마을을 발전시키고, 건설 가능한 건물이 추가됩니다.\n\n클래스 마스터리를 선택할 수 있습니다.</string>
 
-	<string name="building.hunters_cabin.name">Hunters Cabin</string>
+	<string name="building.hunters_cabin.name">사냥꾼의 오두막</string>
 	<string name="building.hunters_cabin.desc1">딱정벌레, 늑대, 멧돼지는 비늘, 털, 고기를 떨어뜨립니다.\n 야수를 처치해 귀중품과 생명력을 얻을 수 있습니다.</string>
 	<string name="building.hunters_cabin.desc2">야수를 처치할 때 더 많은 귀중품과 생명력을 얻을 수 있습니다.</string>
 
-	<string name="building.library.name">Library</string>
+	<string name="building.library.name">도서관</string>
 	<string name="building.library.desc1">일반 장신구 조율이 가능합니다. 콤보 스킬을 변경할 수 있습니다.</string>
 	<string name="building.library.desc2">고급 장신구 조율이 가능합니다.</string>
 	<string name="building.library.desc3">레어 장신구 조율이 가능합니다.</string>
 
 
-	<string name="building.magic_shop.name">Magic Shop</string>
+	<string name="building.magic_shop.name">마법 상점</string>
 	<string name="building.magic_shop.desc1">마법 업그레이드를 잠금 해제합니다.\n\n스킬 오브를 가지고 진행을 시작합니다.\n\n진행 종료 시 장신구를 재료로 교환할 수 있습니다.</string>
 	<string name="building.magic_shop.desc2">추가 마법 업그레이드를 잠금 해제합니다.\n\n선택할 수 있는 스킬 오브를 더 잠금 해제합니다.</string>
 	<string name="building.magic_shop.desc3">더 많은 마법 업그레이드를 잠금 해제합니다.</string>
@@ -390,16 +390,16 @@
 	<string name="building.tailor.name">Tailor</string>
 	<string name="building.tailor.desc1">아무것도 아닙니다.</string>
 
-	<string name="building.tavern.name">Tavern</string>
-	<string name="building.tavern.desc1">선술집\n음식과 음료와 함께 도전을 시작할 수 있습니다.\n\n음료 블루프린트를 획득할 수 있습니다.</string>
-	<string name="building.tavern.desc2">선술집\n다양한 음료와 함께 도전을 시작할 수 있습니다.</string>
+	<string name="building.tavern.name">선술집</string>
+	<string name="building.tavern.desc1">음식과 음료와 함께 도전을 시작할 수 있습니다.\n\n음료 블루프린트를 획득할 수 있습니다.</string>
+	<string name="building.tavern.desc2">다양한 음료와 함께 도전을 시작할 수 있습니다.</string>
 
-	<string name="building.trading_post.name">Trading Post</string>
+	<string name="building.trading_post.name">교역소</string>
 	<string name="building.trading_post.desc1">나무를 사고 팔 수 있습니다.</string>
 	<string name="building.trading_post.desc2">석재를 사고 팔 수 있습니다.\n\n나무의 거래가격이 개선됩니다.</string>
 	<string name="building.trading_post.desc3">강철을 사고 팔 수 있습니다.\n\n나무와 석재의 거래가격이 개선됩니다.</string>
 
-	<string name="building.training_grounds.name">Training Grounds</string>
+	<string name="building.training_grounds.name">훈련소</string>
 	<string name="building.training_grounds.desc1">플레이어 스킬을 훈련합니다.\n\n다음 단계의 스킬을 배울 수 있습니다.</string>
 	<string name="building.training_grounds.desc2">다음 단계의 스킬을 배울 수 있습니다.</string>
 	<string name="building.training_grounds.desc3">다음 단계의 스킬을 배울 수 있습니다.\n\n무기 마스터리를 배울 수 있습니다.</string>
@@ -492,7 +492,7 @@
 	<string name="g_txt.help">아이템 획득 메시지를 표시합니다.</string>
 	<string name="menu.crumb.options.game">옵션</string>
 	<string name="menu.game.texts">텍스트</string>
-	<string name="menu.game.texts.help">Toggle individual floating texts.</string>
+	<string name="menu.game.texts.help">개별 플로팅 텍스트 전환.</string>
 	<string name="ui_hud_hpbars_enemy">적 생명력 표시</string>
 	<string name="ui_hud_hpbars_enemy.help">적의 생멱력을 표시합니다.</string>
 	<string name="menu.game.show-damaged">피격 시</string>
@@ -506,15 +506,15 @@
 
 	<!-- Game Options Texts -->
 
-	<string name="menu.game.texts.defaults_dialog">Reset all floating texts settings to their defaults?</string>
-	<string name="g_txt_plr_hurt">Player Hurt</string>
-	<string name="g_txt_plr_hurt.help">Show player damage texts.</string>
-	<string name="g_txt_enemy_hurt">Enemy Hurt</string>
-	<string name="g_txt_enemy_hurt.help">Show enemy damage texts.</string>
-	<string name="g_txt_plr_heal">Player Heal</string>
-	<string name="g_txt_plr_heal.help">Show player healing texts.</string>
-	<string name="g_txt_enemy_heal">Enemy Heal</string>
-	<string name="g_txt_enemy_heal.help">Show enemy healing texts.</string>
+	<string name="menu.game.texts.defaults_dialog">모든 플로팅 텍스트 설정을 기본값으로 재설정 하시겠습니까?</string>
+	<string name="g_txt_plr_hurt">플레이어 피해량</string>
+	<string name="g_txt_plr_hurt.help">플레이어의 피해량 텍스트 표시.</string>
+	<string name="g_txt_enemy_hurt">적 피해량</string>
+	<string name="g_txt_enemy_hurt.help">적의 피해량 텍스트 표시.</string>
+	<string name="g_txt_plr_heal">플레이어 회복량</string>
+	<string name="g_txt_plr_heal.help">플레이어의 회복량 텍스트 표시.</string>
+	<string name="g_txt_enemy_heal">적 회복량</string>
+	<string name="g_txt_enemy_heal.help">적의 회복량 텍스트 표시.</string>
 	<string name="g_txt_enemy_immortal">ENEMY IMMORTAL</string>
 	<string name="g_txt_enemy_immortal.help">Show enemy immortal damage texts.</string>
 	<string name="g_txt_plr_armor">PLAYER ARMOR</string>
@@ -723,60 +723,60 @@
 
 	<string name="menu.input.invert">Inverted</string>
 
-	<string name="menu.loading">Loading</string>
+	<string name="menu.loading">불러오는 중</string>
 	<string name="menu.loading."></string>
-	<string name="menu.loading.setting_scenario">Loading scenario</string>
-	<string name="menu.loading.loading_level">Loading level</string>
-	<string name="menu.loading.start_level">Starting level</string>
-	<string name="menu.loading.wait_scenario_set">Waiting for loaded scenario</string>
-	<string name="menu.loading.wait_loaded_level">Waiting for loaded level</string>
-	<string name="menu.loading.wait_started_level">Waiting for started level</string>
+	<string name="menu.loading.setting_scenario">시나리오 불러오는 중</string>
+	<string name="menu.loading.loading_level">지역 불러오는 중</string>
+	<string name="menu.loading.start_level">지역 시작하는 중</string>
+	<string name="menu.loading.wait_scenario_set">시나리오 기다리는 중</string>
+	<string name="menu.loading.wait_loaded_level">지역 기다리는 중</string>
+	<string name="menu.loading.wait_started_level">시작된 지역 기다리는 중</string>
 
 	<!-- Singleplayer Menu -->
 
 	<string name="menu.startgame">Play</string>
 
-	<string name="tooltip.header.active.trinket">Active</string>
-	<string name="tooltip.header.active.equipment">Equipped</string>
-	<string name="tooltip.header.blueprint">Blueprint</string>
-	<string name="tooltip.header.current">Current</string>
-	<string name="tooltip.header.attuned">Attuned</string>
+	<string name="tooltip.header.active.trinket">활성화중</string>
+	<string name="tooltip.header.active.equipment">착용중</string>
+	<string name="tooltip.header.blueprint">블루프린트</string>
+	<string name="tooltip.header.current">현재</string>
+	<string name="tooltip.header.attuned">조율됨</string>
 	<string name="tooltip.equipment.ilvl">ilvl: %ilvl%</string>
-	<string name="tooltip.stats.required">req: </string>
+	<string name="tooltip.stats.required">요구사항: </string>
 
-	<string name="blueprint.category.drink">Tavern Drink</string>
-	<string name="blueprint.category.food">Tavern Food</string>
-	<string name="blueprint.category.enchantment">Equipment Enchantment</string>
-	<string name="blueprint.category.trinket">Trinket</string>
-
-
+	<string name="blueprint.category.drink">선술집 음료</string>
+	<string name="blueprint.category.food">선술집 음식</string>
+	<string name="blueprint.category.enchantment">장비 마법부여</string>
+	<string name="blueprint.category.trinket">장신구</string>
 
 
-	<string name="menu.traveling_cook.givefood">The Traveling Cook gave you a serving of %buff%</string>
-	<string name="menu.traveling_monk.giveblessing">The Traveling Monk gave you the powers of %buff%</string>
-	<string name="menu.shady_trader.get">You get %amount%</string>
-	<string name="menu.shady_trader.lose">You lose %amount%</string>
+
+
+	<string name="menu.traveling_cook.givefood">떠돌이 요리사에게 맛있는 %buff%을(를) 받았습니다.</string>
+	<string name="menu.traveling_monk.giveblessing">여행하는 수도사에게 %buff%을(를) 내려주었습니다.</string>
+	<string name="menu.shady_trader.get">%amount%를 얻었습니다.</string>
+	<string name="menu.shady_trader.lose">%amount%를 잃었습니다.</string>
 	<string name="menu.shady_trader.nothing">Nothing</string>
-	<string name="menu.shady_trader.option">Option %num%</string>
-	<string name="menu.shady_trader.trade">=== TRADE ==></string>
-	<string name="menu.thunderbird.nothing">You have nothing to send back to town.</string>
-	<string name="menu.thunderbird.sendback">Would you like to send back\n%mats% to town?</string>
-	<string name="menu.shadow_rift.cursecost">+%amount% Shadow Curse</string>
-	<string name="menu.shadow_rift.pick">Pick any number of gifts:</string>
-	<string name="menu.shadow_rift.picked">You chose:</string>
-	<string name="menu.subclass.title">Class Promotion</string>
-	<string name="menu.subclass.skill.active">Active</string>
-	<string name="menu.subclass.skill.passive">Passive</string>
+	<string name="menu.shady_trader.option">옵션 %num%</string>
+	<string name="menu.shady_trader.trade">=== 교환 ==></string>
+	<string name="menu.thunderbird.nothing">마을로 보낼 것이 없습니다.</string>
+	<string name="menu.thunderbird.sendback">%mats%를\n마을로 보내시겠습니까?</string>
+	<string name="menu.shadow_rift.cursecost">그림자 저주 +%amount%</string>
+	<string name="menu.shadow_rift.pick">저주의 대가를 선택:</string>
+	<string name="menu.shadow_rift.picked">선택된 대가:</string>
+	<string name="menu.subclass.title">클래스 승급</string>
+	<string name="menu.subclass.skill.active">액티브</string>
+	<string name="menu.subclass.skill.passive">패시브</string>
 
 
-	<string name="menu.imp.announce.1">Huh, was that an imp?</string>
-	<string name="menu.imp.announce.2">An imp! It should be close.</string>
-	<string name="menu.imp.nothing">The imp gave you nothing!</string>
-	<string name="menu.imp.givemats">The imp gave you %mats%!</string>
-	<string name="menu.imp.sendbackmats">The imp sent your %mats% to town!</string>
-	<string name="menu.imp.remscurse">The imp cured %amount% shadow curse!</string>
-	<string name="menu.imp.equipupgrade">The imp upgraded the level of your %item% by %lvl% levels!</string>
-	<string name="menu.imp.equipupgradequal">The imp upgraded the quality of your %item% to %quality%!</string>
+	<string name="menu.imp.announce.1">어? 임프 소리 아니야?</string>
+	<string name="menu.imp.announce.2">임프다! 근처에 있을거야.</string>
+	<string name="menu.imp.nothing">임프는 아무것도 주지 않았지롱!</string>
+	<string name="menu.imp.givemats">임프가 %mats%를 주었습니다!</string>
+	<string name="menu.imp.sendbackmats">임프가 %mats%를 마을로 보내주었습니다!</string>
+	<string name="menu.imp.remscurse">임프가 %amount%의 그림자 저주를 제거하였습니다!</string>
+	<string name="menu.imp.equipupgrade">임프가 %item%의 ilvl을 %lvl%만큼 업그레이드 하였습니다!</string>
+	<string name="menu.imp.equipupgradequal">임프가 %item%의 등급을 %quality%로 업그레이드 하였습니다!</string>
 
 
 
@@ -785,27 +785,27 @@
 	
 	<string name="menu.lobby.chat.namechanged">로비 이름이 변경되었습니다 : "%name%"</string>
 
-	<string name="menu.lobby.wait.hosting">Creating lobby...</string>
-	<string name="menu.lobby.wait.joining">Joining lobby...</string>
-	<string name="menu.lobby.title.hosting">Lobby: Hosting</string>
-	<string name="menu.lobby.title.joining">Lobby: Joined</string>
+	<string name="menu.lobby.wait.hosting">로비 생성중...</string>
+	<string name="menu.lobby.wait.joining">로비 입장중...</string>
+	<string name="menu.lobby.title.hosting">로비: 호스팅</string>
+	<string name="menu.lobby.title.joining">로비: 입장됨</string>
 
-	<string name="menu.notifier.lostconnection">Connection lost.</string>
-	<string name="menu.lobby.abort.prompt">Are you sure you want to abort the lobby?</string>
-	<string name="menu.lobby.leave.prompt">Are you sure you want to leave the lobby?</string>
+	<string name="menu.notifier.lostconnection">연결 끊김</string>
+	<string name="menu.lobby.abort.prompt">로비를 중단하시겠습니까?</string>
+	<string name="menu.lobby.leave.prompt">로비를 떠나시겠습니까?</string>
 	<string name="menu.lobby.close_lobby">Close Lobby</string>
 	<string name="menu.lobby.close_lobby.confirm">현재 게임이 접속된 모든 플레이어가 퇴장됩니다. 닫으시겠습니까?</string>
 	<string name="menu.lobby.kick_player.confirm">'%name%'플레이어를 퇴장 시키시겠습니까?</string>
 
-	<string name="menu.lobby.chat.isjoined">%name% has joined.</string>
-	<string name="menu.lobby.chat.isleft">%name% has left.</string>
-	<string name="menu.lobby.chat.iskicked">%name% has been kicked.</string>
-	<string name="menu.lobby.chat.isready">%name% is now ready.</string>
-	<string name="menu.lobby.chat.isunready">%name% is no longer ready.</string>
+	<string name="menu.lobby.chat.isjoined">%name% 님이 합류하셨습니다.</string>
+	<string name="menu.lobby.chat.isleft">%name% 님이 떠나셨습니다.</string>
+	<string name="menu.lobby.chat.iskicked">%name% 님이 퇴장당하셨습니다.</string>
+	<string name="menu.lobby.chat.isready">%name% 님은 준비하였습니다.</string>
+	<string name="menu.lobby.chat.isunready">%name% 님은 준비상태를 해제하였습니다.</string>
 
-	<string name="menu.lobby.chat.died">%name% bit the dust!</string>
-	<string name="menu.lobby.chat.revive">%revivee% was revived by %reviver%!</string>
-	<string name="menu.lobby.chat.revive.free">%revivee% lives again!</string>
+	<string name="menu.lobby.chat.died">%name% 님이 쓰러졌습니다!</string>
+	<string name="menu.lobby.chat.revive">%revivee% 님이 %reviver% 님에 의해 부활하였습니다!</string>
+	<string name="menu.lobby.chat.revive.free">%revivee% 다시 부활하였습니다!</string>
 
 	<string name="menu.lobby.info.maxplayers.server">서버 최대 플레이어:</string>
 
@@ -815,9 +815,9 @@
 	<string name="menu.lobby.start.wait">강제\n시작</string>
 	<string name="menu.lobby.switchcount">%a%/%b% 활성화</string>
 	<string name="menu.lobby.readycount">%a%/%b% 준비 완료</string>
-	<string name="menu.lobby.private">Private</string>
-	<string name="menu.lobby.abort">Abort</string>
-	<string name="menu.lobby.leave">Leave</string>
+	<string name="menu.lobby.private">비공개</string>
+	<string name="menu.lobby.abort">중단</string>
+	<string name="menu.lobby.leave">떠나기</string>
 
 	<string name="menu.lobby.title">Hosting Game</string>
 	<string name="menu.lobby.switches">Switches</string>
@@ -826,14 +826,14 @@
 	<string name="menu.lobby.info.town_ngp">Town New Game+ %ngp%</string>
 
 	<string name="menu.mplayer.clobby">Host Game</string>
-	<string name="menu.mplayer.slist">Server List</string>
+	<string name="menu.mplayer.slist">서버 목록</string>
 
-	<string name="menu.serverlist.title">Server List</string>
-	<string name="menu.serverlist.refresh">Refresh</string>
+	<string name="menu.serverlist.title">서버 목록</string>
+	<string name="menu.serverlist.refresh">새로고침</string>
 
 
-	<string name="exit.notall">You must gather your party before venturing forth!</string>
-	<string name="character.stat.level">Level %level%</string>
+	<string name="exit.notall">모험을 떠나기전에 파티를 모집해야 합니다!</string>
+	<string name="character.stat.level">레벨 %level%</string>
 
 
 
@@ -954,27 +954,27 @@
 
 
 	<!-- Item Errors -->
-	<string name="item.error.cannot_be_equipped">This item cannot be equipped.</string>
-	<string name="item.error.cannot_be_used">Can't use this.</string>
-	<string name="item.error.invalid_inventory">That item does not go in that inventory.</string>
-	<string name="item.error.invalid_slot">That item does not go in that slot.</string>
-	<string name="item.error.low_level">You need a higher level.</string>
-	<string name="item.error.low_requirements">You don't meet the requirements.</string>
-	<string name="item.error.player_low_gold">You don't have enough gold to buy this.</string>
+	<string name="item.error.cannot_be_equipped">이 아이템은 장착할 수 없습니다.</string>
+	<string name="item.error.cannot_be_used">사용할 수 없습니다.</string>
+	<string name="item.error.invalid_inventory">이 아이템은 소지품에 넣을 수 없습니다.</string>
+	<string name="item.error.invalid_slot">이 아이템은 해당 슬롯에 장착할 수 없습니다.</string>
+	<string name="item.error.low_level">더 높은 레벨이 필요합니다.</string>
+	<string name="item.error.low_requirements">요구사항이 충족되지 않았습니다.</string>
+	<string name="item.error.player_low_gold">구매하기 위한 금화가 충분하지 않습니다.</string>
 
 
 
 
 	<string name="hud.levelup">Level Up!</string>
 	<string name="hud.potionrefill">포션 충전되었습니다!</string>
-	<string name="hud.spectate">Spectating %name%</string>
-	<string name="hud.spectate.help">Press %fire% to spectate next player.\nPress %use% to stop spectating.</string>
-	<string name="hud.spectate.start">Press %use% to spectate.</string>
+	<string name="hud.spectate">%name% 관전 중...</string>
+	<string name="hud.spectate.help">%fire%를 눌러 다음 플레이어를 관전 합니다.\n%use%를 눌러 관전을 중지합니다.</string>
+	<string name="hud.spectate.start">%use%를 눌러 관전모드로 전환합니다.</string>
 
 
 	<!-- Overlay -->
-	<string name="tab.overlay.level.town">Town</string>
-	<string name="tab.overlay.level.diff_lvl">Area Level %lvl%</string>
+	<string name="tab.overlay.level.town">마을</string>
+	<string name="tab.overlay.level.diff_lvl">지역 레벨벨 %lvl%</string>
 	<string name="tab.overlay.level.ngp">\nNew Game+ %ngp%</string>
 	
 	<string name="tab.overlay.player.gold">\"icn-gold"%amount%</string>
@@ -986,9 +986,9 @@
 	<string name="tab.overlay.player.frag">\"icn-frag"%amount%</string>
 	<string name="tab.overlay.player.unknown">%amount%?</string>
 	
-	<string name="item.key.bronze">Bronze Key</string>
-	<string name="item.key.silver">Silver Key</string>
-	<string name="item.key.gold">Gold Key</string>
+	<string name="item.key.bronze">동 열쇠</string>
+	<string name="item.key.silver">은 열쇠</string>
+	<string name="item.key.gold">금 열쇠</string>
 	
 	<string name="material.name.gold">금화</string>
 	<string name="material.name.wood">목재</string>
@@ -1029,25 +1029,25 @@
 	<string name="hud.lootlog.shadowcurse">그림자 저주</string>
 	<string name="hud.lootlog.buff">버프</string>
 	
-	<string name="hud.boxannounce.accomplishment">Unlocked Accomplishment:</string>
-	<string name="hud.boxannounce.class">Unlocked Class:</string>
-	<string name="hud.boxannounce.building">Unlocked Building:</string>
-	<string name="hud.boxannounce.unlocked">Unlocked:</string>
-	<string name="hud.boxannounce.unlocked.potion">Potion</string>
-	<string name="hud.boxannounce.unlocked.combo">Combo</string>
+	<string name="hud.boxannounce.accomplishment">달성한 업적:</string>
+	<string name="hud.boxannounce.class">해금된 클래스:</string>
+	<string name="hud.boxannounce.building">해금된 건물:</string>
+	<string name="hud.boxannounce.unlocked">해금됨:</string>
+	<string name="hud.boxannounce.unlocked.potion">포션</string>
+	<string name="hud.boxannounce.unlocked.combo">콤보</string>
 	
 	
 	<string name="tab.overlay.time">%year% %month%/%day% %h%:%m%</string>
 
 	<!-- Item Generation -->
 
-	<string name="generation.equipment.name">%slot% Equipment</string>
-	<string name="generation.equipment.desc">The modifiers on this equipment is revealed upon crafting it.</string>
+	<string name="generation.equipment.name">%slot% 장비</string>
+	<string name="generation.equipment.desc">이 장비의 속성은 제작 후 확인할 수 있습니다.</string>
 
 	<!-- Loot Log -->
 
-	<string name="loot.log.you_show">You show everyone %item%</string>
-	<string name="loot.log.someone_shows">%name% shows you %item%</string>
+	<string name="loot.log.you_show">모두에게 %item% 을(를) 보여줍니다.</string>
+	<string name="loot.log.someone_shows">%name% 님이 %item% 을(를) 보여줍니다.</string>
 	<string name="loot.log.looted">%name%: %item%</string>
 	<string name="loot.log.you">You</string>
 
@@ -1058,22 +1058,22 @@
 	<string name="input."></string>
 
 
-	<!-- Locations 숲, 동굴, 어두운동굴, 감옥, 도적의 요새, 사원, 지하묘지, 미궁, 병영, 궁정, 어둠의 회랑 -->
+	<!-- Locations -->
 	<string name="location.level">Level %lvl%</string>
 	
-	<string name="location.act.forest">Forest</string>
-	<string name="location.act.cave_light">Caves</string>
-	<string name="location.act.cave_dark">Dark Caves</string>
-	<string name="location.act.prison">Prison</string>
-	<string name="location.act.keep">Bandit Keep</string>
-	<string name="location.act.temple">Temple</string>
-	<string name="location.act.crypt">Crypt</string>
-	<string name="location.act.dungeon">Dungeon</string>
-	<string name="location.act.barracks">Barracks</string>
-	<string name="location.act.courts">Courts</string>
-	<string name="location.act.dark_halls">Dark Halls</string>
-	<string name="location.shortcut.dark_citadel">Dark Citadel</string>
-	<string name="location.shortcut.entrance">Entrance</string>
+	<string name="location.act.forest">숲</string>
+	<string name="location.act.cave_light">동굴</string>
+	<string name="location.act.cave_dark">어두운 동굴</string>
+	<string name="location.act.prison">감옥</string>
+	<string name="location.act.keep">도적의 요새</string>
+	<string name="location.act.temple">사원</string>
+	<string name="location.act.crypt">지하 묘지</string>
+	<string name="location.act.dungeon">미궁</string>
+	<string name="location.act.barracks">병영</string>
+	<string name="location.act.courts">궁정</string>
+	<string name="location.act.dark_halls">어둠의 회랑</string>
+	<string name="location.shortcut.dark_citadel">암흑의 요새</string>
+	<string name="location.shortcut.entrance">출입구</string>
 	
 	<string name="boss.totems">토템 기둥</string>
 	<string name="boss.totem_ice">빙결의 토템</string>
@@ -1100,96 +1100,96 @@
 	<string name="menu.character.creation.voice.female3.title">다이애나</string>
 
 		<!-- Hairstyles -->
-	<string name="menu.character.creation.portrait_piece.hair1">Short Messy</string>
-	<string name="menu.character.creation.portrait_piece.hair2">Bun</string>
-	<string name="menu.character.creation.portrait_piece.hair3">Long Bob</string>
-	<string name="menu.character.creation.portrait_piece.hair4">Bowl Cut</string>
-	<string name="menu.character.creation.portrait_piece.hair5">Messy Shag</string>
-	<string name="menu.character.creation.portrait_piece.hair6">Hippie</string>
-	<string name="menu.character.creation.portrait_piece.hair8">Mohawk</string>
-	<string name="menu.character.creation.portrait_piece.hair9">Headband</string>
-	<string name="menu.character.creation.portrait_piece.hair11">Buzz Cut</string>
-	<string name="menu.character.creation.portrait_piece.hair12">Bald</string>
-	<string name="menu.character.creation.portrait_piece.hair13">Afro</string>
-	<string name="menu.character.creation.portrait_piece.hair14">Cornrows</string>
-	<string name="menu.character.creation.portrait_piece.hair15">Long Wavy</string>
-	<string name="menu.character.creation.portrait_piece.hair10">Short Bob</string>
-	<string name="menu.character.creation.portrait_piece.hair17">Crew Cut</string>
-	<string name="menu.character.creation.portrait_piece.hair18">Ponytail</string>
-	<string name="menu.character.creation.portrait_piece.hair19">Braid</string>
-	<string name="menu.character.creation.portrait_piece.hair20">Glamorous</string>
-	<string name="menu.character.creation.portrait_piece.hair22">Fancy Curls</string>
-	<string name="menu.character.creation.portrait_piece.hair23">Long Straight</string>
+	<string name="menu.character.creation.portrait_piece.hair1">헝클어진 짧은머리</string>
+	<string name="menu.character.creation.portrait_piece.hair2">번</string>
+	<string name="menu.character.creation.portrait_piece.hair3">롱 보브</string>
+	<string name="menu.character.creation.portrait_piece.hair4">바가지 머리</string>
+	<string name="menu.character.creation.portrait_piece.hair5">헝클어진 샤그컷</string>
+	<string name="menu.character.creation.portrait_piece.hair6">히피</string>
+	<string name="menu.character.creation.portrait_piece.hair8">모히칸</string>
+	<string name="menu.character.creation.portrait_piece.hair9">헤어밴드</string>
+	<string name="menu.character.creation.portrait_piece.hair11">버즈 컷</string>
+	<string name="menu.character.creation.portrait_piece.hair12">대머리</string>
+	<string name="menu.character.creation.portrait_piece.hair13">아프로</string>
+	<string name="menu.character.creation.portrait_piece.hair14">콘로우</string>
+	<string name="menu.character.creation.portrait_piece.hair15">긴 웨이브</string>
+	<string name="menu.character.creation.portrait_piece.hair10">숏 보브</string>
+	<string name="menu.character.creation.portrait_piece.hair17">크루 컷</string>
+	<string name="menu.character.creation.portrait_piece.hair18">포니테일</string>
+	<string name="menu.character.creation.portrait_piece.hair19">땋은머리</string>
+	<string name="menu.character.creation.portrait_piece.hair20">화려한 스타일</string>
+	<string name="menu.character.creation.portrait_piece.hair22">풍성한 컬</string>
+	<string name="menu.character.creation.portrait_piece.hair23">긴 생머리</string>
 	
 	<!-- Eyes -->
-	<string name="menu.character.creation.portrait_piece.eyes1">Eyes 1</string>
-	<string name="menu.character.creation.portrait_piece.eyes2">Eyes 2</string>
-	<string name="menu.character.creation.portrait_piece.eyes3">Eyes 3</string>
-	<string name="menu.character.creation.portrait_piece.eyes4">Eyes 4</string>
-	<string name="menu.character.creation.portrait_piece.eyes5">Eyes 5</string>
-	<string name="menu.character.creation.portrait_piece.eyes6">Eyes 6</string>
-	<string name="menu.character.creation.portrait_piece.eyes7">Eyes 7</string>
-	<string name="menu.character.creation.portrait_piece.eyes8">Eyes 8</string>
-	<string name="menu.character.creation.portrait_piece.eyes9">Eyes 9</string>
-	<string name="menu.character.creation.portrait_piece.eyes10">Eyes 10</string>
-	<string name="menu.character.creation.portrait_piece.eyes15">Eyes 11</string>
-	<string name="menu.character.creation.portrait_piece.eyes17">Eyes 12</string>
-	<string name="menu.character.creation.portrait_piece.eyes18">Eyes 13</string>
+	<string name="menu.character.creation.portrait_piece.eyes1">눈 1</string>
+	<string name="menu.character.creation.portrait_piece.eyes2">눈 2</string>
+	<string name="menu.character.creation.portrait_piece.eyes3">눈 3</string>
+	<string name="menu.character.creation.portrait_piece.eyes4">눈 4</string>
+	<string name="menu.character.creation.portrait_piece.eyes5">눈 5</string>
+	<string name="menu.character.creation.portrait_piece.eyes6">눈 6</string>
+	<string name="menu.character.creation.portrait_piece.eyes7">눈 7</string>
+	<string name="menu.character.creation.portrait_piece.eyes8">눈 8</string>
+	<string name="menu.character.creation.portrait_piece.eyes9">눈 9</string>
+	<string name="menu.character.creation.portrait_piece.eyes10">눈 10</string>
+	<string name="menu.character.creation.portrait_piece.eyes15">눈 11</string>
+	<string name="menu.character.creation.portrait_piece.eyes17">눈 12</string>
+	<string name="menu.character.creation.portrait_piece.eyes18">눈 13</string>
 	
 	<!-- Noses -->
-	<string name="menu.character.creation.portrait_piece.nose1">Nose 1</string>
-	<string name="menu.character.creation.portrait_piece.nose2">Nose 2</string>
-	<string name="menu.character.creation.portrait_piece.nose3">Nose 3</string>
-	<string name="menu.character.creation.portrait_piece.nose4">Nose 4</string>
-	<string name="menu.character.creation.portrait_piece.nose5">Nose 5</string>
-	<string name="menu.character.creation.portrait_piece.nose6">Nose 6</string>
-	<string name="menu.character.creation.portrait_piece.nose7">Nose 7</string>
+	<string name="menu.character.creation.portrait_piece.nose1">코 1</string>
+	<string name="menu.character.creation.portrait_piece.nose2">코 2</string>
+	<string name="menu.character.creation.portrait_piece.nose3">코 3</string>
+	<string name="menu.character.creation.portrait_piece.nose4">코 4</string>
+	<string name="menu.character.creation.portrait_piece.nose5">코 5</string>
+	<string name="menu.character.creation.portrait_piece.nose6">코 6</string>
+	<string name="menu.character.creation.portrait_piece.nose7">코 7</string>
 	
 	<!-- Mouths -->
-	<string name="menu.character.creation.portrait_piece.mouth1">Mouth 1</string>
-	<string name="menu.character.creation.portrait_piece.mouth2">Mouth 2</string>
-	<string name="menu.character.creation.portrait_piece.mouth3">Mouth 3</string>
-	<string name="menu.character.creation.portrait_piece.mouth4">Mouth 4</string>
-	<string name="menu.character.creation.portrait_piece.mouth5">Mouth 5</string>
-	<string name="menu.character.creation.portrait_piece.mouth6">Mouth 6</string>
-	<string name="menu.character.creation.portrait_piece.mouth7">Mouth 7</string>
-	<string name="menu.character.creation.portrait_piece.mouth8">Mouth 8</string>
-	<string name="menu.character.creation.portrait_piece.mouth9">Mouth 9</string>
-	<string name="menu.character.creation.portrait_piece.mouth10">Mouth 10</string>
-	<string name="menu.character.creation.portrait_piece.mouth11">Mouth 11</string>
-	<string name="menu.character.creation.portrait_piece.mouth12">Mouth 12</string>
-	<string name="menu.character.creation.portrait_piece.mouth13">Mouth 13</string>
-	<string name="menu.character.creation.portrait_piece.mouth14">Mouth 14</string>
-	<string name="menu.character.creation.portrait_piece.mouth15">Mouth 15</string>
-	<string name="menu.character.creation.portrait_piece.mouth16">Mouth 16</string>
+	<string name="menu.character.creation.portrait_piece.mouth1">입 1</string>
+	<string name="menu.character.creation.portrait_piece.mouth2">입 2</string>
+	<string name="menu.character.creation.portrait_piece.mouth3">입 3</string>
+	<string name="menu.character.creation.portrait_piece.mouth4">입 4</string>
+	<string name="menu.character.creation.portrait_piece.mouth5">입 5</string>
+	<string name="menu.character.creation.portrait_piece.mouth6">입 6</string>
+	<string name="menu.character.creation.portrait_piece.mouth7">입 7</string>
+	<string name="menu.character.creation.portrait_piece.mouth8">입 8</string>
+	<string name="menu.character.creation.portrait_piece.mouth9">입 9</string>
+	<string name="menu.character.creation.portrait_piece.mouth10">입 10</string>
+	<string name="menu.character.creation.portrait_piece.mouth11">입 11</string>
+	<string name="menu.character.creation.portrait_piece.mouth12">입 12</string>
+	<string name="menu.character.creation.portrait_piece.mouth13">입 13</string>
+	<string name="menu.character.creation.portrait_piece.mouth14">입 14</string>
+	<string name="menu.character.creation.portrait_piece.mouth15">입 15</string>
+	<string name="menu.character.creation.portrait_piece.mouth16">입 16</string>
 	
 	<!-- Hair Colors -->
-	<string name="menu.character.creation.color.platium">Platinum</string>
-	<string name="menu.character.creation.color.blonde">Blonde</string>
-	<string name="menu.character.creation.color.red">Red</string>
-	<string name="menu.character.creation.color.brown">Chestnut</string>
-	<string name="menu.character.creation.color.auburn">Auburn</string>
-	<string name="menu.character.creation.color.black">Black</string>
-	<string name="menu.character.creation.color.dark_gray">Dark Gray</string>
-	<string name="menu.character.creation.color.gray">Gray</string>
-	<string name="menu.character.creation.color.white">White</string>
+	<string name="menu.character.creation.color.platium">플래티넘</string>
+	<string name="menu.character.creation.color.blonde">블론드</string>
+	<string name="menu.character.creation.color.red">레드</string>
+	<string name="menu.character.creation.color.brown">체스넛</string>
+	<string name="menu.character.creation.color.auburn">어반</string>
+	<string name="menu.character.creation.color.black">블랙</string>
+	<string name="menu.character.creation.color.dark_gray">다크 그레이</string>
+	<string name="menu.character.creation.color.gray">그레이</string>
+	<string name="menu.character.creation.color.white">화이트</string>
 	
 	<!-- Skin Colors -->
-	<string name="menu.character.creation.color.light1">Pallid</string>
-	<string name="menu.character.creation.color.light2">Fair</string>
-	<string name="menu.character.creation.color.light3">Rosy</string>
-	<string name="menu.character.creation.color.dark1">Olive</string>
-	<string name="menu.character.creation.color.dark2">Brown</string>
-	<string name="menu.character.creation.color.dark3">Dark Brown</string>
-	<string name="menu.character.creation.color.dark4">Ebony</string>
+	<string name="menu.character.creation.color.light1">창백한</string>
+	<string name="menu.character.creation.color.light2">밝은</string>
+	<string name="menu.character.creation.color.light3">장밋빛</string>
+	<string name="menu.character.creation.color.dark1">올리브</string>
+	<string name="menu.character.creation.color.dark2">브라운</string>
+	<string name="menu.character.creation.color.dark3">다크 브라운</string>
+	<string name="menu.character.creation.color.dark4">에보니</string>
 
 	
 	
 	
 	
-	<string name="o.as360.pro">Detect as Switch Pro Controller</string>
+	<string name="o.as360.pro">Switch Pro Controller 감지됨</string>
 	<string name="o.joystick.pro">Pro Controller%slot%</string>
-	<string name="g_laser_sight.help.pro">Show a thin line to assist in aiming. Automatic means only when using a Pro Controller.</string>
+	<string name="g_laser_sight.help.pro">조준을 돕기위한 얇은 선을 표시합니다. 자동은 Pro Controller를 사용할 때만 표시되는것을 의미합니다.</string>
 	<string name="menu.controls.layout.gp1.pro">PRO CONTROLLER 1</string>
 	<string name="menu.controls.layout.gp2.pro">PRO CONTROLLER 2</string>
 	<string name="menu.controls.layout.gp3.pro">PRO CONTROLLER 3</string>
@@ -1208,12 +1208,12 @@
 
 	<!-- Hero Titles -->
 	<string name="htitle.paladin.desc">%num% 방어력을 부여, 레벨당 %num-per% 증가.</string>
-	<string name="htitle.ranger.desc">%num% 무기 공격력을 부여, 레벨당 %num-per% 증가.</string>
+	<string name="htitle.ranger.desc">%num% 무기 피해량을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.rogue.desc">%num%% 함정 피해 감소를 부여, 레벨당 %num-per%% 증가.</string>
 	<string name="htitle.sorcerer.desc">%num% 마나 재생을 부여, 레벨당 %num-per% 증가.</string>
-	<string name="htitle.warlock.desc">%num% 화염, 빙결, 번개, 독 저항을 부여, 레벨당 %num-per% 증가.</string>
+	<string name="htitle.warlock.desc">%num% 화염, 빙결, 번개, 중독 저항을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.warrior.desc">%num% 생명력을 부여, 레벨당 %num-per% 증가.</string>
-	<string name="htitle.wizard.desc">%num% 주문력을 부여, 레벨당 %num-per% 증가.</string>
+	<string name="htitle.wizard.desc">%num% 주문 피해량을 부여, 레벨당 %num-per% 증가.</string>
 
 
 
@@ -1374,92 +1374,92 @@
 
 
 
-	<string name="accomplishment.paladin">Knights Chapter %num%</string>
+	<string name="accomplishment.paladin">기사단 %num%</string>
 	<string name="accomplishment.paladin.desc">팔라딘 %num% 레벨 달성.</string>
-	<string name="accomplishment.ranger">Hunters Lodge %num%</string>
+	<string name="accomplishment.ranger">사냥꾼 오두막 %num%</string>
 	<string name="accomplishment.ranger.desc">레인저 %num% 레벨 달성.</string>
-	<string name="accomplishment.rogue">Thieves Den %num%</string>
+	<string name="accomplishment.rogue">덴 오브 시프 %num%</string>
 	<string name="accomplishment.rogue.desc">로그 %num% 레벨 달성.</string>
-	<string name="accomplishment.sorcerer">Magicians Circle %num%</string>
+	<string name="accomplishment.sorcerer">%num% 서클 마법사</string>
 	<string name="accomplishment.sorcerer.desc">소서러 %num% 레벨 달성.</string>
-	<string name="accomplishment.warlock">Dark Coven %num%</string>
+	<string name="accomplishment.warlock">어둠의 집회 %num%</string>
 	<string name="accomplishment.warlock.desc">워록 %num% 레벨 달성.</string>
-	<string name="accomplishment.warrior">Fighting Pit %num%</string>
+	<string name="accomplishment.warrior">투기장 %num%</string>
 	<string name="accomplishment.warrior.desc">워리어 %num% 레벨 달성.</string>
-	<string name="accomplishment.wizard">Arcane League %num%</string>
+	<string name="accomplishment.wizard">비전 연합 %num%</string>
 	<string name="accomplishment.wizard.desc">위자드 %num% 레벨 달성.</string>
 	
-	<string name="accomplishment.enemy-kills">Killers %num%</string>
+	<string name="accomplishment.enemy-kills">킬러 %num%</string>
 	<string name="accomplishment.enemy-kills.desc">적 %num%명 처치 달성.</string>
-	<string name="accomplishment.damage-dealt">Damagers %num%</string>
+	<string name="accomplishment.damage-dealt">가해자 %num%</string>
 	<string name="accomplishment.damage-dealt.desc">총 가한 피해량 %num% 달성.</string>
-	<string name="accomplishment.damage-dealt-max">Heavy Hitters %num%</string>
+	<string name="accomplishment.damage-dealt-max">헤비 히터 %num%</string>
 	<string name="accomplishment.damage-dealt-max.desc">한 번의 공격으로 %num%의 피해 입히기.</string>
-	<string name="accomplishment.damage-blocked">Blockers %num%</string>
+	<string name="accomplishment.damage-blocked">최고의 수비수 %num%</string>
 	<string name="accomplishment.damage-blocked.desc">공격 막기로 총 %num%피해량 막기.</string>
-	<string name="accomplishment.spent-mana">Spellcasters %num%</string>
+	<string name="accomplishment.spent-mana">주문이 꼬인닭! %num%</string>
 	<string name="accomplishment.spent-mana.desc">스펠 시전으로 인해 소모한 마나 총 %num%달성.</string>
-	<string name="accomplishment.combo-max">Combo Streakers %num%</string>
+	<string name="accomplishment.combo-max">다 덤벼! %num%</string>
 	<string name="accomplishment.combo-max.desc">%num% 연속 처치</string>
-	<string name="accomplishment.potion-charges-used">Potion Gulpers %num%</string>
+	<string name="accomplishment.potion-charges-used">포션 중독자 %num%</string>
 	<string name="accomplishment.potion-charges-used.desc">포션 %num%회 마시기.</string>
-	<string name="accomplishment.crit-count">Critical Hitters %num%</string>
+	<string name="accomplishment.crit-count">공포의 쓴맛 %num%</string>
 	<string name="accomplishment.crit-count.desc">%num%회 치명타 공격</string>
-	<string name="accomplishment.evade-amount">Dodgers %num%</string>
+	<string name="accomplishment.evade-amount">자연스럽게 %num%</string>
 	<string name="accomplishment.evade-amount.desc">%num%회 공격 회피.</string>
-	<string name="accomplishment.parry-amount">Fencers %num%</string>
+	<string name="accomplishment.parry-amount">엘든링 고인물 %num%</string>
 	<string name="accomplishment.parry-amount.desc">%num%회 공격 패링.</string>
 	
-	<string name="accomplishment.enemy-kills-undead">Sanctifier %num%</string>
+	<string name="accomplishment.enemy-kills-undead">정화..! %num%</string>
 	<string name="accomplishment.enemy-kills-undead.desc">언데드 %num%명 처치.</string>
-	<string name="accomplishment.enemy-kills-beast">Hunter %num%</string>
+	<string name="accomplishment.enemy-kills-beast">이 근처엔 닭이 없네 %num%</string>
 	<string name="accomplishment.enemy-kills-beast.desc">야수 %num%마리 처치.</string>
-	<string name="accomplishment.enemy-kills-human">Murderer %num%</string>
+	<string name="accomplishment.enemy-kills-human">이.. 살인자! %num%</string>
 	<string name="accomplishment.enemy-kills-human.desc">인간 %num%명 처치.</string>
-	<string name="accomplishment.enemy-kills-aberration">Exorcist %num%</string>
+	<string name="accomplishment.enemy-kills-aberration">퇴마사 %num%</string>
 	<string name="accomplishment.enemy-kills-aberration.desc">돌연변이 %num%회 처치.</string>
-	<string name="accomplishment.enemy-kills-construct">Demolisher %num%</string>
+	<string name="accomplishment.enemy-kills-construct">불도저 %num%</string>
 	<string name="accomplishment.enemy-kills-construct.desc">구조물 %num%개 파괴.</string>
-	<string name="accomplishment.enemy-kills-elite">Elite %num%</string>
+	<string name="accomplishment.enemy-kills-elite">내가 더 정예정예 해 %num%</string>
 	<string name="accomplishment.enemy-kills-elite.desc">정예 적 %num%회 처치.</string>
 	
 	
-	<string name="accomplishment.secrets-found">Detectives %num%</string>
+	<string name="accomplishment.secrets-found">명탐정 고난 %num%</string>
 	<string name="accomplishment.secrets-found.desc">비밀의 방 %num%회 발견.</string>
-	<string name="accomplishment.called-to-arms">Recruiters %num%</string>
+	<string name="accomplishment.called-to-arms">함께 가자! %num%</string>
 	<string name="accomplishment.called-to-arms.desc">용병 %num%회 고용.</string>
-	<string name="accomplishment.traveling-cook-meals">Fast Food %num%</string>
+	<string name="accomplishment.traveling-cook-meals">맥도날드 %num%</string>
 	<string name="accomplishment.traveling-cook-meals.desc">떠돌이 요리사에게 %num%회 식사 받기.</string>
-	<string name="accomplishment.shady-trades">Negotiators %num%</string>
+	<string name="accomplishment.shady-trades">거상 %num%</string>
 	<string name="accomplishment.shady-trades.desc">은밀한 거래 %num%회 완료.</string>
-	<string name="accomplishment.imps-used">Imp Hunter %num%</string>
+	<string name="accomplishment.imps-used">임프 사냥꾼 %num%</string>
 	<string name="accomplishment.imps-used.desc">임프 %num%회 찾기.</string>
-	<string name="accomplishment.shrines-used">Ancient Powers %num%</string>
+	<string name="accomplishment.shrines-used">고대의 힘 %num%</string>
 	<string name="accomplishment.shrines-used.desc">제단에서 %num%회 축복 받기.</string>
-	<string name="accomplishment.wells-used">Replenishers %num%</string>
+	<string name="accomplishment.wells-used">여기 리필이요 %num%</string>
 	<string name="accomplishment.wells-used.desc">우물 %num%회 사용.</string>
-	<string name="accomplishment.pyres-used">Purge by Fire %num%</string>
+	<string name="accomplishment.pyres-used">캠프파이어 %num%</string>
 	<string name="accomplishment.pyres-used.desc">화로 %num%회 사용.</string>
-	<string name="accomplishment.thunderbirds-used">Thundering Relief %num%</string>
+	<string name="accomplishment.thunderbirds-used">앗 따거! %num%</string>
 	<string name="accomplishment.thunderbirds-used.desc">천둥새 %num%회 사용.</string>
 	
-	<string name="accomplishment.collected-trinket-common">Common Collectors %num%</string>
+	<string name="accomplishment.collected-trinket-common">일반 수집가 %num%</string>
 	<string name="accomplishment.collected-trinket-common.desc">일반 장신구 %num%개 수집.</string>
-	<string name="accomplishment.collected-trinket-uncommon">Uncommon Collectors %num%</string>
+	<string name="accomplishment.collected-trinket-uncommon">고급 장신구 수집가 %num%</string>
 	<string name="accomplishment.collected-trinket-uncommon.desc">고급 장신구 %num%개 수집.</string>
-	<string name="accomplishment.collected-trinket-rare">Rare Collectors %num%</string>
+	<string name="accomplishment.collected-trinket-rare">희귀 수집가 %num%</string>
 	<string name="accomplishment.collected-trinket-rare.desc">희귀 장신구 %num%개 수집.</string>
-	<string name="accomplishment.collected-trinket-epic">Epic Collectors %num%</string>
+	<string name="accomplishment.collected-trinket-epic">에픽 수집가 %num%</string>
 	<string name="accomplishment.collected-trinket-epic.desc">에픽 장신구 %num%개 수집.</string>
-	<string name="accomplishment.collected-trinket-cursed">Cursed Collectors %num%</string>
+	<string name="accomplishment.collected-trinket-cursed">저주받은 수집가 %num%</string>
 	<string name="accomplishment.collected-trinket-cursed.desc">저주받은 장신구 %num%개 수집.</string>
 	
-	<string name="accomplishment.pickup-health">Gourmands %num%</string>
+	<string name="accomplishment.pickup-health">미슐랭 %num%</string>
 	<string name="accomplishment.pickup-health.desc">생명력 회복 아이템 %num%회 획득.</string>
-	<string name="accomplishment.pickup-mana">Arcane %num%</string>
+	<string name="accomplishment.pickup-mana">약물 중독 %num%</string>
 	<string name="accomplishment.pickup-mana.desc">마나 회복 아이템 %num%회 획득.</string>
 	
-	<string name="accomplishment.buildings-built">Builders %num%</string>
+	<string name="accomplishment.buildings-built">건축가 %num%</string>
 	<string name="accomplishment.buildings-built.desc">건물 업그레이드 %num%회 구매</string>
 	
 	
@@ -1536,7 +1536,7 @@
 	<string name="statistic.sent-back-gold">마을로 보낸 금화</string>
 	<string name="statistic.chapel-revive-gold">예배당에 "기부"된 금화</string>
 	<string name="statistic.collected-wood">수집된 목재</string>
-	<string name="statistic.sent-back-wood">마을로 보낸 목재재</string>
+	<string name="statistic.sent-back-wood">마을로 보낸 목재</string>
 	<string name="statistic.chapel-revive-wood">예배당에 "기부"된 목재</string>
 	<string name="statistic.collected-stone">수집된 석재</string>
 	<string name="statistic.sent-back-stone">마을로 보낸 석재</string>
@@ -1550,8 +1550,8 @@
 	<string name="statistic.collected-dust">수집된 가루</string>
 	<string name="statistic.sent-back-dust">마을로 보내진 가루</string>
 	<string name="statistic.chapel-revive-dust">예배당에 "기부"된 가루</string>
-	<string name="statistic.collected-fragments">Fragments collected</string>
-	<string name="statistic.sent-back-fragments">Fragments sent back to town</string>
-	<string name="statistic.chapel-revive-fragments">Fragments "donated" to chapel</string>
+	<string name="statistic.collected-fragments">조각 수집가</string>
+	<string name="statistic.sent-back-fragments">마을로 보내진 조각</string>
+	<string name="statistic.chapel-revive-fragments">예배당에 "기부"된 조각</string>
 
 </lang>

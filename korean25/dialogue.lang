@@ -1,4 +1,4 @@
-<lang name="Korean25" max-bold="0" fonts="unicode">
+<lang name="Korean25" max-bold="0" min-size="10" max-bold="0" use-autohint="true" fonts="unicode">
 	<string name="building.guild_hall.name">Guild Hall</string>
 	<string name="building.training_grounds.name">Training Grounds</string>
 	<string name="building.general_store.name">General Store</string>
