@@ -1,4 +1,4 @@
-<lang name="Korean25" max-bold="0" fonts="unicode">
+<lang name="Korean25" max-bold="0" min-size="10" max-bold="0" use-autohint="true" fonts="unicode">
 
 	<!-- Trinkets -->
 
@@ -198,7 +198,7 @@
 	<string name="trinket.elemental_prism.name">Elemental Prism</string>
 	<string name="trinket.elemental_prism.desc">\cff00ff엘리멘탈 프리즘\d\n%prd% 초 내에 %num% 개의 주문을 시전하면, 모든 방향으로 속성 광선을 지속적으로 발사하는 프리즘이 생성됩니다.\n(재사용 대기시간 %cd%초)</string>
 	<string name="trinket.hourglass.name">Sands of Time</string>
-	<string name="trinket.hourglass.desc">\cff00ff시간의 모래\d\n주문 재사용 대기시간 %cd%% 감소.\n처치 시 %chns% 확률로 주문 재사용 대기시간 초기화</string>
+	<string name="trinket.hourglass.desc">\cff00ff시간의 모래\d\n주문 재사용 대기시간 %cd%% 감소.\n처치 시 %chns%% 확률로 주문 재사용 대기시간 초기화</string>
 	<string name="trinket.orb_of_restoration.name">Orb of Restoration</string>
 	<string name="trinket.orb_of_restoration.desc">\cff00ff회복의 구슬\d\n소모한 마나의 %heal%% 만큼 생명력을 회복합니다.\n마나 재생량 +%rgn%</string>
 	<string name="trinket.parry_medal.name">Champion's Medal</string>

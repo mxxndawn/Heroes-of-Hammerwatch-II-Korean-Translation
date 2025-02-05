@@ -97,6 +97,7 @@
 	<string name="npc.shop.weapon_mastery">Weapon Mastery</string>
 	<string name="npc.shop.trinket_attune">Attune Trinkets</string>
 
+	<string name="npc.shop.equipment_upgrade.upgrade">(Upgrade ilvl by %amnt%)</string>
 
 	<string name="npc.shop.builder">Build Building</string>
 	<string name="npc.shop.builder.empty.demo">The full game has more buildings and upgrades!</string>
@@ -223,5 +224,8 @@
 	<string name="dialogue.blacksmith.prompt1">This is a nice spot you have here! If you can help us build a smithy I can help with upgrading your equipment.</string>
 	<string name="dialogue.blacksmith.prompt2.1">My brother can teach you how to use your armor and weapons more efficiently, if you can get us resources for a proper forge I'll also be able to upgrade your equipment.</string>
 	<string name="dialogue.blacksmith.prompt2.2">We also have weapons in the back for sale, they are simple pieces, but of high quality.</string>
+
+
+	<string name="dialogue.shadowface_cultist.laugh">Hehehe....</string>
 
 </lang>

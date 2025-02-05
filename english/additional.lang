@@ -341,6 +341,7 @@
 	<string name="menu.options.legacy.control.desc">Emulates original controls and handling from Hammerwatch, released 2013.</string>
 	<string name="menu.controls.hold">HOLD POSITION</string>
 
+	<string name="menu.emotes.ping">Ping</string>
 	<string name="menu.emotes.come_here">Come Here</string>
 	<string name="menu.emotes.greeting">Greeting</string>
 	<string name="menu.emotes.oops">Oops</string>
