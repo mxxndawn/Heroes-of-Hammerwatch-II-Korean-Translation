@@ -198,7 +198,7 @@
 	<string name="trinket.elemental_prism.name">Elemental Prism</string>
 	<string name="trinket.elemental_prism.desc">Casting %num% Spells within %prd% seconds will spawn a prism that continously fires elemental beams in all directions. This effect has a %cd%s cooldown.</string>
 	<string name="trinket.hourglass.name">Sands of Time</string>
-	<string name="trinket.hourglass.desc">Reduces Spell Cooldowns by %cd%%.\nKills have a %chns% chance to reset all your cooldowns.</string>
+	<string name="trinket.hourglass.desc">Reduces Spell Cooldowns by %cd%%.\nKills have a %chns%% chance to reset all your cooldowns.</string>
 	<string name="trinket.orb_of_restoration.name">Orb of Restoration</string>
 	<string name="trinket.orb_of_restoration.desc">You heal for %heal%% of the mana you spend.\n+%rgn% Mana Regen.</string>
 	<string name="trinket.parry_medal.name">Champion's Medal</string>
