@@ -125,8 +125,8 @@
 	<string name="menu.colorslot.book">책</string>
 	<string name="menu.colorslot.crystal">수정</string>
 	<string name="menu.colorslot.staff">지팡이</string>
-	<string name="menu.colorslot.dagger">단검</string>
-	<string name="menu.colorslot.dagger_hilt">단검 자루</string>
+	<string name="menu.colorslot.dagger">대거</string>
+	<string name="menu.colorslot.dagger_hilt">대거 손잡이</string>
 	<string name="menu.colorslot.orb">구슬</string>
 
 
@@ -417,9 +417,9 @@
 	<string name="weapon_mastery.bonus.curr">%curr% 피해. %add% 추가</string>
 
 	<string name="weapon_mastery.maces">메이스</string>
-	<string name="weapon_mastery.swords">검</string>
+	<string name="weapon_mastery.swords">소드</string>
 	<string name="weapon_mastery.axes">도끼</string>
-	<string name="weapon_mastery.daggers">단검</string>
+	<string name="weapon_mastery.daggers">대거</string>
 	<string name="weapon_mastery.bows">활</string>
 	<string name="weapon_mastery.crossbows">크로스보우</string>
 	<string name="weapon_mastery.wands">완드</string>
