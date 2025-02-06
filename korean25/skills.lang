@@ -248,11 +248,11 @@
 	<string name="skills.attacks.mainhand.mace.desc">A powerful swing that deal 100% Weapon damage and has a 15% chance to inflict \cb0dfffStun\d.</string>
 	<string name="skills.attacks.mainhand.axe.name">도끼 베기</string>
 	<string name="skills.attacks.mainhand.axe.desc">A rending slash that deal 100% Weapon damage and has a 20% chance to inflict a stack of \cb0dfffBleeding\d.</string>
-	<string name="skills.attacks.mainhand.sword.name">검 휘두르기</string>
+	<string name="skills.attacks.mainhand.sword.name">소드 휘두르기</string>
 	<string name="skills.attacks.mainhand.sword.desc">A wide arcing swing that deal 100% Weapon damage.</string>
-	<string name="skills.attacks.mainhand.dagger.name">단검 베기</string>
+	<string name="skills.attacks.mainhand.dagger.name">대거 베기</string>
 	<string name="skills.attacks.mainhand.dagger.desc">A quick slash that deal 100% Weapon damage and has a 20% chance to inflict a stack of \cb0dfffBleeding\d.</string>
-	<string name="skills.attacks.mainhand.dirk.name">단검 찌르기</string>
+	<string name="skills.attacks.mainhand.dirk.name">대거 찌르기</string>
 	<string name="skills.attacks.mainhand.dirk.desc">A quick stab that deal 60% Weapon damage.</string>
 	<string name="skills.attacks.mainhand.wand.fire.name">화염의 화살</string>
 	<string name="skills.attacks.mainhand.wand.fire.desc">Launch a fire bolt that explodes on impact dealing 40% Weapon damage.</string>
@@ -509,15 +509,15 @@
 	<!-- Rogue -->
 
 	<string name="skills.rogue.spell_1.name">칼날 회오리</string>
-	<string name="skills.rogue.spell_1.desc">여러 개의 단검을 원뿔 형태로 던져 물리 피해를 입힙니다.</string>
+	<string name="skills.rogue.spell_1.desc">여러 개의 단도를 원뿔 형태로 던져 물리 피해를 입힙니다.</string>
 	<string name="skills.rogue.spell_1.up1.name">리코챗</string>
-	<string name="skills.rogue.spell_1.up1.desc">단검이 벽이나 물체에 튕깁니다. 튕길 때마다 속도와 피해가 감소합니다.</string>
+	<string name="skills.rogue.spell_1.up1.desc">단도가 벽이나 물체에 튕깁니다. 튕길 때마다 속도와 피해가 감소합니다.</string>
 	<string name="skills.rogue.spell_1.up2.name">치명적인 조준</string>
 	<string name="skills.rogue.spell_1.up2.desc">\cb0dfff칼날 회오리\d의 치명타 확률이 증가합니다.</string>
-	<string name="skills.rogue.spell_1.up3.name">독성 단검</string>
+	<string name="skills.rogue.spell_1.up3.name">독성 단도</string>
 	<string name="skills.rogue.spell_1.up3.desc">\cb0dfff칼날 회오리\d가 추가 독 피해를 입힙니다.</string>
 	<string name="skills.rogue.spell_1.up4.name">집중 투척</string>
-	<string name="skills.rogue.spell_1.up4.desc">던지는 단검 수가 줄어들며, 단검이 더 높은 피해를 입히고 지속 시간이 약간 증가합니다.</string>
+	<string name="skills.rogue.spell_1.up4.desc">던지는 단도의 수가 줄어들며, 단도가 더 높은 피해를 입히고 지속 시간이 약간 증가합니다.</string>
 
 	<string name="skills.rogue.spell_2.name">칼날 난무</string>
 	<string name="skills.rogue.spell_2.desc">여러 번의 연속 공격으로 주변의 모든 적에게 물리 피해를 입힙니다.</string>
