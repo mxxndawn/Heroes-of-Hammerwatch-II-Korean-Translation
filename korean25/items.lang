@@ -3,20 +3,20 @@
 	<!-- Trinkets -->
 
 	<!-- Cursed -->
-	<string name="trinket.decaying_hand.name">Decaying Hand</string>
-	<string name="trinket.decaying_hand.desc">\cffe4e4부패한 손\d\n그림자 저주 스택 마다 무기 피해량 +%num%</string>
-	<string name="trinket.pickled_eye.name">Pickled Eye</string>
-	<string name="trinket.pickled_eye.desc">\cffe4e4절여진 눈\d\n그림자 저주 스택 마다 주문 피해량 +%num%</string>
-	<string name="trinket.bent_knife.name">Bent Knife</string>
-	<string name="trinket.bent_knife.desc">\cffe4e4휘어진 칼\d\n그림자 저주 스택 마다 무기 치명타 피해량 +%num%%</string>
+	<string name="trinket.decaying_hand.name">부패한 손</string>
+	<string name="trinket.decaying_hand.desc">그림자 저주 스택 마다 무기 피해량 +%num%</string>
+	<string name="trinket.pickled_eye.name">절여진 눈</string>
+	<string name="trinket.pickled_eye.desc">그림자 저주 스택 마다 주문 피해량 +%num%</string>
+	<string name="trinket.bent_knife.name">휘어진 칼</string>
+	<string name="trinket.bent_knife.desc">그림자 저주 스택 마다 무기 치명타 피해량 +%num%%</string>
 
 	<!-- Common -->
-	<string name="trinket.amulet_health.name">Amulet of Health</string>
-	<string name="trinket.amulet_health.desc">생명의 아뮬렛\n생명력 +%num%</string>
-	<string name="trinket.amulet_mana.name">Amulet of Mana</string>
-	<string name="trinket.amulet_mana.desc">마나의 아뮬렛\n마나 +%num%</string>
-	<string name="trinket.apothecarys_antidote.name">Apothecary's Antidote</string>
-	<string name="trinket.apothecarys_antidote.desc">연금술사의 해독제\n중독 저항력 +%num%</string>
+	<string name="trinket.amulet_health.name">생명의 아뮬렛</string>
+	<string name="trinket.amulet_health.desc">생명력 +%num%</string>
+	<string name="trinket.amulet_mana.name">마나의 아뮬렛</string>
+	<string name="trinket.amulet_mana.desc">마나 +%num%</string>
+	<string name="trinket.apothecarys_antidote.name">연금술사의 해독제</string>
+	<string name="trinket.apothecarys_antidote.desc">중독 저항력 +%num%</string>
 	<string name="trinket.apothecarys_tincture.name">Apothecary's Tincture</string>
 	<string name="trinket.apothecarys_tincture.desc">연금술사의 비약\n포션을 마시면 모든 대쉬가 충전되며 %num% 초 동안 이동속도가 증가합니다.</string>
 	<string name="trinket.book_attacks.name">Book of Arms</string>
@@ -34,7 +34,7 @@
 	<string name="trinket.gemstone_fire.name">Infused Topaz</string>
 	<string name="trinket.gemstone_fire.desc">충전된 토파즈\n화염 저항력 +%res%\n화염 관통력 +%pen%</string>
 	<string name="trinket.gemstone_ice.name">Infused Aquamarine</string>
-	<string name="trinket.gemstone_ice.desc">충전된 아쿠아마린\n빙결 저항력 +%res%\n빙결 관통력 +%pen%</string>
+	<string name="trinket.gemstone_ice.desc">충전된 아쿠아마린\n냉기 저항력 +%res%\n냉기 관통력 +%pen%</string>
 	<string name="trinket.gemstone_lightning.name">Infused Amethyst</string>
 	<string name="trinket.gemstone_lightning.desc">충전된 자수정\n번개 저항력 +%res%\n번개 관통력 +%pen%</string>
 	<string name="trinket.gemstone_poison.name">Infused Peridot</string>
@@ -154,7 +154,7 @@
 	<string name="trinket.dragon_scale_red.name">Red Dragon Scale</string>
 	<string name="trinket.dragon_scale_red.desc">\c00bfff레드 드래곤의 비늘\d\n방어력 및 화염 저항력 +%num%</string>
 	<string name="trinket.dragon_scale_blue.name">Blue Dragon Scale</string>
-	<string name="trinket.dragon_scale_blue.desc">\c00bfff블루 드래곤의 비늘\d\n빙어력 및 빙결 저항력 +%num%</string>
+	<string name="trinket.dragon_scale_blue.desc">\c00bfff블루 드래곤의 비늘\d\n빙어력 및 냉기 저항력 +%num%</string>
 	<string name="trinket.fiddle.name">Discordant Fiddle</string>
 	<string name="trinket.fiddle.desc">\c00bfff불협화음의 바이올린\d\n주문 적중 시 %chns%%확률로 \cb0dfff침묵\d 상태를 부여, 작은 범위에 %dmg%의 추가 물리 피해를 입힙니다.\n(재사용 대기시간 %cd%초)</string>
 	<string name="trinket.kyras_quiver.name">Kyras Quiver</string>
@@ -178,7 +178,7 @@
 	<string name="trinket.closed_circuit.name">Closed Circuit</string>
 	<string name="trinket.closed_circuit.desc">\c00bfff개방 회로\d\n무기에 %add% 번개 피해를 추가합니다.\n무기 적중 시 %chns%% 확률로 번개를 소환하며, 해당 지역에 %dmg% 번개 피해를 입힙니다.</string>
 	<string name="trinket.ectoplasm.name">Ectoplasm</string>
-	<string name="trinket.ectoplasm.desc">\c00bfff엑토플라즘\d\n무기에 %add% 빙결 피해를 추가합니다.\n무기 적중 시 %chns%% 확률로 짧은 시간 동안 작은 얼음 구름을 소환하여 %dmg% 얼음 피해를 입힙니다.</string>
+	<string name="trinket.ectoplasm.desc">\c00bfff엑토플라즘\d\n무기에 %add% 냉기 피해를 추가합니다.\n무기 적중 시 %chns%% 확률로 짧은 시간 동안 작은 얼음 구름을 소환하여 %dmg% 얼음 피해를 입힙니다.</string>
 	<string name="trinket.fire_salts.name">Fire Salts</string>
 	<string name="trinket.fire_salts.desc">\c00bfff불의 소금\d\n무기에 %add% 화염 피해를 추가합니다.\n무기 적중 시 %chns%% 확률로 불꽃을 발사하여 %dmg% 화염 피해를 입힙니다.</string>
 	<string name="trinket.mana_crystallizer.name">Mana Crystallizer</string>
@@ -208,7 +208,7 @@
 	<string name="trinket.scroll_hellfire.name">Scroll of Hellfire</string>
 	<string name="trinket.scroll_hellfire.desc">\cff00ff헬파이어 두루마리\d\n마나 %mana% 소모 시 %dur%초 동안 주변에 불의 비가 내려 %dmg% 화염 피해를 입힙니다.</string>
 	<string name="trinket.arctic_step.name">Arctic Step</string>
-	<string name="trinket.arctic_step.desc">\cff00ff빙하의 발걸음\d\n이동 시 플레이어가 지나가는 땅이 얼어붙어 %dmg% 빙결 피해를 입힙니다다.</string>
+	<string name="trinket.arctic_step.desc">\cff00ff빙하의 발걸음\d\n이동 시 플레이어가 지나가는 땅이 얼어붙어 %dmg% 냉기 피해를 입힙니다다.</string>
 
 	<!-- Sets -->
 	<string name="trinket.set.gemstones.name">마력이 깃든 보석</string>
@@ -242,8 +242,8 @@
 	<string name="trinket.set.apothecarys.2">중독 관통력 +%num%%</string>
 	<string name="trinket.set.apothecarys.3">마나 획득량 +%num%%</string>
 	<string name="trinket.set.apothecarys.4">생명력 획득량 +%num%%</string>
-	<string name="trinket.set.stones_of_midas.name">Stones of Midas</string>
-	<string name="trinket.set.stones_of_midas.2">Gives %num% gold on Kill</string>
+	<string name="trinket.set.stones_of_midas.name">미다스의 돌</string>
+	<string name="trinket.set.stones_of_midas.2">적 처치시 2금화 획득</string>
 	<string name="trinket.set.crawling_critters.name">꿈틀대는 녀석들</string>
 	<string name="trinket.set.crawling_critters.2">중독 피해량 +%num%%</string>
 	<string name="trinket.set.crawling_critters.4">소환수 피해량+%num%%</string>
@@ -263,7 +263,7 @@
 	<string name="tavern.meal.hearty_meal.name">Hearty Meal</string>
 	<string name="tavern.meal.hearty_meal.desc">생명력 및 마나 재생량 +1</string>
 	<string name="tavern.meal.elemental_breakfast.name">Elemental Breakfast</string>
-	<string name="tavern.meal.elemental_breakfast.desc">화염, 빙결, 번개 저항력 +50</string>
+	<string name="tavern.meal.elemental_breakfast.desc">화염, 냉기, 번개 저항력 +50</string>
 	<string name="tavern.meal.hunters_travel_rations.name">Hunter's Travel Rations</string>
 	<string name="tavern.meal.hunters_travel_rations.desc">야수에게 가하는 피해량 +20%\n대쉬 재사용 대기시간 -25%</string>
 	<string name="tavern.meal.foragers_feast.name">Forager's Feast</string>
@@ -313,9 +313,9 @@
 	<string name="tavern.drink.the_happy_hydra.name">The Happy Hydra</string>
 	<string name="tavern.drink.the_happy_hydra.desc">생명력이 최대일 때\n마나 재생량 +100%\n생멱력이 최대가 아닐때\n마나 재생량-50%</string>
 	<string name="tavern.drink.gulch_burner.name">Gulch Burner</string>
-	<string name="tavern.drink.gulch_burner.desc">화염 피해량 +25%\n빙결 저항력 -25%</string>
+	<string name="tavern.drink.gulch_burner.desc">화염 피해량 +25%\n냉기 저항력 -25%</string>
 	<string name="tavern.drink.chilly_fingers.name">Chilly Fingers</string>
-	<string name="tavern.drink.chilly_fingers.desc">빙결 피해량 +25%\n화염 저항력 -25%</string>
+	<string name="tavern.drink.chilly_fingers.desc">냉기 피해량 +25%\n화염 저항력 -25%</string>
 	<string name="tavern.drink.shocking_zinger.name">Shocking Zinger</string>
 	<string name="tavern.drink.shocking_zinger.desc">번개 피해량 +25%\n방어력 -20%</string>
 	<string name="tavern.drink.toxic_twist.name">Toxic Twist</string>

@@ -61,7 +61,7 @@
 	<string name="skills.desc.params.damage.offhand">Offhand Damage:</string>
 	<string name="skills.desc.params.damage.physical">물리 피해량:</string>
 	<string name="skills.desc.params.damage.fire">화염 피해량:</string>
-	<string name="skills.desc.params.damage.ice">빙결 피해량:</string>
+	<string name="skills.desc.params.damage.ice">냉기 피해량:</string>
 	<string name="skills.desc.params.damage.lightning">번개 피해량:</string>
 	<string name="skills.desc.params.damage.poison">중독 피해량:</string>
 	<string name="skills.desc.params.damage.pure">순수 피해량:</string>
@@ -112,7 +112,7 @@
 	<string name="skills.desc.params.armor.dex">Armor per Dexterity:</string>
 	<string name="skills.desc.params.resistance">저항:</string>
 	<string name="skills.desc.params.resistance.fire">화염 저항:</string>
-	<string name="skills.desc.params.resistance.ice">:빙결 저항</string>
+	<string name="skills.desc.params.resistance.ice">:냉기 저항</string>
 	<string name="skills.desc.params.resistance.lightning">번개 저항:</string>
 	<string name="skills.desc.params.resistance.poison">중독 저항:</string>
 	<string name="skills.desc.params.block">Block Amount:</string>
@@ -122,7 +122,7 @@
 	<string name="skills.desc.params.armor_pen">방어 관통:</string>
 	<string name="skills.desc.params.armor_pen.str">Armor Penetration per Strength:</string>
 	<string name="skills.desc.params.fire_pen">화염 관통:</string>
-	<string name="skills.desc.params.ice_pen">빙결 관통:</string>
+	<string name="skills.desc.params.ice_pen">냉기 관통:</string>
 	<string name="skills.desc.params.lightning_pen">번개 관통:</string>
 	<string name="skills.desc.params.poison_pen">중독 관통:</string>
 	<string name="skills.desc.params.ele_res.lvl">Elemental Resistances per Level:</string>
@@ -203,20 +203,21 @@
 	<string name="skills.desc.params.hits.destroy">Hits to Destroy:</string>
 
 
-	<string name="skills.desc.params.pillars.strikes">Additional Explosions:</string>
-	<string name="skills.desc.params.pillars.add">Additional Pillars:</string>
+	<string name="skills.desc.params.pillars.strikes">추가 폭발:</string>
+	<string name="skills.desc.params.pillars.add">추가 기둥:</string>
 	<string name="skills.desc.params.wolf.damage">늑대 피해량:</string>
 	<string name="skills.desc.params.wolf.health">늑대 생명력:</string>
+	<string name="skills.desc.params.wolf.max">최대 소환 늑대:</string>
 	<string name="skills.desc.params.lightning_bolts">Lightning Bolts:</string>
-	<string name="skills.desc.params.spirit_wolves">Spirit Wolves:</string>
+	<string name="skills.desc.params.spirit_wolves">영혼 늑대:</string>
 	<string name="skills.desc.params.flurry.strikes">Enemies Hit per Strike:</string>
 	<string name="skills.desc.params.traps.max">최대 함정 설치:</string>
-	<string name="skills.desc.params.traps.add">Additional Traps:</string>
+	<string name="skills.desc.params.traps.add">추가 함정:</string>
 	<string name="skills.desc.params.fiend.health">악마 생명력:</string>
 	<string name="skills.desc.params.fiend.lifetime">악마 수명:</string>
 	<string name="skills.desc.params.fiend.damage">악마 피해량:</string>
 	<string name="skills.desc.params.frost_shards">얼음 파편:</string>
-	<string name="skills.desc.params.meteors">Meteors:</string>
+	<string name="skills.desc.params.meteors">메테오:</string>
 
 	<string name="skills.desc.params.max_placed">최대 배치:</string>
 	<string name="skills.desc.params.end_damage">종료 피해량:</string>
@@ -224,17 +225,17 @@
 	<string name="skills.desc.params.mana_prc_per_stack">스택당 마나 %:</string>
 
 	<string name="skills.combo.kills.name">콤보: 처치</string>	
-	<string name="skills.combo.kills.desc">Triggers combo after 10 kills in quick succession.</string>	
+	<string name="skills.combo.kills.desc">10명의 적을 연속으로 처치하면 콤보가 활성화 됩니다.</string>	
 	<string name="skills.combo.dash.name">콤보: 대쉬</string>	
-	<string name="skills.combo.dash.desc">Triggers combo after 3 dashes in quick succession.</string>	
+	<string name="skills.combo.dash.desc">3번의 대쉬를 연속으로 사용하면 콤보가 활성화 됩니다.</string>	
 	<string name="skills.combo.parry.name">콤보: 패링</string>	
-	<string name="skills.combo.parry.desc">Triggers combo after 8 parries in quick succession.</string>	
+	<string name="skills.combo.parry.desc">8번의 패링을 연속으로 성공하면 콤보가 활성화 됩니다.</string>	
 	<string name="skills.combo.none.name">콤보: 없음</string>	
-	<string name="skills.combo.none.desc">Disables combo.</string>	
+	<string name="skills.combo.none.desc">콤보를 비활성화 합니다.</string>	
 	<string name="skills.combo.selected"> (선택됨)</string>
 
-	<string name="skills.combo.nova.name">Combo Nova</string>
-	<string name="skills.combo.nova.desc">Shoots a nova of projectiles every second while combo is active.</string>
+	<string name="skills.combo.nova.name">콤보 노바</string>
+	<string name="skills.combo.nova.desc">콤보가 활성화된 상태에서 매초 발사체를 발사합니다.</string>
 
 
 
@@ -243,79 +244,79 @@
 	<!-- Attacks -->
 
 
-	<string name="skills.attacks.mainhand.mace.name">Mace Bash</string>
+	<string name="skills.attacks.mainhand.mace.name">메이스 강타</string>
 	<string name="skills.attacks.mainhand.mace.desc">A powerful swing that deal 100% Weapon damage and has a 15% chance to inflict \cb0dfffStun\d.</string>
-	<string name="skills.attacks.mainhand.axe.name">Axe Slash</string>
+	<string name="skills.attacks.mainhand.axe.name">도끼 베기</string>
 	<string name="skills.attacks.mainhand.axe.desc">A rending slash that deal 100% Weapon damage and has a 20% chance to inflict a stack of \cb0dfffBleeding\d.</string>
-	<string name="skills.attacks.mainhand.sword.name">Sword Swing</string>
+	<string name="skills.attacks.mainhand.sword.name">검 휘두르기</string>
 	<string name="skills.attacks.mainhand.sword.desc">A wide arcing swing that deal 100% Weapon damage.</string>
-	<string name="skills.attacks.mainhand.dagger.name">Dagger Slash</string>
+	<string name="skills.attacks.mainhand.dagger.name">단검 베기</string>
 	<string name="skills.attacks.mainhand.dagger.desc">A quick slash that deal 100% Weapon damage and has a 20% chance to inflict a stack of \cb0dfffBleeding\d.</string>
-	<string name="skills.attacks.mainhand.dirk.name">Dirk Stab</string>
+	<string name="skills.attacks.mainhand.dirk.name">단검 찌르기</string>
 	<string name="skills.attacks.mainhand.dirk.desc">A quick stab that deal 60% Weapon damage.</string>
-	<string name="skills.attacks.mainhand.wand.fire.name">Fire Bolt</string>
+	<string name="skills.attacks.mainhand.wand.fire.name">화염의 화살</string>
 	<string name="skills.attacks.mainhand.wand.fire.desc">Launch a fire bolt that explodes on impact dealing 40% Weapon damage.</string>
-	<string name="skills.attacks.mainhand.wand.ice.name">Ice Shards</string>
+	<string name="skills.attacks.mainhand.wand.ice.name">냉기의 조각</string>
 	<string name="skills.attacks.mainhand.wand.ice.desc">Unleash three shards of ice that deal 60% Weapon damage each.</string>
-	<string name="skills.attacks.mainhand.wand.lightning.name">Lightning Bolt</string>
+	<string name="skills.attacks.mainhand.wand.lightning.name">번개의 화살</string>
 	<string name="skills.attacks.mainhand.wand.lightning.desc">Discharge a bolt of lightning that can jump between enemies, dealing 40% Weapon damage. The bolt deals 10% less damage for each jump.</string>
 
-	<string name="skills.attacks.offhand.crossbow.name">Quick Shot</string>
+	<string name="skills.attacks.offhand.crossbow.name">퀵 샷</string>
 	<string name="skills.attacks.offhand.crossbow.desc">Quickly release a fast bolt that deal 75% Physical damage.</string>
-	<string name="skills.attacks.offhand.shield.name">Shield Bash</string>
+	<string name="skills.attacks.offhand.shield.name">방패 강타</string>
 	<string name="skills.attacks.offhand.shield.desc">Bash enemies with your shield inflicting \cb0dfffStun\d.</string>
 	<string name="skills.attacks.offhand.shield.block.desc">Blocks up to %amnt% damage from most projectiles in a 180-degree arc.</string>
-	<string name="skills.attacks.offhand.tome.fire.name">Glyph of Fire</string>
+	<string name="skills.attacks.offhand.tome.fire.name">화염의 문양</string>
 	<string name="skills.attacks.offhand.tome.fire.desc">Place a glyph at the ground that activates when an enemy gets near, producing an area of flames for 5 seconds, dealing 75% Weapon damage.</string>
-	<string name="skills.attacks.offhand.tome.ice.name">Glyph of Ice</string>
+	<string name="skills.attacks.offhand.tome.ice.name">냉기의 문양</string>
 	<string name="skills.attacks.offhand.tome.ice.desc">Place a glyph at the ground that activates when an enemy gets near, triggering a blast of ice dealing 100% Weapon damage in an area.</string>
-	<string name="skills.attacks.offhand.tome.lightning.name">Glyph of Lightning</string>
+	<string name="skills.attacks.offhand.tome.lightning.name">번개의 문양</string>
 	<string name="skills.attacks.offhand.tome.lightning.desc">Place a glyph at the ground that activates when an enemy gets near, causing three bolts of lightning to strike the area, each dealing 75% Weapon damage.</string>
 
 
-	<string name="skills.attacks.twohanded.shortbow1.name">Quick Shot</string>
+	<string name="skills.attacks.twohanded.shortbow1.name">퀵 샷</string>
 	<string name="skills.attacks.twohanded.shortbow1.desc">Rapidly fires an arrow that deal 50% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.shortbow2.name">Power Shot</string>
+	<string name="skills.attacks.twohanded.shortbow2.name">파워 샷</string>
 	<string name="skills.attacks.twohanded.shortbow2.desc">Hold to charge up a powerful shot. The range, speed and damage of the projectile is increased by the time charged, dealing up to 150% Weapon damage.</string>
 
-	<string name="skills.attacks.twohanded.longbow1.name">Quick Shot</string>
+	<string name="skills.attacks.twohanded.longbow1.name">퀵 샷</string>
 	<string name="skills.attacks.twohanded.longbow1.desc">Rapidly fires an arrow that deal 60% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.longbow2.name">Power Shot</string>
+	<string name="skills.attacks.twohanded.longbow2.name">파워 샷</string>
 	<string name="skills.attacks.twohanded.longbow2.desc">Hold to charge up a powerful shot. The range, speed and damage of the projectile is increased by the time charged, dealing up to 150% Weapon damage.</string>
 
-	<string name="skills.attacks.twohanded.crossbow1.name">Quick Shot</string>
+	<string name="skills.attacks.twohanded.crossbow1.name">퀵 샷</string>
 	<string name="skills.attacks.twohanded.crossbow1.desc">Quickly unleash a fast bolt that deal 100% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.crossbow2.name">Explosive Shot</string>
+	<string name="skills.attacks.twohanded.crossbow2.name">폭발 사격</string>
 	<string name="skills.attacks.twohanded.crossbow2.desc">Fires an armed bolt that explodes upon impact dealing 150% Weapon damage.</string>
 
-	<string name="skills.attacks.twohanded.maul1.name">Maul Swing</string>
+	<string name="skills.attacks.twohanded.maul1.name">거대망치 휘두르기</string>
 	<string name="skills.attacks.twohanded.maul1.desc">A slow heavy swing that deal 175% Weapon damage and has a 20% chance to inflict \cb0dfffStun\d.</string>
-	<string name="skills.attacks.twohanded.maul2.name">Ground Slam</string>
+	<string name="skills.attacks.twohanded.maul2.name">지면 강타</string>
 	<string name="skills.attacks.twohanded.maul2.desc">A powerful ground slam that deal 250% Weapon damage in an area and inflicts \cb0dfffStun\d.</string>
 
-	<string name="skills.attacks.twohanded.greataxe1.name">Greataxe Slash</string>
+	<string name="skills.attacks.twohanded.greataxe1.name">거대도끼 베기</string>
 	<string name="skills.attacks.twohanded.greataxe1.desc">A wide rending slash that deal 125% Weapon damage and has a 20% chance to inflict a stack of \cb0dfffBleeding\d.</string>
-	<string name="skills.attacks.twohanded.greataxe2.name">Whirlwind</string>
+	<string name="skills.attacks.twohanded.greataxe2.name">회오리 베기</string>
 	<string name="skills.attacks.twohanded.greataxe2.desc">Hold to continously spin around with your axe, dealing 75% Weapon damage to any enemies in the area.</string>
 
-	<string name="skills.attacks.twohanded.daggers1.name">Dual Slice</string>
+	<string name="skills.attacks.twohanded.daggers1.name">이중 베기</string>
 	<string name="skills.attacks.twohanded.daggers1.desc">Deliver two strikes in quick succession, each dealing 100% Physical damage.</string>
-	<string name="skills.attacks.twohanded.daggers2.name">Lunging Strike</string>
+	<string name="skills.attacks.twohanded.daggers2.name">맹공격</string>
 	<string name="skills.attacks.twohanded.daggers2.desc">A quick lunge forward that strikes all enemies along your path, dealing 200% Weapon damage.</string>
 
-	<string name="skills.attacks.twohanded.staff.fire1.name">Flame Spray</string>
+	<string name="skills.attacks.twohanded.staff.fire1.name">화염 분사</string>
 	<string name="skills.attacks.twohanded.staff.fire1.desc">Hold to continously spew flames dealing 25% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.staff.fire2.name">Fire Blast</string>
+	<string name="skills.attacks.twohanded.staff.fire2.name">화염 폭발</string>
 	<string name="skills.attacks.twohanded.staff.fire2.desc">Slam the staff in the ground to unleash a fiery blast dealing 100% Weapon damage in an area.</string>
 
-	<string name="skills.attacks.twohanded.staff.ice1.name">Ice Lance</string>
+	<string name="skills.attacks.twohanded.staff.ice1.name">얼음의 창</string>
 	<string name="skills.attacks.twohanded.staff.ice1.desc">Hold to charge up an icy projectile. The range, speed and damage of the projectile is increased by the time charged, dealing up to 75% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.staff.ice2.name">Ice Spikes</string>
+	<string name="skills.attacks.twohanded.staff.ice2.name">얼음의 가시</string>
 	<string name="skills.attacks.twohanded.staff.ice2.desc">Slam the staff in the ground to cause three consecutive ice spikes to erupt in a forward direction, each dealing 150% Weapon damage.</string>
 
-	<string name="skills.attacks.twohanded.staff.lightning1.name">Lightning Beam</string>
+	<string name="skills.attacks.twohanded.staff.lightning1.name">번개의 광선</string>
 	<string name="skills.attacks.twohanded.staff.lightning1.desc">Hold to channel a beam of electricity that deal 40% Weapon damage. The beam loses 10% damage with each consecutive enemy pierced.</string>
-	<string name="skills.attacks.twohanded.staff.lightning2.name">Thunderbolts</string>
+	<string name="skills.attacks.twohanded.staff.lightning2.name">뇌격</string>
 	<string name="skills.attacks.twohanded.staff.lightning2.desc">Slam the staff in the ground to conjure two thunderbolts to strike the area in front of you, each dealing 100% Weapon damage.</string>
 
 
@@ -323,378 +324,378 @@
 	<!-- Paladin -->
 
 
-	<string name="skills.paladin.spell_1.name">Blessed Strike축복의 일격</string>
-	<string name="skills.paladin.spell_1.desc">축복의 일격\n전방의 모든 적을 공격하여 물리 피해를 입힙니다.</string>
-	<string name="skills.paladin.spell_1.up1.name">Massive Strike</string>
-	<string name="skills.paladin.spell_1.up1.desc">강력한 일격\n공격 범위가 증가합니다.</string>
-	<string name="skills.paladin.spell_1.up2.name">Purging Flames</string>
-	<string name="skills.paladin.spell_1.up2.desc">정화의 불꽃\n공격 범위가 불길로 폭발하며 일정 시간 동안 추가 화염 피해를 입힙니다.</string>
-	<string name="skills.paladin.spell_1.up3.name">Wrathful Strike</string>
-	<string name="skills.paladin.spell_1.up3.desc">분노의 일격\n추가 번개 피해를 입히며, 주변 적에게 피해가 연쇄됩니다.</string>
+	<string name="skills.paladin.spell_1.name">축복의 일격</string>
+	<string name="skills.paladin.spell_1.desc">전방의 모든 적을 공격하여 물리 피해를 입힙니다.</string>
+	<string name="skills.paladin.spell_1.up1.name">강력한 일격</string>
+	<string name="skills.paladin.spell_1.up1.desc">공격 범위가 증가합니다.</string>
+	<string name="skills.paladin.spell_1.up2.name">정화의 불꽃</string>
+	<string name="skills.paladin.spell_1.up2.desc">공격 범위가 불길로 폭발하며 일정 시간 동안 추가 화염 피해를 입힙니다.</string>
+	<string name="skills.paladin.spell_1.up3.name">분노의 일격</string>
+	<string name="skills.paladin.spell_1.up3.desc">추가 번개 피해를 입히며, 주변 적에게 피해가 연쇄됩니다.</string>
 
-	<string name="skills.paladin.spell_2.name">Lay on Hands</string>
-	<string name="skills.paladin.spell_2.desc">치유의 손길\n자신과 주변 모든 아군을 치유합니다.</string>
-	<string name="skills.paladin.spell_2.up1.name">Invigorating Touch</string>
-	<string name="skills.paladin.spell_2.up1.desc">활력의 손길\n일정 시간 동안 생명력 및 마나 재생 증가 버프를 부여합니다.</string>
-	<string name="skills.paladin.spell_2.up2.name">Cleansing Touch</string>
-	<string name="skills.paladin.spell_2.up2.desc">정화의 손길\n모든 디버프와 상태 이상을 제거하고, 짧은 시간 동안 디버프 면역을 얻습니다.</string>
-	<string name="skills.paladin.spell_2.up3.name">Turn Undead</string>
-	<string name="skills.paladin.spell_2.up3.desc">언데드 정화\n범위 내의 언데드 적들에게 물리 피해를 입힙니다.</string>
+	<string name="skills.paladin.spell_2.name">치유의 손길</string>
+	<string name="skills.paladin.spell_2.desc">자신과 주변 모든 아군을 치유합니다.</string>
+	<string name="skills.paladin.spell_2.up1.name">활력의 손길</string>
+	<string name="skills.paladin.spell_2.up1.desc">일정 시간 동안 생명력 및 마나 재생 증가 버프를 부여합니다.</string>
+	<string name="skills.paladin.spell_2.up2.name">정화의 손길</string>
+	<string name="skills.paladin.spell_2.up2.desc">모든 디버프와 상태 이상을 제거하고, 짧은 시간 동안 디버프 면역을 얻습니다.</string>
+	<string name="skills.paladin.spell_2.up3.name">언데드 정화</string>
+	<string name="skills.paladin.spell_2.up3.desc">범위 내의 언데드 적들에게 물리 피해를 입힙니다.</string>
 
-	<string name="skills.paladin.passive_1.name">Armored Knight</string>
-	<string name="skills.paladin.passive_1.desc">강철의 기사\n방어력이 증가하며, 100% 물리 피해를 차단할 확률을 얻습니다.</string>
-	<string name="skills.paladin.passive_1.up1.name">Elemental Bulwark</string>
-	<string name="skills.paladin.passive_1.up1.desc">원소 방벽\n화염, 빙결, 번개 저항이 증가합니다.</string>
-	<string name="skills.paladin.passive_1.up2.name">Glancing Blows</string>
-	<string name="skills.paladin.passive_1.up2.desc">스치는 타격\n모든 피해 유형을 100% 차단할 추가 확률을 얻습니다.</string>
-	<string name="skills.paladin.passive_1.up3.name">Armor of Wrath</string>
-	<string name="skills.paladin.passive_1.up3.desc">분노의 갑옷\n피해를 받을 때 방어력에 기반하여 번개 피해를 입히는 번개가 근처 적에게 발사됩니다.</string>
+	<string name="skills.paladin.passive_1.name">강철의 기사</string>
+	<string name="skills.paladin.passive_1.desc">방어력이 증가하며, 100% 물리 피해를 차단할 확률을 얻습니다.</string>
+	<string name="skills.paladin.passive_1.up1.name">원소 방벽</string>
+	<string name="skills.paladin.passive_1.up1.desc">화염, 냉기, 번개 저항이 증가합니다.</string>
+	<string name="skills.paladin.passive_1.up2.name">스치는 타격</string>
+	<string name="skills.paladin.passive_1.up2.desc">모든 피해 유형을 100% 차단할 추가 확률을 얻습니다.</string>
+	<string name="skills.paladin.passive_1.up3.name">분노의 갑옷</string>
+	<string name="skills.paladin.passive_1.up3.desc">피해를 받을 때 방어력에 기반하여 번개 피해를 입히는 번개가 근처 적에게 발사됩니다.</string>
 
-	<string name="skills.paladin.passive_2.name">Conviction</string>
-	<string name="skills.paladin.passive_2.desc">신념\n\cffdfb0근접 무기 공격\d이 일정 확률로 마나를 회복합니다.</string>
-	<string name="skills.paladin.passive_2.up1.name">Resolve</string>
-	<string name="skills.paladin.passive_2.up1.desc">결의\n생명력이 절반 이하일 때 주문 마나 소비가 줄어듭니다.</string>
-	<string name="skills.paladin.passive_2.up2.name">Shield of Faith</string>
-	<string name="skills.paladin.passive_2.up2.desc">신앙의 방패\n마나가 최대치의 절반 이상일 때 마나를 소모하여 피해를 막습니다.</string>
-	<string name="skills.paladin.passive_2.up3.name">Zeal</string>
-	<string name="skills.paladin.passive_2.up3.desc">열정\n\cb0dfff신념\d이 발동하면 현재 마나에 비례한 추가 물리 피해를 입힙니다.</string>
+	<string name="skills.paladin.passive_2.name">신념</string>
+	<string name="skills.paladin.passive_2.desc">\cffdfb0근접 무기 공격\d이 일정 확률로 마나를 회복합니다.</string>
+	<string name="skills.paladin.passive_2.up1.name">결의</string>
+	<string name="skills.paladin.passive_2.up1.desc">생명력이 절반 이하일 때 주문 마나 소비가 줄어듭니다.</string>
+	<string name="skills.paladin.passive_2.up2.name">신앙의 방패</string>
+	<string name="skills.paladin.passive_2.up2.desc">마나가 최대치의 절반 이상일 때 마나를 소모하여 피해를 막습니다.</string>
+	<string name="skills.paladin.passive_2.up3.name">열정</string>
+	<string name="skills.paladin.passive_2.up3.desc">\cb0dfff신념\d이 발동하면 현재 마나에 비례한 추가 물리 피해를 입힙니다.</string>
 
 
-	<string name="skills.paladin.mastery_1.name">Justice</string>
+	<string name="skills.paladin.mastery_1.name">정의</string>
 	<string name="skills.paladin.mastery_1.desc"></string>
 
-	<string name="skills.paladin.mastery_1.spell_1.name">Judgement</string>
-	<string name="skills.paladin.mastery_1.spell_1.desc">심판\n일정 시간 동안 주변 적들에게 신성한 망치를 발동하여 물리 피해를 입힙니다.</string>
-	<string name="skills.paladin.mastery_1.spell_1.up1.name">Prolonged Prosecution</string>
-	<string name="skills.paladin.mastery_1.spell_1.up1.desc">지속적인 심판\n\cb0dfff심판\d이 활성화된 동안 적을 처치하면 지속 시간이 연장될 확률이 생깁니다.\n(최대 7초까지 연장 가능)</string>
-	<string name="skills.paladin.mastery_1.spell_1.up2.name">Hammer of Wrath</string>
-	<string name="skills.paladin.mastery_1.spell_1.up2.desc">분노의 망치\n추가 번개 피해를 입힙니다.</string>
+	<string name="skills.paladin.mastery_1.spell_1.name">심판</string>
+	<string name="skills.paladin.mastery_1.spell_1.desc">일정 시간 동안 주변 적들에게 신성한 망치를 발동하여 물리 피해를 입힙니다.</string>
+	<string name="skills.paladin.mastery_1.spell_1.up1.name">지속적인 심판</string>
+	<string name="skills.paladin.mastery_1.spell_1.up1.desc">\cb0dfff심판\d이 활성화된 동안 적을 처치하면 지속 시간이 연장될 확률이 생깁니다.\n(최대 7초까지 연장 가능)</string>
+	<string name="skills.paladin.mastery_1.spell_1.up2.name">분노의 망치</string>
+	<string name="skills.paladin.mastery_1.spell_1.up2.desc">추가 번개 피해를 입힙니다.</string>
 
-	<string name="skills.paladin.mastery_1.passive_1.name">Lawbringer</string>
-	<string name="skills.paladin.mastery_1.passive_1.desc">집행자\n피해를 받거나 막을때 공격자를 \cb0dfff무장 해제\d 및 \cb0dfff침묵\d 상태로 만들 확률이 생깁니다.</string>
-	<string name="skills.paladin.mastery_1.passive_1.up1.name">Punish the Wicked</string>
-	<string name="skills.paladin.mastery_1.passive_1.up1.desc">처단자\n\cb0dfff무장 해제\d나 \cb0dfff침묵\d 상태의 적에게 추가 피해를 입힙니다.</string>
-	<string name="skills.paladin.mastery_1.passive_1.up2.name">Shackles</string>
+	<string name="skills.paladin.mastery_1.passive_1.name">집행자</string>
+	<string name="skills.paladin.mastery_1.passive_1.desc">피해를 받거나 막을때 공격자를 \cb0dfff무장 해제\d 및 \cb0dfff침묵\d 상태로 만들 확률이 생깁니다.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up1.name">처단자</string>
+	<string name="skills.paladin.mastery_1.passive_1.up1.desc">\cb0dfff무장 해제\d나 \cb0dfff침묵\d 상태의 적에게 추가 피해를 입힙니다.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up2.name">속박</string>
 	<string name="skills.paladin.mastery_1.passive_1.up2.desc">\cffdfb0무기\d 및 \cffdfb0주문\d 공격이 적을 묶고 다른 주변 적도 묶을 확률을 얻습니다.\n묶인 적은 이동 속도가 감소하고 지속적인 물리 피해를 입습니다.</string>
 
-	<string name="skills.paladin.mastery_2.name">Divine</string>
+	<string name="skills.paladin.mastery_2.name">신성</string>
 	<string name="skills.paladin.mastery_2.desc"></string>
 
-	<string name="skills.paladin.mastery_2.spell_1.name">Divine Pillars</string>
-	<string name="skills.paladin.mastery_2.spell_1.desc">신성한 기둥\n플레이어의 위치에 신성한 빛의 기둥을 소환하여 폭발하며 물리 피해를 입히고 \cb0dfff실명\d 상태를 부여합니다.</string>
-	<string name="skills.paladin.mastery_2.spell_1.up1.name">Divine Pattern</string>
-	<string name="skills.paladin.mastery_2.spell_1.up1.desc">신성한 문양\n추가 기둥이 연속적으로 그리드 형태로 떨어지며, 연속 기둥은 절반의 피해를 입힙니다.</string>
-	<string name="skills.paladin.mastery_2.spell_1.up2.name">Pillars of Wrath</string>
-	<string name="skills.paladin.mastery_2.spell_1.up2.desc">분노의 기둥\n추가 번개 피해를 입힙니다.</string>
+	<string name="skills.paladin.mastery_2.spell_1.name">신성한 기둥</string>
+	<string name="skills.paladin.mastery_2.spell_1.desc">플레이어의 위치에 신성한 빛의 기둥을 소환하여 폭발하며 물리 피해를 입히고 \cb0dfff실명\d 상태를 부여합니다.</string>
+	<string name="skills.paladin.mastery_2.spell_1.up1.name">신성한 문양</string>
+	<string name="skills.paladin.mastery_2.spell_1.up1.desc">추가 기둥이 연속적으로 그리드 형태로 떨어지며, 연속 기둥은 절반의 피해를 입힙니다.</string>
+	<string name="skills.paladin.mastery_2.spell_1.up2.name">분노의 기둥</string>
+	<string name="skills.paladin.mastery_2.spell_1.up2.desc">추가 번개 피해를 입힙니다.</string>
 
-	<string name="skills.paladin.mastery_2.passive_1.name">Divine Protection</string>
-	<string name="skills.paladin.mastery_2.passive_1.desc">신성한 보호\n생명력이 절반 이하일 때 피해를 받을 경우 일정 확률로 짧은 시간 동안 \cb0dfff무적\d 버프를 얻습니다.\n이 스킬은 재사용 대기시간이 있습니다.</string>
-	<string name="skills.paladin.mastery_2.passive_1.up1.name">Restoration</string>
-	<string name="skills.paladin.mastery_2.passive_1.up1.desc">회복\n\cb0dfff무적\d 버프 상태일 때 생명력 재생이 크게 증가합니다.</string>
-	<string name="skills.paladin.mastery_2.passive_1.up2.name">Divine Retort</string>
-	<string name="skills.paladin.mastery_2.passive_1.up2.desc">신성한 응징\n무적 버프를 얻을 때 자동으로 \cb0dfff신성한 기둥\d을 시전합니다.</string>
+	<string name="skills.paladin.mastery_2.passive_1.name">신성한 보호</string>
+	<string name="skills.paladin.mastery_2.passive_1.desc">생명력이 절반 이하일 때 피해를 받을 경우 일정 확률로 짧은 시간 동안 \cb0dfff무적\d 버프를 얻습니다.\n이 스킬은 재사용 대기시간이 있습니다.</string>
+	<string name="skills.paladin.mastery_2.passive_1.up1.name">회복</string>
+	<string name="skills.paladin.mastery_2.passive_1.up1.desc">\cb0dfff무적\d 버프 상태일 때 생명력 재생이 크게 증가합니다.</string>
+	<string name="skills.paladin.mastery_2.passive_1.up2.name">신성한 응징</string>
+	<string name="skills.paladin.mastery_2.passive_1.up2.desc">무적 버프를 얻을 때 자동으로 \cb0dfff신성한 기둥\d을 시전합니다.</string>
 
-	<string name="skills.paladin.mastery_3.name">Radiance</string>
+	<string name="skills.paladin.mastery_3.name">광휘</string>
 	<string name="skills.paladin.mastery_3.desc"></string>
 
-	<string name="skills.paladin.mastery_3.spell_1.name">Immolation</string>
-	<string name="skills.paladin.mastery_3.spell_1.desc">희생의 폭발\n강력한 폭발을 준비하여 주문을 해제할 때 폭발하며 주변 모든 적들에게 화염 피해를 입힙니다.</string>
-	<string name="skills.paladin.mastery_3.spell_1.up1.name">Fuel the Flame</string>
-	<string name="skills.paladin.mastery_3.spell_1.up1.desc">불길의 연료\n\cb0dfff희생의 폭발\d을 시전할 때 \cb0dfff내면의 불꽃\d 스택을 추가로 얻습니다.</string>
-	<string name="skills.paladin.mastery_3.spell_1.up2.name">Blazing Lance</string>
-	<string name="skills.paladin.mastery_3.spell_1.up2.desc">불타는 창\n강렬한 화염 창 투사체를 발사하여 경로상의 모든 적들에게 추가 화염 피해를 입힙니다.</string>
+	<string name="skills.paladin.mastery_3.spell_1.name">희생의 폭발</string>
+	<string name="skills.paladin.mastery_3.spell_1.desc">강력한 폭발을 준비하여 주문을 해제할 때 폭발하며 주변 모든 적들에게 화염 피해를 입힙니다.</string>
+	<string name="skills.paladin.mastery_3.spell_1.up1.name">불길의 연료</string>
+	<string name="skills.paladin.mastery_3.spell_1.up1.desc">\cb0dfff희생의 폭발\d을 시전할 때 \cb0dfff내면의 불꽃\d 스택을 추가로 얻습니다.</string>
+	<string name="skills.paladin.mastery_3.spell_1.up2.name">불타는 창</string>
+	<string name="skills.paladin.mastery_3.spell_1.up2.desc">강렬한 화염 창 투사체를 발사하여 경로상의 모든 적들에게 추가 화염 피해를 입힙니다.</string>
 
-	<string name="skills.paladin.mastery_3.passive_1.name">Inner Flames</string>
-	<string name="skills.paladin.mastery_3.passive_1.desc">내면의 불꽃\n주문을 시전할 때 \cb0dfff내면의 불꽃\d 스택이 생성됩니다.\n\cb0dfff내면의 불꽃\d 스택이 있을 때 주변 적들에게 화염 피해를 입히는 오라를 얻습니다.</string>
-	<string name="skills.paladin.mastery_3.passive_1.up1.name">Flames of Devotion</string>
-	<string name="skills.paladin.mastery_3.passive_1.up1.desc">헌신의 불꽃\n\cb0dfff내면의 불꽃\d 스택당 무기에 화염 피해를 추가합니다.</string>
-	<string name="skills.paladin.mastery_3.passive_1.up2.name">Bringer of Flames</string>
-	<string name="skills.paladin.mastery_3.passive_1.up2.desc">불꽃의 전령\n\cb0dfff내면의 불꽃\d 스택당 화염 저항 및 화염 관통력이 증가합니다.</string>
+	<string name="skills.paladin.mastery_3.passive_1.name">내면의 불꽃</string>
+	<string name="skills.paladin.mastery_3.passive_1.desc">주문을 시전할 때 \cb0dfff내면의 불꽃\d 스택이 생성됩니다.\n\cb0dfff내면의 불꽃\d 스택이 있을 때 주변 적들에게 화염 피해를 입히는 오라를 얻습니다.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up1.name">헌신의 불꽃</string>
+	<string name="skills.paladin.mastery_3.passive_1.up1.desc">\cb0dfff내면의 불꽃\d 스택당 무기에 화염 피해를 추가합니다.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up2.name">불꽃의 전령</string>
+	<string name="skills.paladin.mastery_3.passive_1.up2.desc">\cb0dfff내면의 불꽃\d 스택당 화염 저항 및 화염 관통력이 증가합니다.</string>
 
 
 
 	<!-- Ranger -->
 
-	<string name="skills.ranger.spell_1.name">Marked Shot</string>
-	<string name="skills.ranger.spell_1.desc">표적 사격\n대상 범위에 있는 모든 적에게 물리 피해를 입히고 \cb0dfff표식\d을 부여하는 투사체를 발사합니다.\n\cb0dfff표식\d 상태에 걸린 적에게 더 높은 피해를 입힙니다.</string>
-	<string name="skills.ranger.spell_1.up1.name">Hot Pursuit</string>
-	<string name="skills.ranger.spell_1.up1.desc">맹렬한 추격\n\cb0dfff표식\d 디버프가 적용된 적을 공격 시 이동 속도 증가 버프를 얻습니다.</string>
-	<string name="skills.ranger.spell_1.up2.name">Thrill of the Hunt</string>
-	<string name="skills.ranger.spell_1.up2.desc">사냥의 스릴\n\cb0dfff표식\d 디버프가 적용된 적을 처치하면 일정 확률로 체력과 마나를 회복합니다.</string>
-	<string name="skills.ranger.spell_1.up3.name">Big Game Hunter</string>
-	<string name="skills.ranger.spell_1.up3.desc">대형 사냥꾼\n\cb0dfff표식\d 디버프가 적용된 \cb0dfff보스\d와 \cb0dfff엘리트\d 몬스터에게 추가 피해를 입힙니다.</string>
+	<string name="skills.ranger.spell_1.name">표적 사격</string>
+	<string name="skills.ranger.spell_1.desc">대상 범위에 있는 모든 적에게 물리 피해를 입히고 \cb0dfff표식\d을 부여하는 투사체를 발사합니다.\n\cb0dfff표식\d 상태에 걸린 적에게 더 높은 피해를 입힙니다.</string>
+	<string name="skills.ranger.spell_1.up1.name">맹렬한 추격</string>
+	<string name="skills.ranger.spell_1.up1.desc">\cb0dfff표식\d 디버프가 적용된 적을 공격 시 이동 속도 증가 버프를 얻습니다.</string>
+	<string name="skills.ranger.spell_1.up2.name">사냥의 스릴</string>
+	<string name="skills.ranger.spell_1.up2.desc">\cb0dfff표식\d 디버프가 적용된 적을 처치하면 일정 확률로 체력과 마나를 회복합니다.</string>
+	<string name="skills.ranger.spell_1.up3.name">대형 사냥꾼</string>
+	<string name="skills.ranger.spell_1.up3.desc">\cb0dfff표식\d 디버프가 적용된 \cb0dfff보스\d와 \cb0dfff엘리트\d 몬스터에게 추가 피해를 입힙니다.</string>
 
-	<string name="skills.ranger.spell_2.name">Trap</string>
-	<string name="skills.ranger.spell_2.desc">함정\n짧은 시간 후 발동되는 함정을 던져 작은 범위에서 물리 피해를 입히고 적에게 \cb0dfff무력화\ 상태를 부여합니다.</string>
-	<string name="skills.ranger.spell_2.up1.name">Multiple Deploy</string>
-	<string name="skills.ranger.spell_2.up1.desc">다중 배치\n추가 함정을 배치할 수 있습니다.</string>
-	<string name="skills.ranger.spell_2.up2.name">Serrated Traps</string>
-	<string name="skills.ranger.spell_2.up2.desc">톱니 함정\n함정이 적에게 \cb0dfff출혈\d 상태를 부여합니다.</string>
-	<string name="skills.ranger.spell_2.up3.name">Frost Traps</string>
-	<string name="skills.ranger.spell_2.up3.desc">서리 함정\n함정이 추가로 빙결 피해를 입힙니다.</string>
+	<string name="skills.ranger.spell_2.name">함정</string>
+	<string name="skills.ranger.spell_2.desc">짧은 시간 후 발동되는 함정을 던져 작은 범위에서 물리 피해를 입히고 적에게 \cb0dfff무력화\ 상태를 부여합니다.</string>
+	<string name="skills.ranger.spell_2.up1.name">다중 배치</string>
+	<string name="skills.ranger.spell_2.up1.desc">추가 함정을 배치할 수 있습니다.</string>
+	<string name="skills.ranger.spell_2.up2.name">톱니 함정</string>
+	<string name="skills.ranger.spell_2.up2.desc">함정이 적에게 \cb0dfff출혈\d 상태를 부여합니다.</string>
+	<string name="skills.ranger.spell_2.up3.name">서리 함정</string>
+	<string name="skills.ranger.spell_2.up3.desc">함정이 추가로 냉기 피해를 입힙니다.</string>
 
-	<string name="skills.ranger.passive_1.name">Rhythm</string>
-	<string name="skills.ranger.passive_1.desc">리듬\n무기 치명타 확률이 증가하며, 치명타를 성공하면 \cb0dfff리듬\d 스택을 얻습니다.\cb0dfff리듬\d 스택마다 치명타 확률과 피해가 증가합니다.</string>
-	<string name="skills.ranger.passive_1.up1.name">In the Flow</string>
-	<string name="skills.ranger.passive_1.up1.desc">흐름 속으로\n\cb0dfff리듬\d 스택당 무기 공격 속도가 증가합니다.</string>
-	<string name="skills.ranger.passive_1.up2.name">Efficiency</string>
-	<string name="skills.ranger.passive_1.up2.desc">효율성\n\cb0dfff리듬\d 스택당 마나 소모량이 감소합니다.</string>
-	<string name="skills.ranger.passive_1.up3.name">Momentum</string>
-	<string name="skills.ranger.passive_1.up3.desc">모멘텀\n대시를 사용할 때 \cb0dfff리듬\d 스택을 얻습니다.</string>
+	<string name="skills.ranger.passive_1.name">리듬</string>
+	<string name="skills.ranger.passive_1.desc">무기 치명타 확률이 증가하며, 치명타를 성공하면 \cb0dfff리듬\d 스택을 얻습니다.\cb0dfff리듬\d 스택마다 치명타 확률과 피해가 증가합니다.</string>
+	<string name="skills.ranger.passive_1.up1.name">흐름 속으로</string>
+	<string name="skills.ranger.passive_1.up1.desc">\cb0dfff리듬\d 스택당 무기 공격 속도가 증가합니다.</string>
+	<string name="skills.ranger.passive_1.up2.name">효율성</string>
+	<string name="skills.ranger.passive_1.up2.desc">\cb0dfff리듬\d 스택당 마나 소모량이 감소합니다.</string>
+	<string name="skills.ranger.passive_1.up3.name">모멘텀</string>
+	<string name="skills.ranger.passive_1.up3.desc">대시를 사용할 때 \cb0dfff리듬\d 스택을 얻습니다.</string>
 
-	<string name="skills.ranger.passive_2.name">Survivalist</string>
-	<string name="skills.ranger.passive_2.desc">생존자\n피해를 받을 때마다 일정 시간 동안 피해 감소 버프를 얻습니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
-	<string name="skills.ranger.passive_2.up1.name">Evasive Maneuver</string>
-	<string name="skills.ranger.passive_2.up1.desc">회피 기동\n버프 지속 시간 동안 회피가 증가합니다.</string>
-	<string name="skills.ranger.passive_2.up2.name">Tactical Maneuver</string>
-	<string name="skills.ranger.passive_2.up2.desc">전술 기동\n피해를 받을 때 대시 충전을 얻습니다.</string>
-	<string name="skills.ranger.passive_2.up3.name">Quick Recovery</string>
-	<string name="skills.ranger.passive_2.up3.desc">빠른 회복\n버프 지속 시간 동안 생명력 재생이 증가합니다.</string>
+	<string name="skills.ranger.passive_2.name">생존자</string>
+	<string name="skills.ranger.passive_2.desc">피해를 받을 때마다 일정 시간 동안 피해 감소 버프를 얻습니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.ranger.passive_2.up1.name">회피 기동</string>
+	<string name="skills.ranger.passive_2.up1.desc">버프 지속 시간 동안 회피가 증가합니다.</string>
+	<string name="skills.ranger.passive_2.up2.name">전술 기동</string>
+	<string name="skills.ranger.passive_2.up2.desc">피해를 받을 때 대시 충전을 얻습니다.</string>
+	<string name="skills.ranger.passive_2.up3.name">빠른 회복</string>
+	<string name="skills.ranger.passive_2.up3.desc">버프 지속 시간 동안 생명력 재생이 증가합니다.</string>
 
 
-	<string name="skills.ranger.mastery_1.name">Marksman</string>
+	<string name="skills.ranger.mastery_1.name">명사수</string>
 	<string name="skills.ranger.mastery_1.desc"></string>
 
-	<string name="skills.ranger.mastery_1.spell_1.name">Rain of Arrows</string>
-	<string name="skills.ranger.mastery_1.spell_1.desc">화살비\n전방에 물리 피해를 입히는 화살의 비를 발사합니다.</string>
-	<string name="skills.ranger.mastery_1.spell_1.up1.name">Storm of Arrows</string>
-	<string name="skills.ranger.mastery_1.spell_1.up1.desc">화살 폭풍\n화살의 비가 내리는 범위가 증가합니다.</string>
-	<string name="skills.ranger.mastery_1.spell_1.up2.name">Thundercaller</string>
-	<string name="skills.ranger.mastery_1.spell_1.up2.desc">천둥을 부르는자\n화살의 비 뒤에 연속적인 번개 공격이 추가되어 번개 피해를 입힙니다.</string>
+	<string name="skills.ranger.mastery_1.spell_1.name">화살비</string>
+	<string name="skills.ranger.mastery_1.spell_1.desc">전방에 물리 피해를 입히는 화살의 비를 발사합니다.</string>
+	<string name="skills.ranger.mastery_1.spell_1.up1.name">화살 폭풍</string>
+	<string name="skills.ranger.mastery_1.spell_1.up1.desc">화살의 비가 내리는 범위가 증가합니다.</string>
+	<string name="skills.ranger.mastery_1.spell_1.up2.name">천둥을 부르는자</string>
+	<string name="skills.ranger.mastery_1.spell_1.up2.desc">화살의 비 뒤에 연속적인 번개 공격이 추가되어 번개 피해를 입힙니다.</string>
 
-	<string name="skills.ranger.mastery_1.passive_1.name">Archery</string>
-	<string name="skills.ranger.mastery_1.passive_1.desc">궁술\n\cffdfb0활\d 스킬 사용 시 이동 속도 페널티가 감소하며, \cffdfb0활\d 스킬의 피해량이 증가합니다.</string>
-	<string name="skills.ranger.mastery_1.passive_1.up1.name">Fast Shot</string>
-	<string name="skills.ranger.mastery_1.passive_1.up1.desc">빠른 사격\n\cffdfb0활\d 스킬의 공격 속도가 증가합니다.</string>
-	<string name="skills.ranger.mastery_1.passive_1.up2.name">Frost Arrows</string>
-	<string name="skills.ranger.mastery_1.passive_1.up2.desc">서리 화살\n\cffdfb0활\d 스킬이 적중 시 얼음 폭발을 일으킬 확률이 생기며, 추가 빙결 피해를 입힙니다.\n이 스킬은 재사용 대기시간이 있습니다.</string>
+	<string name="skills.ranger.mastery_1.passive_1.name">궁술</string>
+	<string name="skills.ranger.mastery_1.passive_1.desc">\cffdfb0활\d 스킬 사용 시 이동 속도 페널티가 감소하며, \cffdfb0활\d 스킬의 피해량이 증가합니다.</string>
+	<string name="skills.ranger.mastery_1.passive_1.up1.name">빠른 사격</string>
+	<string name="skills.ranger.mastery_1.passive_1.up1.desc">\cffdfb0활\d 스킬의 공격 속도가 증가합니다.</string>
+	<string name="skills.ranger.mastery_1.passive_1.up2.name">서리 화살</string>
+	<string name="skills.ranger.mastery_1.passive_1.up2.desc">\cffdfb0활\d 스킬이 적중 시 얼음 폭발을 일으킬 확률이 생기며, 추가 냉기 피해를 입힙니다.\n이 스킬은 재사용 대기시간이 있습니다.</string>
 
-	<string name="skills.ranger.mastery_2.name">Beastmaster</string>
+	<string name="skills.ranger.mastery_2.name">야수 조련사</string>
 	<string name="skills.ranger.mastery_2.desc"></string>
 
-	<string name="skills.ranger.mastery_2.spell_1.name">Spirit Wolves</string>
-	<string name="skills.ranger.mastery_2.spell_1.desc">영혼 늑대\n주변 적을 추적하여 물리 및 빙결 피해를 입히는 영혼의 늑대를 소환합니다.</string>
-	<string name="skills.ranger.mastery_2.spell_1.up1.name">Relentless Hunters</string>
-	<string name="skills.ranger.mastery_2.spell_1.up1.desc">끈질긴 사냥꾼\n늑대가 적을 공격 시 새로운 목표를 추적할 확률이 생깁니다.</string>
-	<string name="skills.ranger.mastery_2.spell_1.up2.name">Restless Spirits</string>
-	<string name="skills.ranger.mastery_2.spell_1.up2.desc">쉬지 않는 영혼\n적을 처치할 때 영혼의 늑대를 소환할 확률이 생깁니다.</string>
+	<string name="skills.ranger.mastery_2.spell_1.name">영혼 늑대</string>
+	<string name="skills.ranger.mastery_2.spell_1.desc">주변 적을 추적하여 물리 및 냉기 피해를 입히는 영혼의 늑대를 소환합니다.</string>
+	<string name="skills.ranger.mastery_2.spell_1.up1.name">끈질긴 사냥꾼</string>
+	<string name="skills.ranger.mastery_2.spell_1.up1.desc">늑대가 적을 공격 시 새로운 목표를 추적할 확률이 생깁니다.</string>
+	<string name="skills.ranger.mastery_2.spell_1.up2.name">쉬지 않는 영혼</string>
+	<string name="skills.ranger.mastery_2.spell_1.up2.desc">적을 처치할 때 영혼의 늑대를 소환할 확률이 생깁니다.</string>
 
-	<string name="skills.ranger.mastery_2.passive_1.name">Wolf Companion</string>
-	<string name="skills.ranger.mastery_2.passive_1.desc">늑대 동료\n항상 당신과 함께 싸우는 늑대 동료를 소환합니다. 늑대는 적에게 물리 피해를 입힙니다.</string>
-	<string name="skills.ranger.mastery_2.passive_1.up1.name">Wolf Pack</string>
-	<string name="skills.ranger.mastery_2.passive_1.up1.desc">늑대 무리\n추가로 더 많은 늑대를 소환합니다.</string>
-	<string name="skills.ranger.mastery_2.passive_1.up2.name">Winter Wolf</string>
-	<string name="skills.ranger.mastery_2.passive_1.up2.desc">겨울 늑대\n늑대가 추가 빙결 피해를 입힙니다.</string>
+	<string name="skills.ranger.mastery_2.passive_1.name">늑대 동료</string>
+	<string name="skills.ranger.mastery_2.passive_1.desc">항상 당신과 함께 싸우는 늑대 동료를 소환합니다. 늑대는 적에게 물리 피해를 입힙니다.</string>
+	<string name="skills.ranger.mastery_2.passive_1.up1.name">늑대 무리</string>
+	<string name="skills.ranger.mastery_2.passive_1.up1.desc">추가로 더 많은 늑대를 소환합니다.</string>
+	<string name="skills.ranger.mastery_2.passive_1.up2.name">겨울 늑대</string>
+	<string name="skills.ranger.mastery_2.passive_1.up2.desc">늑대가 추가 냉기 피해를 입힙니다.</string>
 
-	<string name="skills.ranger.mastery_3.name">Warden</string>
+	<string name="skills.ranger.mastery_3.name">수호자</string>
 	<string name="skills.ranger.mastery_3.desc"></string>
 
-	<string name="skills.ranger.mastery_3.spell_1.name">Entangle</string>
-	<string name="skills.ranger.mastery_3.spell_1.desc">옭아매기\n뿌리를 소환하여 주변 적들에게 물리 피해를 입히고 \cb0dfff무력화\d 상태를 부여합니다.</string>
-	<string name="skills.ranger.mastery_3.spell_1.up1.name">Healing Wisps</string>
-	<string name="skills.ranger.mastery_3.spell_1.up1.desc">치유의 정령\n아군이 뿌리의 영향을 받으면 일정 시간 동안 생명력을 회복합니다.</string>
-	<string name="skills.ranger.mastery_3.spell_1.up2.name">Poison Ivy</string>
-	<string name="skills.ranger.mastery_3.spell_1.up2.desc">독성 덩굴\n추가 독 피해를 입힙니다.</string>
+	<string name="skills.ranger.mastery_3.spell_1.name">옭아매기</string>
+	<string name="skills.ranger.mastery_3.spell_1.desc">뿌리를 소환하여 주변 적들에게 물리 피해를 입히고 \cb0dfff무력화\d 상태를 부여합니다.</string>
+	<string name="skills.ranger.mastery_3.spell_1.up1.name">치유의 정령</string>
+	<string name="skills.ranger.mastery_3.spell_1.up1.desc">아군이 뿌리의 영향을 받으면 일정 시간 동안 생명력을 회복합니다.</string>
+	<string name="skills.ranger.mastery_3.spell_1.up2.name">독성 덩굴</string>
+	<string name="skills.ranger.mastery_3.spell_1.up2.desc">추가 독 피해를 입힙니다.</string>
 	
-	<string name="skills.ranger.mastery_3.passive_1.name">Wind Weaver</string>
-	<string name="skills.ranger.mastery_3.passive_1.desc">바람의 직조자\n\cffdfb0무기 공격\d 시 앞 방향으로 바람을 발사하여 물리 피해를 입힙니다.</string>
-	<string name="skills.ranger.mastery_3.passive_1.up1.name">Winter Winds</string>
-	<string name="skills.ranger.mastery_3.passive_1.up1.desc">겨울의 바람\n바람이 추가 빙결 피해를 입힙니다.</string>
-	<string name="skills.ranger.mastery_3.passive_1.up2.name">Wind Runner</string>
-	<string name="skills.ranger.mastery_3.passive_1.up2.desc">바람의 질주\n대시를 할 때 여러 방향으로 바람을 발사합니다.</string>
+	<string name="skills.ranger.mastery_3.passive_1.name">바람의 직조자</string>
+	<string name="skills.ranger.mastery_3.passive_1.desc">\cffdfb0무기 공격\d 시 앞 방향으로 바람을 발사하여 물리 피해를 입힙니다.</string>
+	<string name="skills.ranger.mastery_3.passive_1.up1.name">겨울의 바람</string>
+	<string name="skills.ranger.mastery_3.passive_1.up1.desc">바람이 추가 냉기 피해를 입힙니다.</string>
+	<string name="skills.ranger.mastery_3.passive_1.up2.name">바람의 질주</string>
+	<string name="skills.ranger.mastery_3.passive_1.up2.desc">대시를 할 때 여러 방향으로 바람을 발사합니다.</string>
 
 
 
 	<!-- Rogue -->
 
-	<string name="skills.rogue.spell_1.name">Fan of Knives</string>
-	<string name="skills.rogue.spell_1.desc">칼날 회오리\n여러 개의 단검을 원뿔 형태로 던져 물리 피해를 입힙니다.</string>
-	<string name="skills.rogue.spell_1.up1.name">Ricochet</string>
-	<string name="skills.rogue.spell_1.up1.desc">리코챗\n단검이 벽이나 물체에 튕깁니다. 튕길 때마다 속도와 피해가 감소합니다.</string>
-	<string name="skills.rogue.spell_1.up2.name">Deadly Aim</string>
-	<string name="skills.rogue.spell_1.up2.desc">치명적인 조준\n\cb0dfff칼날 회오리\d의 치명타 확률이 증가합니다.</string>
-	<string name="skills.rogue.spell_1.up3.name">Poisoned Knives</string>
-	<string name="skills.rogue.spell_1.up3.desc">독성 단검\n\cb0dfff칼날 회오리\d가 추가 독 피해를 입힙니다.</string>
-	<string name="skills.rogue.spell_1.up4.name">Focused Throw</string>
-	<string name="skills.rogue.spell_1.up4.desc">집중 투척\n던지는 단검 수가 줄어들며, 단검이 더 높은 피해를 입히고 지속 시간이 약간 증가합니다.</string>
+	<string name="skills.rogue.spell_1.name">칼날 회오리</string>
+	<string name="skills.rogue.spell_1.desc">여러 개의 단검을 원뿔 형태로 던져 물리 피해를 입힙니다.</string>
+	<string name="skills.rogue.spell_1.up1.name">리코챗</string>
+	<string name="skills.rogue.spell_1.up1.desc">단검이 벽이나 물체에 튕깁니다. 튕길 때마다 속도와 피해가 감소합니다.</string>
+	<string name="skills.rogue.spell_1.up2.name">치명적인 조준</string>
+	<string name="skills.rogue.spell_1.up2.desc">\cb0dfff칼날 회오리\d의 치명타 확률이 증가합니다.</string>
+	<string name="skills.rogue.spell_1.up3.name">독성 단검</string>
+	<string name="skills.rogue.spell_1.up3.desc">\cb0dfff칼날 회오리\d가 추가 독 피해를 입힙니다.</string>
+	<string name="skills.rogue.spell_1.up4.name">집중 투척</string>
+	<string name="skills.rogue.spell_1.up4.desc">던지는 단검 수가 줄어들며, 단검이 더 높은 피해를 입히고 지속 시간이 약간 증가합니다.</string>
 
-	<string name="skills.rogue.spell_2.name">Flurry of Blades</string>
-	<string name="skills.rogue.spell_2.desc">칼날 난무\n여러 번의 연속 공격으로 주변의 모든 적에게 물리 피해를 입힙니다.</string>
-	<string name="skills.rogue.spell_2.up1.name">Disarming Strikes</string>
-	<string name="skills.rogue.spell_2.up1.desc">무장 해제 공격\n적에게 \cb0dfff무장 해제\d 상태를 부여할 확률이 생깁니다.</string>
-	<string name="skills.rogue.spell_2.up2.name">Fiery Bolas</string>
-	<string name="skills.rogue.spell_2.up2.desc">불타는 볼라스\n적중한 적과 주변 적에게 불타는 볼라스 디버프를 부여하여, 적을 둔화시키고 일정 시간 동안 화염 피해를 입힙니다.</string>
-	<string name="skills.rogue.spell_2.up3.name">Shock Assault</string>
-	<string name="skills.rogue.spell_2.up3.desc">기습 공격\n추가 번개 피해를 입힙니다.</string>
+	<string name="skills.rogue.spell_2.name">칼날 난무</string>
+	<string name="skills.rogue.spell_2.desc">여러 번의 연속 공격으로 주변의 모든 적에게 물리 피해를 입힙니다.</string>
+	<string name="skills.rogue.spell_2.up1.name">무장 해제 공격</string>
+	<string name="skills.rogue.spell_2.up1.desc">적에게 \cb0dfff무장 해제\d 상태를 부여할 확률이 생깁니다.</string>
+	<string name="skills.rogue.spell_2.up2.name">불타는 볼라스</string>
+	<string name="skills.rogue.spell_2.up2.desc">적중한 적과 주변 적에게 불타는 볼라스 디버프를 부여하여, 적을 둔화시키고 일정 시간 동안 화염 피해를 입힙니다.</string>
+	<string name="skills.rogue.spell_2.up3.name">기습 공격</string>
+	<string name="skills.rogue.spell_2.up3.desc">추가 번개 피해를 입힙니다.</string>
 
-	<string name="skills.rogue.passive_1.name">Slice and Dice</string>
-	<string name="skills.rogue.passive_1.desc">베고 찌르기\n\cffdfb0근접 공격\d 적중 시 스택을 얻습니다. 스택당 무기 속도가 증가하며, 지속 시간이 만료되면 스택이 초기화됩니다.</string>
-	<string name="skills.rogue.passive_1.up1.name">Adrenaline</string>
-	<string name="skills.rogue.passive_1.up1.desc">아드레날린\n스택당 마나 재생이 증가합니다.</string>
-	<string name="skills.rogue.passive_1.up2.name">Blade Parry</string>
-	<string name="skills.rogue.passive_1.up2.desc">칼날 막기\n스택당 패링 확률이 증가합니다.</string>
-	<string name="skills.rogue.passive_1.up3.name">Agile Casting</string>
-	<string name="skills.rogue.passive_1.up3.desc">민첩한 시전\n스택당 시전 속도가 증가하며, 주문 시전으로도 스택을 얻을 수 있습니다.</string>
+	<string name="skills.rogue.passive_1.name">베고 찌르기</string>
+	<string name="skills.rogue.passive_1.desc">\cffdfb0근접 공격\d 적중 시 스택을 얻습니다. 스택당 무기 속도가 증가하며, 지속 시간이 만료되면 스택이 초기화됩니다.</string>
+	<string name="skills.rogue.passive_1.up1.name">아드레날린</string>
+	<string name="skills.rogue.passive_1.up1.desc">스택당 마나 재생이 증가합니다.</string>
+	<string name="skills.rogue.passive_1.up2.name">칼날 막기</string>
+	<string name="skills.rogue.passive_1.up2.desc">스택당 패링 확률이 증가합니다.</string>
+	<string name="skills.rogue.passive_1.up3.name">민첩한 시전</string>
+	<string name="skills.rogue.passive_1.up3.desc">스택당 시전 속도가 증가하며, 주문 시전으로도 스택을 얻을 수 있습니다.</string>
 
-	<string name="skills.rogue.passive_2.name">Sidestep</string>
-	<string name="skills.rogue.passive_2.desc">사이드 스탭\n회피를 제공하며, 몇 초마다 재충전되는 한 번의 확정 회피를 추가로 얻습니다.</string>
-	<string name="skills.rogue.passive_2.up1.name">Fleet Footed</string>
-	<string name="skills.rogue.passive_2.up1.desc">가벼운 발걸음\n이동 속도가 증가합니다.</string>
-	<string name="skills.rogue.passive_2.up2.name">Lethal Opening</string>
-	<string name="skills.rogue.passive_2.up2.desc">치명적인 기회\n회피 후 짧은 시간 동안 치명타 확률이 증가합니다.</string>
-	<string name="skills.rogue.passive_2.up3.name">On the Move</string>
-	<string name="skills.rogue.passive_2.up3.desc">움직이는 동안\n대시할 때 \cb0dfff사이드 스탭\d의 확정 회피를 재충전할 확률을 얻습니다.</string>
+	<string name="skills.rogue.passive_2.name">사이드 스탭</string>
+	<string name="skills.rogue.passive_2.desc">회피를 제공하며, 몇 초마다 재충전되는 한 번의 확정 회피를 추가로 얻습니다.</string>
+	<string name="skills.rogue.passive_2.up1.name">가벼운 발걸음</string>
+	<string name="skills.rogue.passive_2.up1.desc">이동 속도가 증가합니다.</string>
+	<string name="skills.rogue.passive_2.up2.name">치명적인 기회</string>
+	<string name="skills.rogue.passive_2.up2.desc">회피 후 짧은 시간 동안 치명타 확률이 증가합니다.</string>
+	<string name="skills.rogue.passive_2.up3.name">움직이는 동안</string>
+	<string name="skills.rogue.passive_2.up3.desc">대시할 때 \cb0dfff사이드 스탭\d의 확정 회피를 재충전할 확률을 얻습니다.</string>
 
 
-	<string name="skills.rogue.mastery_1.name">Blades</string>
+	<string name="skills.rogue.mastery_1.name">암살자</string>
 	<string name="skills.rogue.mastery_1.desc"></string>
 
-	<string name="skills.rogue.mastery_1.spell_1.name">Mortal Strike</string>
-	<string name="skills.rogue.mastery_1.spell_1.desc">죽음의 일격\n강력한 공격으로 단일 대상에게 큰 물리 피해를 입힙니다.</string>
-	<string name="skills.rogue.mastery_1.spell_1.up1.name">Phantasmal Strike</string>
-	<string name="skills.rogue.mastery_1.spell_1.up1.desc">환영의 일격\n공격이 대상 뒤 원뿔 형태로 추가 적들에게 연쇄됩니다. 연쇄될수록 피해량이 감소합니다.</string>
-	<string name="skills.rogue.mastery_1.spell_1.up2.name">Crimson Strike</string>
-	<string name="skills.rogue.mastery_1.spell_1.up2.desc">피의 일격\n\cb0dfff죽음의 일격\d을 사용할 때 생명력 흡수 효과를 얻습니다.</string>
+	<string name="skills.rogue.mastery_1.spell_1.name">죽음의 일격</string>
+	<string name="skills.rogue.mastery_1.spell_1.desc">강력한 공격으로 단일 대상에게 큰 물리 피해를 입힙니다.</string>
+	<string name="skills.rogue.mastery_1.spell_1.up1.name">환영의 일격</string>
+	<string name="skills.rogue.mastery_1.spell_1.up1.desc">공격이 대상 뒤 원뿔 형태로 추가 적들에게 연쇄됩니다. 연쇄될수록 피해량이 감소합니다.</string>
+	<string name="skills.rogue.mastery_1.spell_1.up2.name">피의 일격</string>
+	<string name="skills.rogue.mastery_1.spell_1.up2.desc">\cb0dfff죽음의 일격\d을 사용할 때 생명력 흡수 효과를 얻습니다.</string>
 
-	<string name="skills.rogue.mastery_1.passive_1.name">Assassin</string>
-	<string name="skills.rogue.mastery_1.passive_1.desc">암살자\n무기 치명타 피해가 증가하며, 적의 감지 범위가 감소합니다.</string>
-	<string name="skills.rogue.mastery_1.passive_1.up1.name">Executioner</string>
-	<string name="skills.rogue.mastery_1.passive_1.up1.desc">처형자\n적이 \cb0dfff저체력\d 상태일 때 \cffdfb0근접 공격\d으로 치명타를 발생시켜 즉시 처치할 확률이 생깁니다.\n(보스 제외)</string>
-	<string name="skills.rogue.mastery_1.passive_1.up2.name">Hidden Cuts</string>
-	<string name="skills.rogue.mastery_1.passive_1.up2.desc">은밀한 공격\n\cffdfb0근접 공격\d 시 무작위 근처 적에게 주 무기 피해를 입힙니다.</string>
+	<string name="skills.rogue.mastery_1.passive_1.name">암살자</string>
+	<string name="skills.rogue.mastery_1.passive_1.desc">무기 치명타 피해가 증가하며, 적의 감지 범위가 감소합니다.</string>
+	<string name="skills.rogue.mastery_1.passive_1.up1.name">처형자</string>
+	<string name="skills.rogue.mastery_1.passive_1.up1.desc">적이 \cb0dfff저체력\d 상태일 때 \cffdfb0근접 공격\d으로 치명타를 발생시켜 즉시 처치할 확률이 생깁니다.\n(보스 제외)</string>
+	<string name="skills.rogue.mastery_1.passive_1.up2.name">은밀한 공격</string>
+	<string name="skills.rogue.mastery_1.passive_1.up2.desc">\cffdfb0근접 공격\d 시 무작위 근처 적에게 주 무기 피해를 입힙니다.</string>
 
-	<string name="skills.rogue.mastery_2.name">Poison</string>
+	<string name="skills.rogue.mastery_2.name">독의 대가</string>
 	<string name="skills.rogue.mastery_2.desc"></string>
 
-	<string name="skills.rogue.mastery_2.spell_1.name">Toxic Cloud</string>
-	<string name="skills.rogue.mastery_2.spell_1.desc">독구름\n일정 시간 동안 독 구름을 생성하여 적의 시야를 차단하고 구름 안에 있는 적에게 독 피해를 입힙니다.</string>
-	<string name="skills.rogue.mastery_2.spell_1.up1.name">Billowing Cloud</string>
-	<string name="skills.rogue.mastery_2.spell_1.up1.desc">구름 확산\n자신과 아군이 구름 안에 있을 때 회피율이 증가합니다.</string>
-	<string name="skills.rogue.mastery_2.spell_1.up2.name">Corrosion</string>
-	<string name="skills.rogue.mastery_2.spell_1.up2.desc">부식\n구름 안에 들어온 적에게 \cb0dfff방어구 파괴\ 상태를 부여합니다.</string>
+	<string name="skills.rogue.mastery_2.spell_1.name">독구름</string>
+	<string name="skills.rogue.mastery_2.spell_1.desc">일정 시간 동안 독 구름을 생성하여 적의 시야를 차단하고 구름 안에 있는 적에게 독 피해를 입힙니다.</string>
+	<string name="skills.rogue.mastery_2.spell_1.up1.name">구름 확산</string>
+	<string name="skills.rogue.mastery_2.spell_1.up1.desc">자신과 아군이 구름 안에 있을 때 회피율이 증가합니다.</string>
+	<string name="skills.rogue.mastery_2.spell_1.up2.name">부식</string>
+	<string name="skills.rogue.mastery_2.spell_1.up2.desc">구름 안에 들어온 적에게 \cb0dfff방어구 파괴\ 상태를 부여합니다.</string>
 
-	<string name="skills.rogue.mastery_2.passive_1.name">Poison Mastery</string>
-	<string name="skills.rogue.mastery_2.passive_1.desc">독의 대가\n\cffdfb0중독\d 피해량이 증가하며, 기술이 \cb0dfff취약\d 상태를 부여할 확률을 얻습니다.</string>
-	<string name="skills.rogue.mastery_2.passive_1.up1.name">Coated Weapons</string>
-	<string name="skills.rogue.mastery_2.passive_1.up1.desc">코팅된 무기\n캐릭터 레벨당 무기에 독 피해를 추가합니다.</string>
-	<string name="skills.rogue.mastery_2.passive_1.up2.name">Deadly Toxins</string>
-	<string name="skills.rogue.mastery_2.passive_1.up2.desc">치명적인 독\n중독 저항 관통력과 중독 저항력이 증가합니다.</string>
+	<string name="skills.rogue.mastery_2.passive_1.name">독의 대가</string>
+	<string name="skills.rogue.mastery_2.passive_1.desc">\cffdfb0중독\d 피해량이 증가하며, 기술이 \cb0dfff취약\d 상태를 부여할 확률을 얻습니다.</string>
+	<string name="skills.rogue.mastery_2.passive_1.up1.name">코팅된 무기</string>
+	<string name="skills.rogue.mastery_2.passive_1.up1.desc">캐릭터 레벨당 무기에 독 피해를 추가합니다.</string>
+	<string name="skills.rogue.mastery_2.passive_1.up2.name">치명적인 독</string>
+	<string name="skills.rogue.mastery_2.passive_1.up2.desc">중독 저항 관통력과 중독 저항력이 증가합니다.</string>
 
-	<string name="skills.rogue.mastery_3.name">Demolitions</string>
+	<string name="skills.rogue.mastery_3.name">폭파 전문가가</string>
 	<string name="skills.rogue.mastery_3.desc"></string>
 
-	<string name="skills.rogue.mastery_3.spell_1.name">Grenade</string>
-	<string name="skills.rogue.mastery_3.spell_1.desc">수류탄\n전방으로 수류탄을 던져 짧은 시간 후 폭발하며 물리 피해를 입힙니다.</string>
-	<string name="skills.rogue.mastery_3.spell_1.up1.name">Incendiary Grenades</string>
-	<string name="skills.rogue.mastery_3.spell_1.up1.desc">소이탄\n수류탄이 충돌 시 폭발하며 일정 시간 동안 화염 피해를 입히는 불타는 지역을 생성합니다.</string>
-	<string name="skills.rogue.mastery_3.spell_1.up2.name">Shock Grenades</string>
-	<string name="skills.rogue.mastery_3.spell_1.up2.desc">충격탄\n추가 번개 피해를 입히며 번개가 주변 적에게 연쇄됩니다.</string>
-	<string name="skills.rogue.mastery_3.spell_1.up3.name">Explosive Exit</string>
-	<string name="skills.rogue.mastery_3.spell_1.up3.desc">폭발적인 탈출\n적 근처에서 대시를 시작할 때 수류탄을 떨어뜨립니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.rogue.mastery_3.spell_1.name">수류탄</string>
+	<string name="skills.rogue.mastery_3.spell_1.desc">전방으로 수류탄을 던져 짧은 시간 후 폭발하며 물리 피해를 입힙니다.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up1.name">소이탄</string>
+	<string name="skills.rogue.mastery_3.spell_1.up1.desc">수류탄이 충돌 시 폭발하며 일정 시간 동안 화염 피해를 입히는 불타는 지역을 생성합니다.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up2.name">충격탄</string>
+	<string name="skills.rogue.mastery_3.spell_1.up2.desc">추가 번개 피해를 입히며 번개가 주변 적에게 연쇄됩니다.</string>
+	<string name="skills.rogue.mastery_3.spell_1.up3.name">폭발적인 탈출</string>
+	<string name="skills.rogue.mastery_3.spell_1.up3.desc">적 근처에서 대시를 시작할 때 수류탄을 떨어뜨립니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
 	
-	<string name="skills.rogue.mastery_3.passive_1.name">Artificer Suit</string>
-	<string name="skills.rogue.mastery_3.passive_1.desc">공학 슈트\n방어력과 물리 피해량이 증가하며, 피해를 받을 때 섬광탄을 발동하여 주변 적들에게 \cb0dfff실명\d 상태를 부여합니다.</string>
-	<string name="skills.rogue.mastery_3.passive_1.up1.name">Zzzap</string>
-	<string name="skills.rogue.mastery_3.passive_1.up1.desc">번개의 충격\n\cffdfb0무기 공격\d 시 번개를 방출하여 적에게 추가 번개 피해를 입힙니다.</string>
-	<string name="skills.rogue.mastery_3.passive_1.up2.name">Shrapnels</string>
-	<string name="skills.rogue.mastery_3.passive_1.up2.desc">파편 폭발\n주문 시전 시 다방향으로 파편을 방출하여 물리 및 화염 피해를 입힐 확률이 생깁니다.</string>
+	<string name="skills.rogue.mastery_3.passive_1.name">공학 슈트</string>
+	<string name="skills.rogue.mastery_3.passive_1.desc">방어력과 물리 피해량이 증가하며, 피해를 받을 때 섬광탄을 발동하여 주변 적들에게 \cb0dfff실명\d 상태를 부여합니다.</string>
+	<string name="skills.rogue.mastery_3.passive_1.up1.name">번개의 충격</string>
+	<string name="skills.rogue.mastery_3.passive_1.up1.desc">\cffdfb0무기 공격\d 시 번개를 방출하여 적에게 추가 번개 피해를 입힙니다.</string>
+	<string name="skills.rogue.mastery_3.passive_1.up2.name">파편 폭발</string>
+	<string name="skills.rogue.mastery_3.passive_1.up2.desc">주문 시전 시 다방향으로 파편을 방출하여 물리 및 화염 피해를 입힐 확률이 생깁니다.</string>
 
 
 
 
 	<!-- Sorcerer -->
 
-	<string name="skills.sorcerer.spell_1.name">Discharge</string>
-	<string name="skills.sorcerer.spell_1.desc">방전\n번개를 원뿔 모양으로 방출하여 번개 피해를 입힙니다. 각 적은 하나의 번개에만 맞습니다.</string>
-	<string name="skills.sorcerer.spell_1.up1.name">Chain Lightning</string>
-	<string name="skills.sorcerer.spell_1.up1.desc">연쇄 번개\n번개가 추가적으로 적에게 연쇄됩니다.</string>
-	<string name="skills.sorcerer.spell_1.up2.name">Extended Discharge</string>
-	<string name="skills.sorcerer.spell_1.up2.desc">누전\n주문의 사거리가 증가합니다.</string>
-	<string name="skills.sorcerer.spell_1.up3.name">Scorching Rays</string>
-	<string name="skills.sorcerer.spell_1.up3.desc">화염의 광선\n피해 유형이 화염으로 변경되며 광선이 적을 관통합니다.</string>
-	<string name="skills.sorcerer.spell_1.up4.name">Rays of Frost</string>
-	<string name="skills.sorcerer.spell_1.up4.desc">서리의 광선\n적게 발사되지만 좁은 범위에서 여러 광선에 맞을 수 있습니다. 피해 유형이 빙결로 변경됩니다.</string>
+	<string name="skills.sorcerer.spell_1.name">방전</string>
+	<string name="skills.sorcerer.spell_1.desc">번개를 원뿔 모양으로 방출하여 번개 피해를 입힙니다. 각 적은 하나의 번개에만 맞습니다.</string>
+	<string name="skills.sorcerer.spell_1.up1.name">연쇄 번개</string>
+	<string name="skills.sorcerer.spell_1.up1.desc">번개가 추가적으로 적에게 연쇄됩니다.</string>
+	<string name="skills.sorcerer.spell_1.up2.name">누전</string>
+	<string name="skills.sorcerer.spell_1.up2.desc">주문의 사거리가 증가합니다.</string>
+	<string name="skills.sorcerer.spell_1.up3.name">화염의 광선</string>
+	<string name="skills.sorcerer.spell_1.up3.desc">피해 유형이 화염으로 변경되며 광선이 적을 관통합니다.</string>
+	<string name="skills.sorcerer.spell_1.up4.name">서리의 광선</string>
+	<string name="skills.sorcerer.spell_1.up4.desc">적게 발사되지만 좁은 범위에서 여러 광선에 맞을 수 있습니다. 피해 유형이 냉기로 변경됩니다.</string>
 
-	<string name="skills.sorcerer.spell_2.name">Elemental Orb</string>
-	<string name="skills.sorcerer.spell_2.desc">원소 구체\n천천히 움직이는 구체를 소환하여 주변 적들에게 지속적으로 모든 속성 피해를 입힙니다.</string>
-	<string name="skills.sorcerer.spell_2.up1.name">Adaptive Orb</string>
-	<string name="skills.sorcerer.spell_2.up1.desc">적응형 구체\n주문 시전 시 \cb0dfff원소 친화\d 효과로 얻은 속성에 따라 구체가 해당 속성 피해만 입힙니다.</string>
-	<string name="skills.sorcerer.spell_2.up2.name">Stable Orb</string>
-	<string name="skills.sorcerer.spell_2.up2.desc">안정된 구체\n구체의 지속 시간이 증가합니다.</string>
-	<string name="skills.sorcerer.spell_2.up3.name">Elemental Torrent</string>
-	<string name="skills.sorcerer.spell_2.up3.desc">원소 폭풍\n구체가 작은 투사체를 모든 방향으로 방출하며, 이 투사체는 적은 피해를 입힙니다.</string>
+	<string name="skills.sorcerer.spell_2.name">원소 구체</string>
+	<string name="skills.sorcerer.spell_2.desc">천천히 움직이는 구체를 소환하여 주변 적들에게 지속적으로 모든 속성 피해를 입힙니다.</string>
+	<string name="skills.sorcerer.spell_2.up1.name">적응형 구체</string>
+	<string name="skills.sorcerer.spell_2.up1.desc">주문 시전 시 \cb0dfff원소 친화\d 효과로 얻은 속성에 따라 구체가 해당 속성 피해만 입힙니다.</string>
+	<string name="skills.sorcerer.spell_2.up2.name">안정된 구체</string>
+	<string name="skills.sorcerer.spell_2.up2.desc">구체의 지속 시간이 증가합니다.</string>
+	<string name="skills.sorcerer.spell_2.up3.name">원소 폭풍</string>
+	<string name="skills.sorcerer.spell_2.up3.desc">구체가 작은 투사체를 모든 방향으로 방출하며, 이 투사체는 적은 피해를 입힙니다.</string>
 
-	<string name="skills.sorcerer.passive_1.name">Elemental Affinity</string>
-	<string name="skills.sorcerer.passive_1.desc">원소 친화\n\cffdfb0주문\d을 시전하면 해당 속성의 \cb0dfff원소 친화\d 효과를 얻습니다. 이 효과는 같은 속성 피해를 증가시키며 한 번에 하나의 속성만 활성화할 수 있습니다.</string>
-	<string name="skills.sorcerer.passive_1.up1.name">Elemental Ward</string>
-	<string name="skills.sorcerer.passive_1.up1.desc">원소 방어\n화염, 빙결, 번개 저항이 캐릭터 레벨에 비례하여 증가합니다.</string>
-	<string name="skills.sorcerer.passive_1.up2.name">Elemental Penetration</string>
-	<string name="skills.sorcerer.passive_1.up2.desc">원소 관통\n화염, 빙결, 번개 관통력을 증가시킵니다.</string>
-	<string name="skills.sorcerer.passive_1.up3.name">Elemental Equilibrium</string>
-	<string name="skills.sorcerer.passive_1.up3.desc">원소 균형\n\cb0dfff원소 친화\d 상태에서 다른 속성의 피해 보너스가 두 배로 증가합니다.</string>
+	<string name="skills.sorcerer.passive_1.name">원소 친화</string>
+	<string name="skills.sorcerer.passive_1.desc">\cffdfb0주문\d을 시전하면 해당 속성의 \cb0dfff원소 친화\d 효과를 얻습니다. 이 효과는 같은 속성 피해를 증가시키며 한 번에 하나의 속성만 활성화할 수 있습니다.</string>
+	<string name="skills.sorcerer.passive_1.up1.name">원소 방어</string>
+	<string name="skills.sorcerer.passive_1.up1.desc">화염, 냉기, 번개 저항이 캐릭터 레벨에 비례하여 증가합니다.</string>
+	<string name="skills.sorcerer.passive_1.up2.name">원소 관통</string>
+	<string name="skills.sorcerer.passive_1.up2.desc">화염, 냉기, 번개 관통력을 증가시킵니다.</string>
+	<string name="skills.sorcerer.passive_1.up3.name">원소 균형</string>
+	<string name="skills.sorcerer.passive_1.up3.desc">\cb0dfff원소 친화\d 상태에서 다른 속성의 피해 보너스가 두 배로 증가합니다.</string>
 
-	<string name="skills.sorcerer.passive_2.name">Innate Power</string>
-	<string name="skills.sorcerer.passive_2.desc">내재된 힘\n주문 치명타 확률이 증가합니다.</string>
-	<string name="skills.sorcerer.passive_2.up1.name">Uncontrolled Power</string>
-	<string name="skills.sorcerer.passive_2.up1.desc">제어되지 않은 힘\n주문 치명타 피해량이 증가합니다.</string>
-	<string name="skills.sorcerer.passive_2.up2.name">Power Surge</string>
-	<string name="skills.sorcerer.passive_2.up2.desc">힘의 폭주\n주문 치명타 시 무기 속도, 시전 속도, 이동 속도가 증가하는 버프를 얻습니다.</string>
-	<string name="skills.sorcerer.passive_2.up3.name">Mana Surge</string>
-	<string name="skills.sorcerer.passive_2.up3.desc">마나 폭주\n주문 치명타 시 마나를 일부 회복합니다.</string>
+	<string name="skills.sorcerer.passive_2.name">내재된 힘</string>
+	<string name="skills.sorcerer.passive_2.desc">주문 치명타 확률이 증가합니다.</string>
+	<string name="skills.sorcerer.passive_2.up1.name">제어되지 않은 힘</string>
+	<string name="skills.sorcerer.passive_2.up1.desc">주문 치명타 피해량이 증가합니다.</string>
+	<string name="skills.sorcerer.passive_2.up2.name">힘의 폭주</string>
+	<string name="skills.sorcerer.passive_2.up2.desc">주문 치명타 시 무기 속도, 시전 속도, 이동 속도가 증가하는 버프를 얻습니다.</string>
+	<string name="skills.sorcerer.passive_2.up3.name">마나 폭주</string>
+	<string name="skills.sorcerer.passive_2.up3.desc">주문 치명타 시 마나를 일부 회복합니다.</string>
 
 
-	<string name="skills.sorcerer.mastery_1.name">Fire</string>
+	<string name="skills.sorcerer.mastery_1.name">화염</string>
 	<string name="skills.sorcerer.mastery_1.desc"></string>
 
-	<string name="skills.sorcerer.mastery_1.spell_1.name">Flame Wall</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.desc">화염 벽\n전방에 화염 벽을 소환하여 가까운 적에게 화염 피해를 입힙니다.</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up1.name">Flamewalker</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up1.desc">화염을 걷는자\n아군이 벽에 닿으면 일정 시간 동안 화염 오라를 얻어 주변 적에게 피해를 입힙니다.</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up2.name">Flamestep</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up2.desc">화염의 발걸음\n대시 시 화염 벽을 소환합니다.</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up3.name">Wall Placement</string>
-	<string name="skills.sorcerer.mastery_1.spell_1.up3.desc">벽 배치\n화염 벽의 배치 위치를 지정할 수 있습니다.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.name">화염 벽</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.desc">전방에 화염 벽을 소환하여 가까운 적에게 화염 피해를 입힙니다.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up1.name">화염을 걷는자</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up1.desc">아군이 벽에 닿으면 일정 시간 동안 화염 오라를 얻어 주변 적에게 피해를 입힙니다.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up2.name">화염의 발걸음</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up2.desc">대시 시 화염 벽을 소환합니다.</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up3.name">벽 배치</string>
+	<string name="skills.sorcerer.mastery_1.spell_1.up3.desc">화염 벽의 배치 위치를 지정할 수 있습니다.</string>
 
-	<string name="skills.sorcerer.mastery_1.passive_1.name">Fire Mastery</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.desc">화염 숙련\n\cffdfb0화염염\d 피해량이 증가하며, 화염 기술이 적에게 \cb0dfff약화\d 상태를 부여할 확률을 얻습니다.</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.up1.name">Volatile Flames</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.up1.desc">휘발성 화염\n\cffdfb0화염염\d 기술이 추가 폭발을 일으켜 더 많은 피해를 입힙니다.\n(짧은 재사용 대기시간)</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.up2.name">Healing Flames</string>
-	<string name="skills.sorcerer.mastery_1.passive_1.up2.desc">치유의 불꽃\n주문 치명타 시 생명력을 회복합니다.</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.name">화염 숙련</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.desc">\cffdfb0화염염\d 피해량이 증가하며, 화염 기술이 적에게 \cb0dfff약화\d 상태를 부여할 확률을 얻습니다.</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up1.name">휘발성 화염</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up1.desc">\cffdfb0화염염\d 기술이 추가 폭발을 일으켜 더 많은 피해를 입힙니다.\n(짧은 재사용 대기시간)</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up2.name">치유의 불꽃</string>
+	<string name="skills.sorcerer.mastery_1.passive_1.up2.desc">주문 치명타 시 생명력을 회복합니다.</string>
 
-	<string name="skills.sorcerer.mastery_2.name">Ice</string>
+	<string name="skills.sorcerer.mastery_2.name">냉기</string>
 	<string name="skills.sorcerer.mastery_2.desc"></string>
 
-	<string name="skills.sorcerer.mastery_2.spell_1.name">Frost Nova</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.desc">서리 폭발\n모든 방향으로 얼음 조각을 방출하여 적에게 빙결 피해를 입힙니다.</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.up1.name">Frost Seekers</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.up1.desc">서리 추적자\n조각이 적중 시 새로운 목표를 추적할 확률을 얻습니다.</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.up2.name">Frost Splinters</string>
-	<string name="skills.sorcerer.mastery_2.spell_1.up2.desc">서리 파편\n적 처치 시 추가적인 얼음 폭발을 일으킬 확률을 얻습니다.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.name">서리 폭발</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.desc">모든 방향으로 얼음 조각을 방출하여 적에게 냉기 피해를 입힙니다.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up1.name">서리 추적자</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up1.desc">조각이 적중 시 새로운 목표를 추적할 확률을 얻습니다.</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up2.name">서리 파편</string>
+	<string name="skills.sorcerer.mastery_2.spell_1.up2.desc">적 처치 시 추가적인 얼음 폭발을 일으킬 확률을 얻습니다.</string>
 
-	<string name="skills.sorcerer.mastery_2.passive_1.name">Ice Mastery</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.desc">빙결 숙련\n\cffdfb0빙결\d 피해량이 증가하며, 빙결 기술이 적을 \cb0dfff빙결\d 상태로 만들 확률을 얻습니다.</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up1.name">Shatter</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up1.desc">파열\n\cffdfb0빙결\d 스킬로 적을 처치 시 얼음 폭발이 발생합니다.</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up2.name">Ice Block</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">얼음 방어막\n물리 및 빙결 피해를 차단할 확률을 얻습니다.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.name">냉기 숙련</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.desc">\cffdfb0냉기\d속성 스킬의 피해량이 증가하며, 냉기 속성 기술이 적을 \cb0dfff빙결\d 상태로 만들 확률을 얻습니다.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up1.name">파열</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up1.desc">\cffdfb0냉기\d속성 스킬로 적을 처치 시 얼음 폭발이 발생합니다.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up2.name">얼음 방어막</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">물리 및 냉기 피해를 차단할 확률을 얻습니다.</string>
 
-	<string name="skills.sorcerer.mastery_3.name">Lightning</string>
+	<string name="skills.sorcerer.mastery_3.name">번개</string>
 	<string name="skills.sorcerer.mastery_3.desc"></string>
 
-	<string name="skills.sorcerer.mastery_3.spell_1.name">Lightning Ball</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.desc">번개 구체\n번개 구체를 소환하여 경로상의 적에게 번개 피해를 입힙니다. 시전 시간이 길수록 피해량이 증가합니다.</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.up1.name">Energized Ball</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.up1.desc">충전된 구체\n적중할 때 구체의 지속 시간이 연장됩니다.</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.up2.name">Static Field</string>
-	<string name="skills.sorcerer.mastery_3.spell_1.up2.desc">정전기 필드\n구체가 지나간 자리에 전기장을 남겨 추가 번개 피해를 입힙니다.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.name">번개 구체</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.desc">번개 구체를 소환하여 경로상의 적에게 번개 피해를 입힙니다. 시전 시간이 길수록 피해량이 증가합니다.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up1.name">충전된 구체</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up1.desc">적중할 때 구체의 지속 시간이 연장됩니다.</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up2.name">정전기 필드</string>
+	<string name="skills.sorcerer.mastery_3.spell_1.up2.desc">구체가 지나간 자리에 전기장을 남겨 추가 번개 피해를 입힙니다.</string>
 	
-	<string name="skills.sorcerer.mastery_3.passive_1.name">Lightning Mastery</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.desc">번개 숙련\n\cffdfb0번개\d 피해량이 증가하며, 번개 기술이 적에게 \cb0dfff기절\d 상태를 부여할 확률을 얻습니다.</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.up1.name">Arc Lightning</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.up1.desc">연쇄하는 번개\n\cffdfb0번개\d 기술이 적들 사이를 연쇄하며 추가 피해를 입힙니다.</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.up2.name">Null Field</string>
-	<string name="skills.sorcerer.mastery_3.passive_1.up2.desc">무효화 필드\n대부분의 투사체를 차단할 확률을 얻습니다.\n(짧은 재사용 대기시간)</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.name">번개 숙련</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.desc">\cffdfb0번개\d 피해량이 증가하며, 번개 기술이 적에게 \cb0dfff기절\d 상태를 부여할 확률을 얻습니다.</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up1.name">연쇄하는 번개</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up1.desc">\cffdfb0번개\d 기술이 적들 사이를 연쇄하며 추가 피해를 입힙니다.</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up2.name">무효화 필드</string>
+	<string name="skills.sorcerer.mastery_3.passive_1.up2.desc">대부분의 투사체를 차단할 확률을 얻습니다.\n(짧은 재사용 대기시간)</string>
 
 
 
@@ -708,95 +709,95 @@
 
 	<!-- Warlock -->
 
-	<string name="skills.warlock.spell_1.name">Demon's Tail</string>
-	<string name="skills.warlock.spell_1.desc">악마의 꼬리\n악마의 채찍을 소환하여 전방으로 휘둘러 물리 피해를 입히고 \cb0dfff둔화\d 상태를 부여합니다.</string>
-	<string name="skills.warlock.spell_1.up1.name">Crackling Lash</string>
-	<string name="skills.warlock.spell_1.up1.desc">번쩍이는 채찍\n채찍이 주변 적들에게 번개 피해를 입히는 번개를 방출합니다.</string>
-	<string name="skills.warlock.spell_1.up2.name">Fiery Lash</string>
-	<string name="skills.warlock.spell_1.up2.desc">불타는 채찍\n채찍에 불길이 생성되어 짧은 시간 동안 추가 화염 피해를 입힙니다.</string>
-	<string name="skills.warlock.spell_1.up3.name">Heavy Impact</string>
-	<string name="skills.warlock.spell_1.up3.desc">강력한 축격\n채찍 끝에 맞은 적에게 \cb0dfff기절\d 상태를 추가로 부여합니다.</string>
+	<string name="skills.warlock.spell_1.name">악마의 꼬리</string>
+	<string name="skills.warlock.spell_1.desc">악마의 채찍을 소환하여 전방으로 휘둘러 물리 피해를 입히고 \cb0dfff둔화\d 상태를 부여합니다.</string>
+	<string name="skills.warlock.spell_1.up1.name">번쩍이는 채찍</string>
+	<string name="skills.warlock.spell_1.up1.desc">채찍이 주변 적들에게 번개 피해를 입히는 번개를 방출합니다.</string>
+	<string name="skills.warlock.spell_1.up2.name">불타는 채찍</string>
+	<string name="skills.warlock.spell_1.up2.desc">채찍에 불길이 생성되어 짧은 시간 동안 추가 화염 피해를 입힙니다.</string>
+	<string name="skills.warlock.spell_1.up3.name">강력한 축격</string>
+	<string name="skills.warlock.spell_1.up3.desc">채찍 끝에 맞은 적에게 \cb0dfff기절\d 상태를 추가로 부여합니다.</string>
 
-	<string name="skills.warlock.spell_2.name">Dark Ritual</string>
-	<string name="skills.warlock.spell_2.desc">어둠의 의식\n의식을 시작하며, 몇 초 후에 완료됩니다. 의식 영역 내에 있는 적들은 지속적으로 물리 피해를 입으며, 의식이 완료될 때 추가 피해를 받습니다. 의식이 완료되기 전에 영역을 벗어나면 중단됩니다.</string>
-	<string name="skills.warlock.spell_2.up1.name">Blood Ritual</string>
-	<string name="skills.warlock.spell_2.up1.desc">피의 의시\n의식 지역 내 적들에게 출혈(Bleeding) 상태를 부여할 확률이 생깁니다.</string>
-	<string name="skills.warlock.spell_2.up2.name">Conflagration</string>
-	<string name="skills.warlock.spell_2.up2.desc">강력한 불길\n피해 유형이 화염으로 변경되며 의식 완료 시 더 큰 피해를 입힙니다.</string>
-	<string name="skills.warlock.spell_2.up3.name">Leeching Ritual</string>
-	<string name="skills.warlock.spell_2.up3.desc">생명력 흡수 의식\n의식 지역 내 자신과 아군이 \cb0dfff생명력 흡수\d 효과를 얻습니다.</string>
+	<string name="skills.warlock.spell_2.name">어둠의 의식</string>
+	<string name="skills.warlock.spell_2.desc">의식을 시작하며, 몇 초 후에 완료됩니다. 의식 영역 내에 있는 적들은 지속적으로 물리 피해를 입으며, 의식이 완료될 때 추가 피해를 받습니다. 의식이 완료되기 전에 영역을 벗어나면 중단됩니다.</string>
+	<string name="skills.warlock.spell_2.up1.name">피의 의시</string>
+	<string name="skills.warlock.spell_2.up1.desc">의식 지역 내 적들에게 출혈(Bleeding) 상태를 부여할 확률이 생깁니다.</string>
+	<string name="skills.warlock.spell_2.up2.name">강력한 불길</string>
+	<string name="skills.warlock.spell_2.up2.desc">피해 유형이 화염으로 변경되며 의식 완료 시 더 큰 피해를 입힙니다.</string>
+	<string name="skills.warlock.spell_2.up3.name">생명력 흡수 의식</string>
+	<string name="skills.warlock.spell_2.up3.desc">의식 지역 내 자신과 아군이 \cb0dfff생명력 흡수\d 효과를 얻습니다.</string>
 
-	<string name="skills.warlock.passive_1.name">Drain Essence</string>
-	<string name="skills.warlock.passive_1.desc">정수 흡수\n\cffdfb0근접\d 공격으로 적을 타격하면 \cb0dfff정수\d 스택을 획득합니다. 각 스택은 최대 생명력과 마나를 증가시킵니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
-	<string name="skills.warlock.passive_1.up1.name">Life Siphon</string>
-	<string name="skills.warlock.passive_1.up1.desc">생명력 흡수\n\cb0dfff정수\d 스택을 획득할 때 일정 비율의 생명력을 회복합니다.</string>
-	<string name="skills.warlock.passive_1.up2.name">Energy Siphon</string>
-	<string name="skills.warlock.passive_1.up2.desc">에너지 흡수\n\cb0dfff정수\d 스택을 획득할 때 일정 비율의 마나를 회복합니다.</string>
-	<string name="skills.warlock.passive_1.up3.name">Drain Blood</string>
-	<string name="skills.warlock.passive_1.up3.desc">흡혈\n\cb0dfff정수\d를 획득한 대상에게 \cb0dfff출혈\d 스택을 부여합니다.</string>
-	<string name="skills.warlock.passive_1.up4.name">Essence Harvester</string>
-	<string name="skills.warlock.passive_1.up4.desc">정수 수확자\n적을 처치할 때 일정 확률로 \cb0dfff정수\d 스택택을 획득합니다.</string>
+	<string name="skills.warlock.passive_1.name">정수 흡수</string>
+	<string name="skills.warlock.passive_1.desc">\cffdfb0근접\d 공격으로 적을 타격하면 \cb0dfff정수\d 스택을 획득합니다. 각 스택은 최대 생명력과 마나를 증가시킵니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.warlock.passive_1.up1.name">생명력 흡수</string>
+	<string name="skills.warlock.passive_1.up1.desc">\cb0dfff정수\d 스택을 획득할 때 일정 비율의 생명력을 회복합니다.</string>
+	<string name="skills.warlock.passive_1.up2.name">에너지 흡수</string>
+	<string name="skills.warlock.passive_1.up2.desc">\cb0dfff정수\d 스택을 획득할 때 일정 비율의 마나를 회복합니다.</string>
+	<string name="skills.warlock.passive_1.up3.name">흡혈</string>
+	<string name="skills.warlock.passive_1.up3.desc">\cb0dfff정수\d를 획득한 대상에게 \cb0dfff출혈\d 스택을 부여합니다.</string>
+	<string name="skills.warlock.passive_1.up4.name">정수 수확자</string>
+	<string name="skills.warlock.passive_1.up4.desc">적을 처치할 때 일정 확률로 \cb0dfff정수\d 스택택을 획득합니다.</string>
 
-	<string name="skills.warlock.passive_2.name">Aura of Atrophy</string>
-	<string name="skills.warlock.passive_2.desc">쇠퇴의 오라\n주변에 오라를 생성하여 적이 가하는 피해를 감소시킵니다.</string>
-	<string name="skills.warlock.passive_2.up1.name">Agony</string>
-	<string name="skills.warlock.passive_2.up1.desc">고통\n오라 범위 내의 적이 받는 피해가 증가합니다.</string>
-	<string name="skills.warlock.passive_2.up2.name">Spreading Corruption</string>
-	<string name="skills.warlock.passive_2.up2.desc">전염하는 타락\n\cffdfb0근접 무기\d 공격이 추가로 다른 인근 적에게 중독 피해를 입힙니다.</string>
-	<string name="skills.warlock.passive_2.up3.name">Spontaneous Combustion</string>
-	<string name="skills.warlock.passive_2.up3.desc">자연 발화\n\cffdfb0주문\d을 시전하면 오라의 영향을 받는 모든 적에게 화염 피해를 입힙니다.</string>
+	<string name="skills.warlock.passive_2.name">쇠퇴의 오라</string>
+	<string name="skills.warlock.passive_2.desc">주변에 오라를 생성하여 적이 가하는 피해를 감소시킵니다.</string>
+	<string name="skills.warlock.passive_2.up1.name">고통</string>
+	<string name="skills.warlock.passive_2.up1.desc">오라 범위 내의 적이 받는 피해가 증가합니다.</string>
+	<string name="skills.warlock.passive_2.up2.name">전염하는 타락</string>
+	<string name="skills.warlock.passive_2.up2.desc">\cffdfb0근접 무기\d 공격이 추가로 다른 인근 적에게 중독 피해를 입힙니다.</string>
+	<string name="skills.warlock.passive_2.up3.name">자연 발화</string>
+	<string name="skills.warlock.passive_2.up3.desc">\cffdfb0주문\d을 시전하면 오라의 영향을 받는 모든 적에게 화염 피해를 입힙니다.</string>
 
 
-	<string name="skills.warlock.mastery_1.name">Summoning</string>
+	<string name="skills.warlock.mastery_1.name">소환술</string>
 	<string name="skills.warlock.mastery_1.desc"></string>
 
-	<string name="skills.warlock.mastery_1.spell_1.name">Summon Fiends</string>
-	<string name="skills.warlock.mastery_1.spell_1.desc">악마 소환\n\cb0dfff정수\d 스택을 소모하여 악마를 소환하는 주문을 시전합니다. 소환된 악마는 주변 적을 공격하며 물리 피해를 가합니다.</string>
-	<string name="skills.warlock.mastery_1.spell_1.up1.name">Infernal Fiends</string>
-	<string name="skills.warlock.mastery_1.spell_1.up1.desc">지옥의 악마\n소환된 악마가 추가 화염 피해를 입히며, 대상에게 불덩이를 발사할 수 있습니다.</string>
-	<string name="skills.warlock.mastery_1.spell_1.up2.name">Explosive Demise</string>
-	<string name="skills.warlock.mastery_1.spell_1.up2.desc">폭발적 최후\n소환된 악마가 죽을 때 폭발하여 작은 범위에 물리 피해를 입힙니다.</string>
+	<string name="skills.warlock.mastery_1.spell_1.name">악마 소환</string>
+	<string name="skills.warlock.mastery_1.spell_1.desc">\cb0dfff정수\d 스택을 소모하여 악마를 소환하는 주문을 시전합니다. 소환된 악마는 주변 적을 공격하며 물리 피해를 가합니다.</string>
+	<string name="skills.warlock.mastery_1.spell_1.up1.name">지옥의 악마</string>
+	<string name="skills.warlock.mastery_1.spell_1.up1.desc">소환된 악마가 추가 화염 피해를 입히며, 대상에게 불덩이를 발사할 수 있습니다.</string>
+	<string name="skills.warlock.mastery_1.spell_1.up2.name">폭발적 최후</string>
+	<string name="skills.warlock.mastery_1.spell_1.up2.desc">소환된 악마가 죽을 때 폭발하여 작은 범위에 물리 피해를 입힙니다.</string>
 
-	<string name="skills.warlock.mastery_1.passive_1.name">Gargoyle Servant</string>
-	<string name="skills.warlock.mastery_1.passive_1.desc">가고일 하수인\n패시브 효과로 가고일을 소환하여 전투를 돕습니다. 가고일은 발톱과 삼지창으로 적을 공격하며 물리 피해를 가합니다.</string>
-	<string name="skills.warlock.mastery_1.passive_1.up1.name">Flaming Strikes</string>
-	<string name="skills.warlock.mastery_1.passive_1.up1.desc">불타는 발톱\n가고일의 발톱 공격이 추가 화염 피해를 가합니다.</string>
-	<string name="skills.warlock.mastery_1.passive_1.up2.name">Lightning Trident</string>
-	<string name="skills.warlock.mastery_1.passive_1.up2.desc">번개 삼지창\n가고일의 삼지창이 지속적으로 적을 감전시켜 추가 번개 피해를 입힙니다.</string>
+	<string name="skills.warlock.mastery_1.passive_1.name">가고일 하수인</string>
+	<string name="skills.warlock.mastery_1.passive_1.desc">패시브 효과로 가고일을 소환하여 전투를 돕습니다. 가고일은 발톱과 삼지창으로 적을 공격하며 물리 피해를 가합니다.</string>
+	<string name="skills.warlock.mastery_1.passive_1.up1.name">불타는 발톱</string>
+	<string name="skills.warlock.mastery_1.passive_1.up1.desc">가고일의 발톱 공격이 추가 화염 피해를 가합니다.</string>
+	<string name="skills.warlock.mastery_1.passive_1.up2.name">번개 삼지창</string>
+	<string name="skills.warlock.mastery_1.passive_1.up2.desc">가고일의 삼지창이 지속적으로 적을 감전시켜 추가 번개 피해를 입힙니다.</string>
 
-	<string name="skills.warlock.mastery_2.name">Souls</string>
+	<string name="skills.warlock.mastery_2.name">영혼술</string>
 	<string name="skills.warlock.mastery_2.desc"></string>
 
-	<string name="skills.warlock.mastery_2.spell_1.name">Soul Vortex</string>
-	<string name="skills.warlock.mastery_2.spell_1.desc">영혼의 소용돌이\n자신 주변에 소용돌이치는 영혼 에너지를 생성하여 범위 내 적들에게 물리 및 중독 피해를 입힙니다.</string>
-	<string name="skills.warlock.mastery_2.spell_1.up1.name">Lightning Vortex</string>
-	<string name="skills.warlock.mastery_2.spell_1.up1.desc">번개 소용돌이\n소용돌이가 지속적으로 번개를 방출하여 무작위 위치에 떨어뜨리며 추가 번개 피해를 입힙니다.</string>
-	<string name="skills.warlock.mastery_2.spell_1.up2.name">Vortex Shroud</string>
-	<string name="skills.warlock.mastery_2.spell_1.up2.desc">소용돌이 장막\n주문 지속 시간 동안 회피율이 증가합니다.</string>
+	<string name="skills.warlock.mastery_2.spell_1.name">영혼의 소용돌이</string>
+	<string name="skills.warlock.mastery_2.spell_1.desc">자신 주변에 소용돌이치는 영혼 에너지를 생성하여 범위 내 적들에게 물리 및 중독 피해를 입힙니다.</string>
+	<string name="skills.warlock.mastery_2.spell_1.up1.name">번개 소용돌이</string>
+	<string name="skills.warlock.mastery_2.spell_1.up1.desc">소용돌이가 지속적으로 번개를 방출하여 무작위 위치에 떨어뜨리며 추가 번개 피해를 입힙니다.</string>
+	<string name="skills.warlock.mastery_2.spell_1.up2.name">소용돌이 장막</string>
+	<string name="skills.warlock.mastery_2.spell_1.up2.desc">주문 지속 시간 동안 회피율이 증가합니다.</string>
 
-	<string name="skills.warlock.mastery_2.passive_1.name">Soul Shaper</string>
-	<string name="skills.warlock.mastery_2.passive_1.desc">영혼 조형\n\cb0dfff정수\d 스택이 있는 동안 주무기 공격이 무작위 인근 적에게 영혼 탄환을 발사하여 주무기 피해를 입힙니다.</string>
-	<string name="skills.warlock.mastery_2.passive_1.up1.name">Soul Cleave</string>
-	<string name="skills.warlock.mastery_2.passive_1.up1.desc">영혼의 폭발\n영혼 탄환이 일정 확률로 폭발하여 추가 피해를 입힙니다./n이 효과는 짧은 재사용 대기시간을 가집니다.</string>
-	<string name="skills.warlock.mastery_2.passive_1.up2.name">Relentless Souls</string>
-	<string name="skills.warlock.mastery_2.passive_1.up2.desc">끊임없는 영혼\n영혼 탄환이 적을 맞출 때 추가 대상에게 연쇄됩니다.</string>
+	<string name="skills.warlock.mastery_2.passive_1.name">영혼 조형</string>
+	<string name="skills.warlock.mastery_2.passive_1.desc">\cb0dfff정수\d 스택이 있는 동안 주무기 공격이 무작위 인근 적에게 영혼 탄환을 발사하여 주무기 피해를 입힙니다.</string>
+	<string name="skills.warlock.mastery_2.passive_1.up1.name">영혼의 폭발</string>
+	<string name="skills.warlock.mastery_2.passive_1.up1.desc">영혼 탄환이 일정 확률로 폭발하여 추가 피해를 입힙니다./n이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.warlock.mastery_2.passive_1.up2.name">끊임없는 영혼</string>
+	<string name="skills.warlock.mastery_2.passive_1.up2.desc">영혼 탄환이 적을 맞출 때 추가 대상에게 연쇄됩니다.</string>
 
-	<string name="skills.warlock.mastery_3.name">Chaos</string>
+	<string name="skills.warlock.mastery_3.name">혼돈</string>
 	<string name="skills.warlock.mastery_3.desc"></string>
 
-	<string name="skills.warlock.mastery_3.spell_1.name">Chaos Blade</string>
-	<string name="skills.warlock.mastery_3.spell_1.desc">혼돈의 검\n마법 검을 생성하여 전방을 베며 물리 및 번개 피해를 입힙니다.</string>
-	<string name="skills.warlock.mastery_3.spell_1.up1.name">Blade Arcs</string>
-	<string name="skills.warlock.mastery_3.spell_1.up1.desc">블레이드 아크\n이제 주문이 전방에 호를 그리는 다수의 투사체를 방출합니다.</string>
-	<string name="skills.warlock.mastery_3.spell_1.up2.name">Rupture</string>
-	<string name="skills.warlock.mastery_3.spell_1.up2.desc">파열\n혼돈의 검이 적중 시 \cb0dfff출혈\d 스택을 부여합니다.</string>
+	<string name="skills.warlock.mastery_3.spell_1.name">혼돈의 검</string>
+	<string name="skills.warlock.mastery_3.spell_1.desc">마법 검을 생성하여 전방을 베며 물리 및 번개 피해를 입힙니다.</string>
+	<string name="skills.warlock.mastery_3.spell_1.up1.name">블레이드 아크</string>
+	<string name="skills.warlock.mastery_3.spell_1.up1.desc">이제 주문이 전방에 호를 그리는 다수의 투사체를 방출합니다.</string>
+	<string name="skills.warlock.mastery_3.spell_1.up2.name">파열</string>
+	<string name="skills.warlock.mastery_3.spell_1.up2.desc">혼돈의 검이 적중 시 \cb0dfff출혈\d 스택을 부여합니다.</string>
 
-	<string name="skills.warlock.mastery_3.passive_1.name">Chaos Rifts</string>
-	<string name="skills.warlock.mastery_3.passive_1.desc">혼돈의 균열\n\cffdfb0주문\d을 시전하면 균열이 생성되어 인근 적에게 물리 및 번개 피해를 입힙니다. 서로 가까운 위치에 생성된 균열은 에너지 흐름을 형성하여 추가 피해를 입힙니다.</string>
-	<string name="skills.warlock.mastery_3.passive_1.up1.name">Chaos Reaper</string>
-	<string name="skills.warlock.mastery_3.passive_1.up1.desc">카오스 리퍼\n적을 처치하면 일정 확률로 균열이 생성됩니다./n이 효과는 짧은 재사용 대기시간을 가집니다.</string>
-	<string name="skills.warlock.mastery_3.passive_1.up2.name">Rift Blade</string>
-	<string name="skills.warlock.mastery_3.passive_1.up2.desc">균열의 검\n\cb0dfff혼돈의 검\d 공격이 일정 확률로 균열을 생성합니다./n이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.warlock.mastery_3.passive_1.name">혼돈의 균열</string>
+	<string name="skills.warlock.mastery_3.passive_1.desc">\cffdfb0주문\d을 시전하면 균열이 생성되어 인근 적에게 물리 및 번개 피해를 입힙니다. 서로 가까운 위치에 생성된 균열은 에너지 흐름을 형성하여 추가 피해를 입힙니다.</string>
+	<string name="skills.warlock.mastery_3.passive_1.up1.name">카오스 리퍼</string>
+	<string name="skills.warlock.mastery_3.passive_1.up1.desc">적을 처치하면 일정 확률로 균열이 생성됩니다./n이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.warlock.mastery_3.passive_1.up2.name">균열의 검</string>
+	<string name="skills.warlock.mastery_3.passive_1.up2.desc">\cb0dfff혼돈의 검\d 공격이 일정 확률로 균열을 생성합니다./n이 효과는 짧은 재사용 대기시간을 가집니다.</string>
 
 
 
@@ -808,95 +809,95 @@
 	<!-- Warrior -->
 
 
-	<string name="skills.warrior.spell_1.name">Whirling Axes</string>
-	<string name="skills.warrior.spell_1.desc">회전하는 도끼\n회전하는 도끼 두 개를 던져 경로상의 모든 적에게 물리 피해를 입힙니다.</string>
-	<string name="skills.warrior.spell_1.up1.name">Revolving Axes</string>
-	<string name="skills.warrior.spell_1.up1.desc">귀환하는 도끼\n도끼가 일정 시간이 지난 후 다시 되돌아옵니다.</string>
-	<string name="skills.warrior.spell_1.up2.name">Burning Axes</string>
-	<string name="skills.warrior.spell_1.up2.desc">불타는 도끼\n도끼가 추가 화염 피해를 입힙니다.</string>
-	<string name="skills.warrior.spell_1.up3.name">Culling Axes</string>
-	<string name="skills.warrior.spell_1.up3.desc">처형의 도끼\n도끼가 \cb0dfff생명력 저하\d 상태의 적을 일정 확률로 즉시 처치합니다. 보스에게는 적용되지 않습니다.</string>
+	<string name="skills.warrior.spell_1.name">회전하는 도끼</string>
+	<string name="skills.warrior.spell_1.desc">회전하는 도끼 두 개를 던져 경로상의 모든 적에게 물리 피해를 입힙니다.</string>
+	<string name="skills.warrior.spell_1.up1.name">귀환하는 도끼</string>
+	<string name="skills.warrior.spell_1.up1.desc">도끼가 일정 시간이 지난 후 다시 되돌아옵니다.</string>
+	<string name="skills.warrior.spell_1.up2.name">불타는 도끼</string>
+	<string name="skills.warrior.spell_1.up2.desc">도끼가 추가 화염 피해를 입힙니다.</string>
+	<string name="skills.warrior.spell_1.up3.name">처형의 도끼</string>
+	<string name="skills.warrior.spell_1.up3.desc">도끼가 \cb0dfff생명력 저하\d 상태의 적을 일정 확률로 즉시 처치합니다. 보스에게는 적용되지 않습니다.</string>
 
-	<string name="skills.warrior.spell_2.name">War Cry</string>
-	<string name="skills.warrior.spell_2.desc">전쟁의 함성\n자신과 주변 아군에게 무기 속도 및 이동 속도를 증가시키는 버프를 부여합니다.</string>
-	<string name="skills.warrior.spell_2.up1.name">Intimidating Cry</string>
-	<string name="skills.warrior.spell_2.up1.desc">위압적인 외침\n전쟁의 함성을 사용하면 주변 적들에게 \cb0dfff약화\d 효과를 부여합니다.</string>
-	<string name="skills.warrior.spell_2.up2.name">Second Wind</string>
-	<string name="skills.warrior.spell_2.up2.desc">제2의 숨결\n전쟁의 함성을 사용하면 일정량의 생명력을 회복합니다.</string>
-	<string name="skills.warrior.spell_2.up3.name">Battle Cry</string>
-	<string name="skills.warrior.spell_2.up3.desc">학살의 외침\n전쟁의 함성을 사용하면 주변의 적 수에 따라 \cb0dfff연속 처치\d 스택을 획득합니다.</string>
+	<string name="skills.warrior.spell_2.name">전쟁의 함성</string>
+	<string name="skills.warrior.spell_2.desc">자신과 주변 아군에게 무기 속도 및 이동 속도를 증가시키는 버프를 부여합니다.</string>
+	<string name="skills.warrior.spell_2.up1.name">위압적인 외침</string>
+	<string name="skills.warrior.spell_2.up1.desc">전쟁의 함성을 사용하면 주변 적들에게 \cb0dfff약화\d 효과를 부여합니다.</string>
+	<string name="skills.warrior.spell_2.up2.name">제2의 숨결</string>
+	<string name="skills.warrior.spell_2.up2.desc">전쟁의 함성을 사용하면 일정량의 생명력을 회복합니다.</string>
+	<string name="skills.warrior.spell_2.up3.name">학살의 외침</string>
+	<string name="skills.warrior.spell_2.up3.desc">전쟁의 함성을 사용하면 주변의 적 수에 따라 \cb0dfff연속 처치\d 스택을 획득합니다.</string>
 
-	<string name="skills.warrior.passive_1.name">Warrior's Constitution</string>
-	<string name="skills.warrior.passive_1.desc">전사의 체질\n최대 생명력과 중독 저항력이 증가합니다.</string>
-	<string name="skills.warrior.passive_1.up1.name">Combat Training</string>
-	<string name="skills.warrior.passive_1.up1.desc">전투 훈련\n\cffdfb0근접\d 스킬의 피해량이 증가합니다.</string>
-	<string name="skills.warrior.passive_1.up2.name">Toughness</string>
-	<string name="skills.warrior.passive_1.up2.desc">강인함\n받는 피해가 감소합니다.</string>
-	<string name="skills.warrior.passive_1.up3.name">Mighty Strength</string>
-	<string name="skills.warrior.passive_1.up3.desc">강력한 힘\n방어구 관통력이 증가합니다.</string>
+	<string name="skills.warrior.passive_1.name">전사의 체질</string>
+	<string name="skills.warrior.passive_1.desc">최대 생명력과 중독 저항력이 증가합니다.</string>
+	<string name="skills.warrior.passive_1.up1.name">전투 훈련</string>
+	<string name="skills.warrior.passive_1.up1.desc">\cffdfb0근접\d 스킬의 피해량이 증가합니다.</string>
+	<string name="skills.warrior.passive_1.up2.name">강인함</string>
+	<string name="skills.warrior.passive_1.up2.desc">받는 피해가 감소합니다.</string>
+	<string name="skills.warrior.passive_1.up3.name">강력한 힘</string>
+	<string name="skills.warrior.passive_1.up3.desc">방어구 관통력이 증가합니다.</string>
 
-	<string name="skills.warrior.passive_2.name">Killing Spree</string>
-	<string name="skills.warrior.passive_2.desc">연속 처치\n적을 처치할 때마다 \cb0dfff연속 처치\d 스택을 획득하며, 스택마다 피해량이 증가합니다. 지속 시간이 끝나면 모든 스택이 사라집니다.</string>
-	<string name="skills.warrior.passive_2.up1.name">Brutality</string>
-	<string name="skills.warrior.passive_2.up1.desc">잔인함\n각 스택이 무기 및 주문 치명타 확률을 추가로 증가시킵니다.</string>
-	<string name="skills.warrior.passive_2.up2.name">Killer Physique</string>
-	<string name="skills.warrior.passive_2.up2.desc">살인자의 체력\n각 스택이 생명력 재생을 증가시킵니다.</string>
-	<string name="skills.warrior.passive_2.up3.name">Dauntless</string>
-	<string name="skills.warrior.passive_2.up3.desc">대담함\n\cb0dfff보스\d 및 \cb0dfff엘리트\d 적을 \cffdfb0근접\d 공격 시 일정 확률로 \cb0dfff연속 처치\d 스택을 획득합니다.</string>
+	<string name="skills.warrior.passive_2.name">연속 처치</string>
+	<string name="skills.warrior.passive_2.desc">적을 처치할 때마다 \cb0dfff연속 처치\d 스택을 획득하며, 스택마다 피해량이 증가합니다. 지속 시간이 끝나면 모든 스택이 사라집니다.</string>
+	<string name="skills.warrior.passive_2.up1.name">잔인함</string>
+	<string name="skills.warrior.passive_2.up1.desc">각 스택이 무기 및 주문 치명타 확률을 추가로 증가시킵니다.</string>
+	<string name="skills.warrior.passive_2.up2.name">살인자의 체력</string>
+	<string name="skills.warrior.passive_2.up2.desc">각 스택이 생명력 재생을 증가시킵니다.</string>
+	<string name="skills.warrior.passive_2.up3.name">대담함</string>
+	<string name="skills.warrior.passive_2.up3.desc">\cb0dfff보스\d 및 \cb0dfff엘리트\d 적을 \cffdfb0근접\d 공격 시 일정 확률로 \cb0dfff연속 처치\d 스택을 획득합니다.</string>
 
 	
 	
 	
-	<string name="skills.warrior.mastery_1.name">Berserker</string>
+	<string name="skills.warrior.mastery_1.name">광전사</string>
 	<string name="skills.warrior.mastery_1.desc"></string>
 
-	<string name="skills.warrior.mastery_1.spell_1.name">Leap</string>
-	<string name="skills.warrior.mastery_1.spell_1.desc">도약\n지정한 위치로 도약하여 착지 시 충격파를 발생시키고 주변 적에게 물리 피해를 입히며 \cb0dfff기절\d 효과를 부여합니다.</string>
-	<string name="skills.warrior.mastery_1.spell_1.up1.name">Trembling Impact</string>
-	<string name="skills.warrior.mastery_1.spell_1.up1.desc">떨리는 충격\n착지 후 짧은 지연 시간 후에 연속적인 지진을 발생시켜 추가 물리 피해를 입힙니다.</string>
-	<string name="skills.warrior.mastery_1.spell_1.up2.name">Fiery Leap</string>
-	<string name="skills.warrior.mastery_1.spell_1.up2.desc">화염의 도약\n도약한 위치와 착지한 위치의 땅이 불타오르며 일정 시간 동안 화염 피해를 입힙니다.</string>
+	<string name="skills.warrior.mastery_1.spell_1.name">도약</string>
+	<string name="skills.warrior.mastery_1.spell_1.desc">지정한 위치로 도약하여 착지 시 충격파를 발생시키고 주변 적에게 물리 피해를 입히며 \cb0dfff기절\d 효과를 부여합니다.</string>
+	<string name="skills.warrior.mastery_1.spell_1.up1.name">떨리는 충격</string>
+	<string name="skills.warrior.mastery_1.spell_1.up1.desc">착지 후 짧은 지연 시간 후에 연속적인 지진을 발생시켜 추가 물리 피해를 입힙니다.</string>
+	<string name="skills.warrior.mastery_1.spell_1.up2.name">화염의 도약</string>
+	<string name="skills.warrior.mastery_1.spell_1.up2.desc">도약한 위치와 착지한 위치의 땅이 불타오르며 일정 시간 동안 화염 피해를 입힙니다.</string>
 
-	<string name="skills.warrior.mastery_1.passive_1.name">Rage</string>
-	<string name="skills.warrior.mastery_1.passive_1.desc">분노\n피해를 받을 때 일정 시간 동안 \cb0dfff분노\d 버프를 획득하며, \cffdfb0물리\d 스킬의 치명타 확률과 치명타 피해가 증가합니다.</string>
-	<string name="skills.warrior.mastery_1.passive_1.up1.name">Unyielding Rage</string>
-	<string name="skills.warrior.mastery_1.passive_1.up1.desc">불굴의 분노\n\cb0dfff생명력 저하\d 상태일 때 자동으로 분노를 획득하며, 이 상태에서는 받는 피해도 감소합니다.</string>
-	<string name="skills.warrior.mastery_1.passive_1.up2.name">Furious Cry</string>
-	<string name="skills.warrior.mastery_1.passive_1.up2.desc">분노의 외침\n\cb0dfff전쟁의 함성\d을 사용할 때 분노를 획득합니다. 분노 상태에서는 모든 스킬의 재사용 대기시간이 감소합니다.</string>
+	<string name="skills.warrior.mastery_1.passive_1.name">분노</string>
+	<string name="skills.warrior.mastery_1.passive_1.desc">피해를 받을 때 일정 시간 동안 \cb0dfff분노\d 버프를 획득하며, \cffdfb0물리\d 스킬의 치명타 확률과 치명타 피해가 증가합니다.</string>
+	<string name="skills.warrior.mastery_1.passive_1.up1.name">불굴의 분노</string>
+	<string name="skills.warrior.mastery_1.passive_1.up1.desc">\cb0dfff생명력 저하\d 상태일 때 자동으로 분노를 획득하며, 이 상태에서는 받는 피해도 감소합니다.</string>
+	<string name="skills.warrior.mastery_1.passive_1.up2.name">분노의 외침</string>
+	<string name="skills.warrior.mastery_1.passive_1.up2.desc">\cb0dfff전쟁의 함성\d을 사용할 때 분노를 획득합니다. 분노 상태에서는 모든 스킬의 재사용 대기시간이 감소합니다.</string>
 
-	<string name="skills.warrior.mastery_2.name">Primalist</string>
+	<string name="skills.warrior.mastery_2.name">고대의 전사</string>
 	<string name="skills.warrior.mastery_2.desc"></string>
 
-	<string name="skills.warrior.mastery_2.spell_1.name">Ancient Totems</string>
-	<string name="skills.warrior.mastery_2.spell_1.desc">고대의 토템\n지정한 위치에 토템을 배치하여 일정 시간 동안 주변 적들에게 물리 피해를 입힙니다.</string>
-	<string name="skills.warrior.mastery_2.spell_1.up1.name">Shock Totems</string>
-	<string name="skills.warrior.mastery_2.spell_1.up1.desc">충격 토템\n토템이 주기적으로 인근 적에게 번개를 방출하여 피해를 입힙니다. 가까운 거리에 토템을 여러 개 배치하면 번개 장벽이 형성되어 추가 피해를 입힙니다.</string>
-	<string name="skills.warrior.mastery_2.spell_1.up2.name">Frostbite Totems</string>
-	<string name="skills.warrior.mastery_2.spell_1.up2.desc">서리 토템\n토템의 피해 유형이 빙결 속성으로 변경되며, 일정 확률로 \cb0dfff빙결\d 효과를 부여합니다.</string>
+	<string name="skills.warrior.mastery_2.spell_1.name">고대의 토템</string>
+	<string name="skills.warrior.mastery_2.spell_1.desc">지정한 위치에 토템을 배치하여 일정 시간 동안 주변 적들에게 물리 피해를 입힙니다.</string>
+	<string name="skills.warrior.mastery_2.spell_1.up1.name">충격 토템</string>
+	<string name="skills.warrior.mastery_2.spell_1.up1.desc">토템이 주기적으로 인근 적에게 번개를 방출하여 피해를 입힙니다. 가까운 거리에 토템을 여러 개 배치하면 번개 장벽이 형성되어 추가 피해를 입힙니다.</string>
+	<string name="skills.warrior.mastery_2.spell_1.up2.name">서리 토템</string>
+	<string name="skills.warrior.mastery_2.spell_1.up2.desc">토템의 피해 유형이 냉기 속성으로 변경되며, 일정 확률로 \cb0dfff빙결\d 효과를 부여합니다.</string>
 
-	<string name="skills.warrior.mastery_2.passive_1.name">Tremor Strikes</string>
-	<string name="skills.warrior.mastery_2.passive_1.desc">지진의 일격\n\cffdfb0근접 무기\d 공격 시 주변에 진동을 발생시켜 범위 내 적들에게 물리 피해를 입힙니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
-	<string name="skills.warrior.mastery_2.passive_1.up1.name">Tempest Strikes</string>
-	<string name="skills.warrior.mastery_2.passive_1.up1.desc">폭풍의 일격\n\cffdfb0근접 무기\d 공격이 일정 확률로 대상과 무작위 주변 적에게 추가 번개 피해를 입힙니다.</string>
-	<string name="skills.warrior.mastery_2.passive_1.up2.name">Glacial Strikes</string>
-	<string name="skills.warrior.mastery_2.passive_1.up2.desc">빙하의 일격\n\cffdfb0근접 무기\d 공격이 일정 확률로 작은 폭발을 일으켜 추가 빙결 피해를 입힙니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.warrior.mastery_2.passive_1.name">지진의 일격</string>
+	<string name="skills.warrior.mastery_2.passive_1.desc">\cffdfb0근접 무기\d 공격 시 주변에 진동을 발생시켜 범위 내 적들에게 물리 피해를 입힙니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.warrior.mastery_2.passive_1.up1.name">폭풍의 일격</string>
+	<string name="skills.warrior.mastery_2.passive_1.up1.desc">\cffdfb0근접 무기\d 공격이 일정 확률로 대상과 무작위 주변 적에게 추가 번개 피해를 입힙니다.</string>
+	<string name="skills.warrior.mastery_2.passive_1.up2.name">빙하의 일격</string>
+	<string name="skills.warrior.mastery_2.passive_1.up2.desc">\cffdfb0근접 무기\d 공격이 일정 확률로 작은 폭발을 일으켜 추가 냉기 피해를 입힙니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
 
-	<string name="skills.warrior.mastery_3.name">Tyrant</string>
+	<string name="skills.warrior.mastery_3.name">폭군</string>
 	<string name="skills.warrior.mastery_3.desc"></string>
 
-	<string name="skills.warrior.mastery_3.spell_1.name">Chains</string>
-	<string name="skills.warrior.mastery_3.spell_1.desc">사슬\n사방으로 사슬을 던져 물리 피해를 입히고 적에게 \cb0dfff속박\d 효과를 부여합니다.</string>
-	<string name="skills.warrior.mastery_3.spell_1.up1.name">Barbed Chains</string>
-	<string name="skills.warrior.mastery_3.spell_1.up1.desc">가시 사슬\n사슬이 \cb0dfff출혈\d 스택을 부여합니다.</string>
-	<string name="skills.warrior.mastery_3.spell_1.up2.name">Spiked Chains</string>
-	<string name="skills.warrior.mastery_3.spell_1.up2.desc">뾰족한 사슬\n사슬 끝에서 추가 가시 투사체가 발사됩니다.</string>
+	<string name="skills.warrior.mastery_3.spell_1.name">사슬</string>
+	<string name="skills.warrior.mastery_3.spell_1.desc">사방으로 사슬을 던져 물리 피해를 입히고 적에게 \cb0dfff속박\d 효과를 부여합니다.</string>
+	<string name="skills.warrior.mastery_3.spell_1.up1.name">가시 사슬</string>
+	<string name="skills.warrior.mastery_3.spell_1.up1.desc">사슬이 \cb0dfff출혈\d 스택을 부여합니다.</string>
+	<string name="skills.warrior.mastery_3.spell_1.up2.name">뾰족한 사슬</string>
+	<string name="skills.warrior.mastery_3.spell_1.up2.desc">사슬 끝에서 추가 가시 투사체가 발사됩니다.</string>
 
-	<string name="skills.warrior.mastery_3.passive_1.name">Ruthlessness</string>
-	<string name="skills.warrior.mastery_3.passive_1.desc">무자비함\n물리 피해량이 증가하며, \cffdfb0물리\d 스킬이 일정 확률로 \cb0dfff출혈\d 스택을 부여할 수 있습니다.</string>
-	<string name="skills.warrior.mastery_3.passive_1.up1.name">Exploding Gibs</string>
-	<string name="skills.warrior.mastery_3.passive_1.up1.desc">폭발적인 파편\n\cffdfb0물리\d 스킬로 적을 처치하면 일정 확률로 폭발을 일으켜 주변에 물리 피해를 입힙니다.</string>
-	<string name="skills.warrior.mastery_3.passive_1.up2.name">Slayer</string>
-	<string name="skills.warrior.mastery_3.passive_1.up2.desc">학살자\n적의 잃은 체력에 비례하여 추가 피해를 입힙니다.</string>
+	<string name="skills.warrior.mastery_3.passive_1.name">무자비함</string>
+	<string name="skills.warrior.mastery_3.passive_1.desc">물리 피해량이 증가하며, \cffdfb0물리\d 스킬이 일정 확률로 \cb0dfff출혈\d 스택을 부여할 수 있습니다.</string>
+	<string name="skills.warrior.mastery_3.passive_1.up1.name">폭발적인 파편</string>
+	<string name="skills.warrior.mastery_3.passive_1.up1.desc">\cffdfb0물리\d 스킬로 적을 처치하면 일정 확률로 폭발을 일으켜 주변에 물리 피해를 입힙니다.</string>
+	<string name="skills.warrior.mastery_3.passive_1.up2.name">학살자</string>
+	<string name="skills.warrior.mastery_3.passive_1.up2.desc">적의 잃은 체력에 비례하여 추가 피해를 입힙니다.</string>
 
 
 
@@ -919,95 +920,95 @@
 
 	<!-- Wizard -->
 
-	<string name="skills.wizard.spell_1.name">Magic Missiles</string>
-	<string name="skills.wizard.spell_1.desc">마법 미사일\n여러 개의 마법 미사일을 발사하여 주변 적을 추적하고 충돌 시 물리 피해를 입힙니다.</string>
-	<string name="skills.wizard.spell_1.up1.name">Missile Barrage</string>
-	<string name="skills.wizard.spell_1.up1.desc">미사일 연사\n시전할 때 추가 투사체를 발사합니다.</string>
-	<string name="skills.wizard.spell_1.up2.name">Rebounding Missiles</string>
-	<string name="skills.wizard.spell_1.up2.desc">반향 미사일\n투사체가 적을 명중하면 추가 대상으로 튕길 수 있습니다.</string>
-	<string name="skills.wizard.spell_1.up3.name">Concussive Impacts</string>
-	<string name="skills.wizard.spell_1.up3.desc">충격 효과\n투사체가 일정 확률로 \cb0dfff기절\d 효과를 부여합니다.</string>
+	<string name="skills.wizard.spell_1.name">마법 미사일</string>
+	<string name="skills.wizard.spell_1.desc">여러 개의 마법 미사일을 발사하여 주변 적을 추적하고 충돌 시 물리 피해를 입힙니다.</string>
+	<string name="skills.wizard.spell_1.up1.name">미사일 연사</string>
+	<string name="skills.wizard.spell_1.up1.desc">시전할 때 추가 투사체를 발사합니다.</string>
+	<string name="skills.wizard.spell_1.up2.name">반향 미사일</string>
+	<string name="skills.wizard.spell_1.up2.desc">투사체가 적을 명중하면 추가 대상으로 튕길 수 있습니다.</string>
+	<string name="skills.wizard.spell_1.up3.name">충격 효과</string>
+	<string name="skills.wizard.spell_1.up3.desc">투사체가 일정 확률로 \cb0dfff기절\d 효과를 부여합니다.</string>
 
-	<string name="skills.wizard.spell_2.name">Fireball</string>
-	<string name="skills.wizard.spell_2.desc">화염구\n지정한 위치로 화염구를 발사하여 폭발을 일으키고 화염 피해를 입힙니다.</string>
-	<string name="skills.wizard.spell_2.up1.name">Enhanced Fireball</string>
-	<string name="skills.wizard.spell_2.up1.desc">강화된 화염구\n폭발의 범위가 증가합니다.</string>
-	<string name="skills.wizard.spell_2.up2.name">Blastwave</string>
-	<string name="skills.wizard.spell_2.up2.desc">폭렬 파동\n화염구에 맞은 적이 \cb0dfff둔화\d 효과에 걸립니다.</string>
-	<string name="skills.wizard.spell_2.up3.name">Bouncing Fireball</string>
-	<string name="skills.wizard.spell_2.up3.desc">튕기는 화염구\n화염구가 튕기며 매번 폭발을 일으킵니다.</string>
+	<string name="skills.wizard.spell_2.name">화염구</string>
+	<string name="skills.wizard.spell_2.desc">지정한 위치로 화염구를 발사하여 폭발을 일으키고 화염 피해를 입힙니다.</string>
+	<string name="skills.wizard.spell_2.up1.name">강화된 화염구</string>
+	<string name="skills.wizard.spell_2.up1.desc">폭발의 범위가 증가합니다.</string>
+	<string name="skills.wizard.spell_2.up2.name">폭렬 파동</string>
+	<string name="skills.wizard.spell_2.up2.desc">화염구에 맞은 적이 \cb0dfff둔화\d 효과에 걸립니다.</string>
+	<string name="skills.wizard.spell_2.up3.name">튕기는 화염구</string>
+	<string name="skills.wizard.spell_2.up3.desc">화염구가 튕기며 매번 폭발을 일으킵니다.</string>
 
-	<string name="skills.wizard.passive_1.name">Arcane Intellect</string>
-	<string name="skills.wizard.passive_1.desc">신비한 지능\n마나와 지능이 증가합니다.</string>
-	<string name="skills.wizard.passive_1.up1.name">Savant</string>
-	<string name="skills.wizard.passive_1.up1.desc">학자\n주문의 재사용 대기시간이 감소합니다.</string>
-	<string name="skills.wizard.passive_1.up2.name">Arcane Weaponry</string>
-	<string name="skills.wizard.passive_1.up2.desc">신비한 무기\n\cffdfb0비전\d 무기를 사용할 때 피해량이 증가합니다.</string>
-	<string name="skills.wizard.passive_1.up3.name">Learning</string>
-	<string name="skills.wizard.passive_1.up3.desc">배움\n획득하는 경험치가 증가합니다.</string>
+	<string name="skills.wizard.passive_1.name">신비한 지능</string>
+	<string name="skills.wizard.passive_1.desc">마나와 지능이 증가합니다.</string>
+	<string name="skills.wizard.passive_1.up1.name">학자</string>
+	<string name="skills.wizard.passive_1.up1.desc">주문의 재사용 대기시간이 감소합니다.</string>
+	<string name="skills.wizard.passive_1.up2.name">신비한 무기</string>
+	<string name="skills.wizard.passive_1.up2.desc">\cffdfb0비전\d 무기를 사용할 때 피해량이 증가합니다.</string>
+	<string name="skills.wizard.passive_1.up3.name">배움</string>
+	<string name="skills.wizard.passive_1.up3.desc">획득하는 경험치가 증가합니다.</string>
 
-	<string name="skills.wizard.passive_2.name">Barrier</string>
-	<string name="skills.wizard.passive_2.desc">보호막\n시간이 지남에 따라 \cb0dfff보호막\d 스택을 생성합니다. 피해를 받을 때 스택이 소모되며 피해량이 감소합니다.</string>
-	<string name="skills.wizard.passive_2.up1.name">Flame Shield</string>
-	<string name="skills.wizard.passive_2.up1.desc">화염 방패\n\cb0dfff보호막\d 스택이 있는 상태에서 피해를 받으면 일정 시간 동안 주변 공기를 점화하여 근처 적들에게 화염 피해를 입힙니다.</string>
-	<string name="skills.wizard.passive_2.up2.name">Frost Shell</string>
-	<string name="skills.wizard.passive_2.up2.desc">서리 방패\n\cb0dfff보호막\d 스택이 있는 동안 방어력과 빙결 저항력이 증가하며, 공격한 적에게 \cb0dfff빙결\d 효과를 부여합니다.</string>
-	<string name="skills.wizard.passive_2.up3.name">Protective Warding</string>
-	<string name="skills.wizard.passive_2.up3.desc">보호 마법\n\cffdfb0주문\d을 시전하면 일정 확률로 보호막 스택을 생성합니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
+	<string name="skills.wizard.passive_2.name">보호막</string>
+	<string name="skills.wizard.passive_2.desc">시간이 지남에 따라 \cb0dfff보호막\d 스택을 생성합니다. 피해를 받을 때 스택이 소모되며 피해량이 감소합니다.</string>
+	<string name="skills.wizard.passive_2.up1.name">화염 방패</string>
+	<string name="skills.wizard.passive_2.up1.desc">\cb0dfff보호막\d 스택이 있는 상태에서 피해를 받으면 일정 시간 동안 주변 공기를 점화하여 근처 적들에게 화염 피해를 입힙니다.</string>
+	<string name="skills.wizard.passive_2.up2.name">서리 방패</string>
+	<string name="skills.wizard.passive_2.up2.desc">\cb0dfff보호막\d 스택이 있는 동안 방어력과 냉기 저항력이 증가하며, 공격한 적에게 \cb0dfff빙결\d 효과를 부여합니다.</string>
+	<string name="skills.wizard.passive_2.up3.name">보호 마법</string>
+	<string name="skills.wizard.passive_2.up3.desc">\cffdfb0주문\d을 시전하면 일정 확률로 보호막 스택을 생성합니다. 이 효과는 짧은 재사용 대기시간을 가집니다.</string>
 
 
-	<string name="skills.wizard.mastery_1.name">Evocation</string>
+	<string name="skills.wizard.mastery_1.name">주문 증폭</string>
 	<string name="skills.wizard.mastery_1.desc"></string>
 
-	<string name="skills.wizard.mastery_1.spell_1.name">Meteor Shower</string>
-	<string name="skills.wizard.mastery_1.spell_1.desc">메테오\n지정된 지역에 일정 시간 동안 운석을 떨어뜨려 물리 및 화염 피해를 입힙니다.</string>
-	<string name="skills.wizard.mastery_1.spell_1.up1.name">Burning Ground</string>
-	<string name="skills.wizard.mastery_1.spell_1.up1.desc">불타는 대지\n운석이 충돌한 지역에 불타는 지면을 생성하여 일정 시간 동안 추가 화염 피해를 입힙니다.</string>
-	<string name="skills.wizard.mastery_1.spell_1.up2.name">Comet</string>
-	<string name="skills.wizard.mastery_1.spell_1.up2.desc">혜성\n피해 유형이 빙결 및 물리 속성으로 변경되며, 일정 확률로 \cb0dfff빙결\d 효과를 부여합니다.</string>
+	<string name="skills.wizard.mastery_1.spell_1.name">메테오 샤워</string>
+	<string name="skills.wizard.mastery_1.spell_1.desc">지정된 지역에 일정 시간 동안 운석을 떨어뜨려 물리 및 화염 피해를 입힙니다.</string>
+	<string name="skills.wizard.mastery_1.spell_1.up1.name">불타는 대지</string>
+	<string name="skills.wizard.mastery_1.spell_1.up1.desc">운석이 충돌한 지역에 불타는 지면을 생성하여 일정 시간 동안 추가 화염 피해를 입힙니다.</string>
+	<string name="skills.wizard.mastery_1.spell_1.up2.name">혜성</string>
+	<string name="skills.wizard.mastery_1.spell_1.up2.desc">피해 유형이 냉기 및 물리 속성으로 변경되며, 일정 확률로 \cb0dfff빙결\d 효과를 부여합니다.</string>
 
-	<string name="skills.wizard.mastery_1.passive_1.name">Incanter's Cadence</string>
-	<string name="skills.wizard.mastery_1.passive_1.desc">마법사의 리듬\n\cffdfb0주문\d을 시전하면 \cb0dfff마법사의 리듬\d 스택을 생성합니다. 각 스택은 시전 속도를 증가시키고 주문의 마나 소모량을 감소시킵니다.</string>
-	<string name="skills.wizard.mastery_1.passive_1.up1.name">Rising Crescendo</string>
-	<string name="skills.wizard.mastery_1.passive_1.up1.desc">고조되는 리듬\n\cb0dfff마법사의 리듬\d 스택당 주문 치명타 확률이 증가합니다.</string>
-	<string name="skills.wizard.mastery_1.passive_1.up2.name">Incanter's Flow</string>
-	<string name="skills.wizard.mastery_1.passive_1.up2.desc">마법사의 연주\n\cb0dfff마법사의 리듬\d 스택당 무기 속도가 증가합니다.</string>
+	<string name="skills.wizard.mastery_1.passive_1.name">마법사의 리듬</string>
+	<string name="skills.wizard.mastery_1.passive_1.desc">\cffdfb0주문\d을 시전하면 \cb0dfff마법사의 리듬\d 스택을 생성합니다. 각 스택은 시전 속도를 증가시키고 주문의 마나 소모량을 감소시킵니다.</string>
+	<string name="skills.wizard.mastery_1.passive_1.up1.name">고조되는 리듬</string>
+	<string name="skills.wizard.mastery_1.passive_1.up1.desc">\cb0dfff마법사의 리듬\d 스택당 주문 치명타 확률이 증가합니다.</string>
+	<string name="skills.wizard.mastery_1.passive_1.up2.name">마법사의 연주</string>
+	<string name="skills.wizard.mastery_1.passive_1.up2.desc">\cb0dfff마법사의 리듬\d 스택당 무기 속도가 증가합니다.</string>
 
-	<string name="skills.wizard.mastery_2.name">Conjuration</string>
+	<string name="skills.wizard.mastery_2.name">소환술</string>
 	<string name="skills.wizard.mastery_2.desc"></string>
 
-	<string name="skills.wizard.mastery_2.spell_1.name">Conjure Hydras</string>
-	<string name="skills.wizard.mastery_2.spell_1.desc">히드라 소환\n여러 마리의 히드라를 소환하여 주변 적들에게 화염을 내뿜고 화염 피해를 입힙니다.</string>
-	<string name="skills.wizard.mastery_2.spell_1.up1.name">Greater Hydra</string>
-	<string name="skills.wizard.mastery_2.spell_1.up1.desc">강화된 히드리\n시전 시 추가 히드라를 소환합니다.</string>
-	<string name="skills.wizard.mastery_2.spell_1.up2.name">Frost Breath</string>
-	<string name="skills.wizard.mastery_2.spell_1.up2.desc">서리 숨결\n피해 유형이 빙결 속성으로 변경됩니다.</string>
+	<string name="skills.wizard.mastery_2.spell_1.name">히드라 소환</string>
+	<string name="skills.wizard.mastery_2.spell_1.desc">여러 마리의 히드라를 소환하여 주변 적들에게 화염을 내뿜고 화염 피해를 입힙니다.</string>
+	<string name="skills.wizard.mastery_2.spell_1.up1.name">강화된 히드라</string>
+	<string name="skills.wizard.mastery_2.spell_1.up1.desc">시전 시 추가 히드라를 소환합니다.</string>
+	<string name="skills.wizard.mastery_2.spell_1.up2.name">서리 숨결</string>
+	<string name="skills.wizard.mastery_2.spell_1.up2.desc">피해 유형이 냉기 속성으로 변경됩니다.</string>
 
-	<string name="skills.wizard.mastery_2.passive_1.name">Animated Sword</string>
-	<string name="skills.wizard.mastery_2.passive_1.desc">마법 검\n항상 따라다니는 마법 검을 소환합니다. 검은 주변 적을 베어 물리 피해를 입힙니다.</string>
-	<string name="skills.wizard.mastery_2.passive_1.up1.name">Flame Blade</string>
-	<string name="skills.wizard.mastery_2.passive_1.up1.desc">화염의 검\n검이 불꽃에 휩싸이며 지속적으로 주변 적에게 화염 피해를 입힙니다.</string>
-	<string name="skills.wizard.mastery_2.passive_1.up2.name">Ice Blade</string>
-	<string name="skills.wizard.mastery_2.passive_1.up2.desc">서리의 검\n검이 빙결 피해를 입히며 일정 확률로 \cb0dfff빙결\d 효과를 부여합니다.</string>
+	<string name="skills.wizard.mastery_2.passive_1.name">마법의 검</string>
+	<string name="skills.wizard.mastery_2.passive_1.desc">항상 따라다니는 마법 검을 소환합니다. 검은 주변 적을 베어 물리 피해를 입힙니다.</string>
+	<string name="skills.wizard.mastery_2.passive_1.up1.name">화염의 검</string>
+	<string name="skills.wizard.mastery_2.passive_1.up1.desc">마법의 검이 불꽃에 휩싸이며 지속적으로 주변 적에게 화염 피해를 입힙니다.</string>
+	<string name="skills.wizard.mastery_2.passive_1.up2.name">서리의 검</string>
+	<string name="skills.wizard.mastery_2.passive_1.up2.desc">마법의 검이 냉기 피해를 입히며 일정 확률로 \cb0dfff빙결\d 효과를 부여합니다.</string>
 
-	<string name="skills.wizard.mastery_3.name">Transmutation</string>
+	<string name="skills.wizard.mastery_3.name">변환술</string>
 	<string name="skills.wizard.mastery_3.desc"></string>
 
-	<string name="skills.wizard.mastery_3.spell_1.name">Haste</string>
-	<string name="skills.wizard.mastery_3.spell_1.desc">가속\n일정 시간 동안 무기 속도, 주문 속도 및 이동 속도가 증가하는 버프를 부여합니다.</string>
-	<string name="skills.wizard.mastery_3.spell_1.up1.name">Blur</string>
-	<string name="skills.wizard.mastery_3.spell_1.up1.desc">흐릿함\n버프 지속 시간 동안 회피율이 증가합니다.</string>
-	<string name="skills.wizard.mastery_3.spell_1.up2.name">Temporal Shift</string>
-	<string name="skills.wizard.mastery_3.spell_1.up2.desc">시간 왜곡\n버프 지속 시간 동안 주변 적들에게 \cb0dfff둔화\d 효과를 부여합니다.</string>
+	<string name="skills.wizard.mastery_3.spell_1.name">가속</string>
+	<string name="skills.wizard.mastery_3.spell_1.desc">일정 시간 동안 무기 속도, 주문 속도 및 이동 속도가 증가하는 버프를 부여합니다.</string>
+	<string name="skills.wizard.mastery_3.spell_1.up1.name">흐릿함</string>
+	<string name="skills.wizard.mastery_3.spell_1.up1.desc">버프 지속 시간 동안 회피율이 증가합니다.</string>
+	<string name="skills.wizard.mastery_3.spell_1.up2.name">시간 왜곡</string>
+	<string name="skills.wizard.mastery_3.spell_1.up2.desc">버프 지속 시간 동안 주변 적들에게 \cb0dfff둔화\d 효과를 부여합니다.</string>
 	
-	<string name="skills.wizard.mastery_3.passive_1.name">Enhanced Physique</string>
-	<string name="skills.wizard.mastery_3.passive_1.desc">강화된 신체\n레벨당 추가 힘, 민첩성 및 지능을 부여합니다.</string>
-	<string name="skills.wizard.mastery_3.passive_1.up1.name">Enhanced Strength</string>
-	<string name="skills.wizard.mastery_3.passive_1.up1.desc">강화된 힘\n힘당 주문력이 증가합니다.</string>
-	<string name="skills.wizard.mastery_3.passive_1.up2.name">Enhanced Dexterity</string>
-	<string name="skills.wizard.mastery_3.passive_1.up2.desc">강화된 민첩\n민첩성당 주문력이 증가합니다.</string>
-	<string name="skills.wizard.mastery_3.passive_1.up3.name">Free Movement</string>
-	<string name="skills.wizard.mastery_3.passive_1.up3.desc">자유로운 이동\n\cb0dfff둔화\d 및 \cb0dfff속박\d 효과에 면역이 됩니다.</string>
+	<string name="skills.wizard.mastery_3.passive_1.name">강화된 신체</string>
+	<string name="skills.wizard.mastery_3.passive_1.desc">레벨당 추가 근력, 민첩 및 지능을 부여합니다.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up1.name">강화된 힘</string>
+	<string name="skills.wizard.mastery_3.passive_1.up1.desc">근력당 주문력이 증가합니다.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up2.name">강화된 민첩</string>
+	<string name="skills.wizard.mastery_3.passive_1.up2.desc">민첩당 주문력이 증가합니다.</string>
+	<string name="skills.wizard.mastery_3.passive_1.up3.name">자유로운 이동</string>
+	<string name="skills.wizard.mastery_3.passive_1.up3.desc">\cb0dfff둔화\d 및 \cb0dfff속박\d 효과에 면역이 됩니다.</string>
 
 
 
@@ -1037,17 +1038,17 @@
 	<!-- Crafting -->
 
 
-	<string name="menu.crafting.potion.title">Potion Brewing</string>
-	<string name="menu.crafting.food.title">Cooking</string>
-	<string name="menu.crafting.workbench.title">Workbench</string>
+	<string name="menu.crafting.potion.title">포션 제조</string>
+	<string name="menu.crafting.food.title">요리</string>
+	<string name="menu.crafting.workbench.title">제작대</string>
 	<string name="menu.crafting.cloth.title">Seamstress</string>
-	<string name="menu.crafting.leather.title">Leatherworker</string>
-	<string name="menu.crafting.metal.title">Blacksmith</string>
+	<string name="menu.crafting.leather.title">무두장인</string>
+	<string name="menu.crafting.metal.title">대장장이</string>
 	<string name="menu.crafting.armor.title">Armorer</string>
-	<string name="menu.crafting.weaponsmith.title">Weapon Smith</string>
+	<string name="menu.crafting.weaponsmith.title">무기 장인</string>
 	<string name="menu.crafting.scales.title">Scale Armorer</string>
 
-	<string name="menu.crafting.slot.tier.name">Tier</string>
+	<string name="menu.crafting.slot.tier.name">티어</string>
 	<string name="menu.crafting.slot.tier.desc">Select what tier of item to craft.</string>
 	<string name="menu.crafting.slot.quality.name">Quality</string>
 	<string name="menu.crafting.slot.quality.desc">Select what quality of item to craft.</string>
@@ -1724,10 +1725,10 @@
 	<string name="status_effect.armor_break">Armor Break</string>
 	<string name="status_effect.armor_break_minor">Minor Armor Break</string>
 	<string name="status_effect.armor_break_greater">Greater Armor Break</string>
-	<string name="status_effect.bleeding">Bleeding</string>
-	<string name="status_effect.bleeding_minor">Minor Bleeding</string>
-	<string name="status_effect.bleeding_greater">Greater Bleeding</string>
-	<string name="status_effect.blindness">Blindness</string>
+	<string name="status_effect.bleeding">출혈</string>
+	<string name="status_effect.bleeding_minor">경미한 출혈</string>
+	<string name="status_effect.bleeding_greater">강력한 출혈</string>
+	<string name="status_effect.blindness">실명</string>
 	<string name="status_effect.blindness_minor">Minor Blindness</string>
 	<string name="status_effect.blindness_greater">Greater Blindness</string>
 	<string name="status_effect.cripple">Cripple</string>
@@ -1736,21 +1737,21 @@
 	<string name="status_effect.disarm">Disarm</string>
 	<string name="status_effect.disarm_minor">Minor Disarm</string>
 	<string name="status_effect.disarm_greater">Greater Disarm</string>
-	<string name="status_effect.freeze">Freeze</string>
+	<string name="status_effect.freeze">빙결</string>
 	<string name="status_effect.freeze_minor">Minor Freeze</string>
 	<string name="status_effect.freeze_greater">Greater Freeze</string>
 	<string name="status_effect.immobilize">Immobilize</string>
 	<string name="status_effect.immobilize_minor">Minor Immobilize</string>
 	<string name="status_effect.immobilize_greater">Greater Immobilize</string>
-	<string name="status_effect.marked">표식식</string>
+	<string name="status_effect.marked">표식</string>
 	<string name="status_effect.marked_minor">Minor Marked</string>
 	<string name="status_effect.marked_greater">Greater Marked</string>
-	<string name="status_effect.silence">침묵묵</string>
+	<string name="status_effect.silence">침묵</string>
 	<string name="status_effect.silence_minor">Minor Silence</string>
 	<string name="status_effect.silence_greater">Greater Silence</string>
 	<string name="status_effect.slow">둔화</string>
-	<string name="status_effect.slow_minor">약한 둔화</string>
-	<string name="status_effect.slow_greater">Greater Slow</string>
+	<string name="status_effect.slow_minor">경미한 둔화</string>
+	<string name="status_effect.slow_greater">강력한 둔화</string>
 	<string name="status_effect.stun">기절</string>
 	<string name="status_effect.stun_minor">약한 기절</string>
 	<string name="status_effect.stun_greater">강한 기절</string>
@@ -1758,26 +1759,26 @@
 	<string name="status_effect.vulnerability_minor">Minor Vulnerability</string>
 	<string name="status_effect.vulnerability_greater">Greater Vulnerability</string>
 	<string name="status_effect.weakness">약화</string>
-	<string name="status_effect.weakness_minor">Minor Weakness</string>
-	<string name="status_effect.weakness_greater">Greater Weakness</string>
+	<string name="status_effect.weakness_minor">경미한 약화</string>
+	<string name="status_effect.weakness_greater">강력한 약화</string>
 
 
 
 
 
 
-	<string name="stacks.paladin.inner_flame.name">Inner Flame</string>
-	<string name="stacks.paladin.inner_flame.desc">Aura that deals Fire damage to nearby enemies.</string>
-	<string name="stacks.ranger.rhythm.name">Rhythm</string>
-	<string name="stacks.ranger.rhythm.desc">Each stack of Rhythm increases your Weapon Crit Chance and Damage.</string>
-	<string name="stacks.warlock.essence.name">Essence</string>
-	<string name="stacks.warlock.essence.desc">Each stack increases your max Health and Mana.</string>
-	<string name="stacks.warrior.killing_spree.name">Killing Spree</string>
-	<string name="stacks.warrior.killing_spree.desc">Each stack increases your damage.</string>
-	<string name="stacks.wizard.barrier.name">Barrier</string>
-	<string name="stacks.wizard.barrier.desc">Each stack lowers damage taken from a hit.</string>
-	<string name="stacks.wizard.incanters_flow.name">Incanter's Flow</string>
-	<string name="stacks.wizard.incanters_flow.desc">Each stack increases your Cast Speed and reduces the Mana Cost of Spells.</string>
+	<string name="stacks.paladin.inner_flame.name">내변의 불꽃</string>
+	<string name="stacks.paladin.inner_flame.desc">주변의 적에게 화염 피해를 입히는 오라가 생성됩니다.</string>
+	<string name="stacks.ranger.rhythm.name">리듬</string>
+	<string name="stacks.ranger.rhythm.desc">리듬 스택마다 무기 치명타 확률과 피해량이 증가합니다.</string>
+	<string name="stacks.warlock.essence.name">정수</string>
+	<string name="stacks.warlock.essence.desc">스택당 최대 생명력과 최대 마나가 증가합니다.</string>
+	<string name="stacks.warrior.killing_spree.name">연속 처치</string>
+	<string name="stacks.warrior.killing_spree.desc">스택마다 피해량이 증가합니다.</string>
+	<string name="stacks.wizard.barrier.name">보호막</string>
+	<string name="stacks.wizard.barrier.desc">스택이 받는 피해량을 감소시킵니다.</string>
+	<string name="stacks.wizard.incanters_flow.name">마법사의 리듬</string>
+	<string name="stacks.wizard.incanters_flow.desc">스택마다 시전속도를 증가시키고 주문의 마나 소모량을 감소시킵니다.</string>
 
 </lang>
 
