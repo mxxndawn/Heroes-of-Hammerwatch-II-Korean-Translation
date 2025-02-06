@@ -9,7 +9,7 @@
 	<string name="skill.tag.arcane">\cffdfb0아케인\d</string>
 	<string name="skill.tag.bow">\cffdfb0활\d</string>
 	<string name="skill.tag.fire">\cffdfb0화염\d</string>
-	<string name="skill.tag.ice">\cffdfb0빙결\d</string>
+	<string name="skill.tag.ice">\cffdfb0냉기\d</string>
 	<string name="skill.tag.lightning">\cffdfb0번개\d</string>
 	<string name="skill.tag.poison">\cffdfb0중독\d</string>
 
@@ -338,7 +338,7 @@
 
 	<string name="menu.cost">비용</string>
 
-	<string name="building.apothecary.name">약제사</string>
+	<string name="building.apothecary.name">연금술사</string>
 	<string name="building.apothecary.desc1">포션의 업그레이드를 잠금 해제합니다.</string>
 	<string name="building.apothecary.desc2">더 많은 포션 업그레이드를 잠금 해제합니다.</string>
 
@@ -346,7 +346,7 @@
 	<string name="building.architect.desc1">건축가의 집으로, 어둠의 성채 도전에서 여러 요소를 변경할 수 있게 해줍니다.</string>
 	<string name="building.architect.desc2">더 많은 효과를 변경할 수 있으며, 여러 효과를 동시에 적용하는 비용을 낮춥니다.</string>
 
-	<string name="building.blacksmith.name">대장장이이</string>
+	<string name="building.blacksmith.name">대장장이</string>
 	<string name="building.blacksmith.desc1">무기와 방어구를 강화할 수 있습니다.</string>
 	<string name="building.blacksmith.desc2">갑옷과 무기를 더 좋게 업그레이드할 수 있으며, 개별 장비를 업그레이드할 수 있습니다.</string>
 	<string name="building.blacksmith.desc3">갑옷과 무기를 더 좋게 업그레이드할 수 있으며, 장비 업그레이드 비용이 더 저렴해집니다.</string>
@@ -769,7 +769,7 @@
 	<string name="menu.subclass.skill.passive">패시브</string>
 
 
-	<string name="menu.imp.announce.1">어? 임프 소리 아니야?</string>
+	<string name="menu.imp.announce.1">응? 임프 소리 아니야?</string>
 	<string name="menu.imp.announce.2">임프다! 근처에 있을거야.</string>
 	<string name="menu.imp.nothing">임프는 아무것도 주지 않았지롱!</string>
 	<string name="menu.imp.givemats">임프가 %mats%를 주었습니다!</string>
@@ -1076,7 +1076,7 @@
 	<string name="location.shortcut.entrance">출입구</string>
 	
 	<string name="boss.totems">토템 기둥</string>
-	<string name="boss.totem_ice">빙결의 토템</string>
+	<string name="boss.totem_ice">냉기의 토템</string>
 	<string name="boss.totem_earth">대지의 토템</string>
 	<string name="boss.totem_fire">화염의 토템</string>
 	<string name="boss.totem_lightning">번개의 토템</string>
@@ -1211,7 +1211,7 @@
 	<string name="htitle.ranger.desc">%num% 무기 피해량을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.rogue.desc">%num%% 함정 피해 감소를 부여, 레벨당 %num-per%% 증가.</string>
 	<string name="htitle.sorcerer.desc">%num% 마나 재생을 부여, 레벨당 %num-per% 증가.</string>
-	<string name="htitle.warlock.desc">%num% 화염, 빙결, 번개, 중독 저항을 부여, 레벨당 %num-per% 증가.</string>
+	<string name="htitle.warlock.desc">%num% 화염, 냉기, 번개, 독 저항을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.warrior.desc">%num% 생명력을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.wizard.desc">%num% 주문 피해량을 부여, 레벨당 %num-per% 증가.</string>
 
@@ -1294,7 +1294,7 @@
 	<string name="stat.icon.resistancefire">\"icn-res-fire"</string>
 	<string name="stat.name.resistancefire">화염 저항</string>
 	<string name="stat.icon.resistanceice">\"icn-res-ice"</string>
-	<string name="stat.name.resistanceice">빙결 저항</string>
+	<string name="stat.name.resistanceice">냉기 저항</string>
 	<string name="stat.icon.resistancelightning">\"icn-res-lightn"</string>
 	<string name="stat.name.resistancelightning">번개 저항</string>
 	<string name="stat.icon.resistancepoison">\"icn-res-poison"</string>
@@ -1308,7 +1308,7 @@
 	<string name="stat.icon.damagefire">\"icn-dmg-fire"</string>
 	<string name="stat.name.damagefire">화염 피해량</string>
 	<string name="stat.icon.damageice">\"icn-dmg-ice"</string>
-	<string name="stat.name.damageice">빙결 피해량</string>
+	<string name="stat.name.damageice">냉기 피해량</string>
 	<string name="stat.icon.damagelightning">\"icn-dmg-lightn"</string>
 	<string name="stat.name.damagelightning">번개 피해량</string>
 	<string name="stat.icon.damagepoison">\"icn-dmg-poison"</string>
@@ -1355,7 +1355,7 @@
 	<string name="stat.icon.resistancefirepen">\"icn-respen-fire"</string>
 	<string name="stat.name.resistancefirepen">화염 저항 관통력</string>
 	<string name="stat.icon.resistanceicepen">\"icn-respen-ice"</string>
-	<string name="stat.name.resistanceicepen">빙결 저항 관통력</string>
+	<string name="stat.name.resistanceicepen">냉기 저항 관통력</string>
 	<string name="stat.icon.resistancelightningpen">\"icn-respen-lightn"</string>
 	<string name="stat.name.resistancelightningpen">번개 저항 관통력</string>
 	<string name="stat.icon.resistancepoisonpen">\"icn-respen-poison"</string>
@@ -1484,7 +1484,7 @@
 	<string name="statistic.combo-max">최대 콤보수 달성</string>
 	<string name="statistic.damage-taken-phys">받은 물리 피해</string>
 	<string name="statistic.damage-taken-fire">받은 화염 피해</string>
-	<string name="statistic.damage-taken-ice">받은 빙결 피해</string>
+	<string name="statistic.damage-taken-ice">받은 냉기 피해</string>
 	<string name="statistic.damage-taken-light">받은 번개 피해</string>
 	<string name="statistic.damage-taken-poison">받은 중독 피해</string>
 	<string name="statistic.damage-taken-pure">받은 순수 피해</string>
