@@ -262,7 +262,7 @@
 	<string name="skills.attacks.mainhand.wand.lightning.desc">Discharge a bolt of lightning that can jump between enemies, dealing 40% Weapon damage. The bolt deals 10% less damage for each jump.</string>
 
 	<string name="skills.attacks.offhand.crossbow.name">퀵 샷</string>
-	<string name="skills.attacks.offhand.crossbow.desc">Quickly release a fast bolt that deal 75% Physical damage.</string>
+	<string name="skills.attacks.offhand.crossbow.desc">Quickly release a fast bolt that deal 75% Physical damage with 10% Armor Penetration.</string>
 	<string name="skills.attacks.offhand.shield.name">방패 강타</string>
 	<string name="skills.attacks.offhand.shield.desc">Bash enemies with your shield inflicting \cb0dfffStun\d.</string>
 	<string name="skills.attacks.offhand.shield.block.desc">Blocks up to %amnt% damage from most projectiles in a 180-degree arc.</string>
@@ -276,16 +276,16 @@
 
 	<string name="skills.attacks.twohanded.shortbow1.name">퀵 샷</string>
 	<string name="skills.attacks.twohanded.shortbow1.desc">Rapidly fires an arrow that deal 50% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.shortbow2.name">파워 샷</string>
-	<string name="skills.attacks.twohanded.shortbow2.desc">Hold to charge up a powerful shot. The range, speed and damage of the projectile is increased by the time charged, dealing up to 150% Weapon damage.</string>
+	<string name="skills.attacks.twohanded.shortbow2.name">화살 연사</string>
+	<string name="skills.attacks.twohanded.shortbow2.desc">Hold to continously shoot arrows that split when hitting a target, each arrow dealing 50% Weapon damage.</string>
 
 	<string name="skills.attacks.twohanded.longbow1.name">퀵 샷</string>
 	<string name="skills.attacks.twohanded.longbow1.desc">Rapidly fires an arrow that deal 60% Weapon damage.</string>
 	<string name="skills.attacks.twohanded.longbow2.name">파워 샷</string>
-	<string name="skills.attacks.twohanded.longbow2.desc">Hold to charge up a powerful shot. The range, speed and damage of the projectile is increased by the time charged, dealing up to 150% Weapon damage.</string>
+	<string name="skills.attacks.twohanded.longbow2.desc">Hold to charge up a powerful shot with 3 arrows. The range, speed and damage of the projectiles are increased by the time charged, dealing up to 100% Weapon damage.</string>
 
 	<string name="skills.attacks.twohanded.crossbow1.name">퀵 샷</string>
-	<string name="skills.attacks.twohanded.crossbow1.desc">Quickly unleash a fast bolt that deal 100% Weapon damage.</string>
+	<string name="skills.attacks.twohanded.crossbow1.desc">Quickly unleash a fast bolt that deal 100% Weapon damage with 10% Armor Penetration.</string>
 	<string name="skills.attacks.twohanded.crossbow2.name">폭발 사격</string>
 	<string name="skills.attacks.twohanded.crossbow2.desc">Fires an armed bolt that explodes upon impact dealing 150% Weapon damage.</string>
 
@@ -374,7 +374,7 @@
 	<string name="skills.paladin.mastery_1.passive_1.name">집행자</string>
 	<string name="skills.paladin.mastery_1.passive_1.desc">피해를 받거나 막을때 공격자를 \cb0dfff무장 해제\d 및 \cb0dfff침묵\d 상태로 만들 확률이 생깁니다.</string>
 	<string name="skills.paladin.mastery_1.passive_1.up1.name">처단자</string>
-	<string name="skills.paladin.mastery_1.passive_1.up1.desc">\cb0dfff무장 해제\d나 \cb0dfff침묵\d 상태의 적에게 추가 피해를 입힙니다.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up1.desc">\cb0dfff무장 해제\d나 \cb0dfff침묵\d 상태의 적을 공격하면 \cb0dfff심판\d의 망치가 추가 타격을 가합니다.</string>
 	<string name="skills.paladin.mastery_1.passive_1.up2.name">속박</string>
 	<string name="skills.paladin.mastery_1.passive_1.up2.desc">\cffdfb0무기\d 및 \cffdfb0주문\d 공격이 적을 묶고 다른 주변 적도 묶을 확률을 얻습니다.\n묶인 적은 이동 속도가 감소하고 지속적인 물리 피해를 입습니다.</string>
 
@@ -408,7 +408,7 @@
 	<string name="skills.paladin.mastery_3.passive_1.name">내면의 불꽃</string>
 	<string name="skills.paladin.mastery_3.passive_1.desc">주문을 시전할 때 \cb0dfff내면의 불꽃\d 스택이 생성됩니다.\n\cb0dfff내면의 불꽃\d 스택이 있을 때 주변 적들에게 화염 피해를 입히는 오라를 얻습니다.</string>
 	<string name="skills.paladin.mastery_3.passive_1.up1.name">헌신의 불꽃</string>
-	<string name="skills.paladin.mastery_3.passive_1.up1.desc">\cb0dfff내면의 불꽃\d 스택당 무기에 화염 피해를 추가합니다.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up1.desc">\cb0dfff내면의 불꽃\d 스택당 캐릭터 레벨에 기반하여 화염 피해가 무기 공격에 추가됩니다.</string>
 	<string name="skills.paladin.mastery_3.passive_1.up2.name">불꽃의 전령</string>
 	<string name="skills.paladin.mastery_3.passive_1.up2.desc">\cb0dfff내면의 불꽃\d 스택당 화염 저항 및 화염 관통력이 증가합니다.</string>
 
@@ -678,7 +678,7 @@
 	<string name="skills.sorcerer.mastery_2.passive_1.up1.name">파열</string>
 	<string name="skills.sorcerer.mastery_2.passive_1.up1.desc">\cffdfb0냉기\d속성 스킬로 적을 처치 시 얼음 폭발이 발생합니다.</string>
 	<string name="skills.sorcerer.mastery_2.passive_1.up2.name">얼음 방어막</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">물리 및 냉기 피해를 차단할 확률을 얻습니다.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">물리 및 냉기 피해를 막을 확률이 증가하며, 피해를 막을 때마다 서리 폭발의 조각이 발사됩니다.</string>
 
 	<string name="skills.sorcerer.mastery_3.name">번개</string>
 	<string name="skills.sorcerer.mastery_3.desc"></string>
@@ -1002,7 +1002,7 @@
 	<string name="skills.wizard.mastery_3.spell_1.up2.desc">버프 지속 시간 동안 주변 적들에게 \cb0dfff둔화\d 효과를 부여합니다.</string>
 	
 	<string name="skills.wizard.mastery_3.passive_1.name">강화된 신체</string>
-	<string name="skills.wizard.mastery_3.passive_1.desc">레벨당 추가 근력, 민첩 및 지능을 부여합니다.</string>
+	<string name="skills.wizard.mastery_3.passive_1.desc">레벨당 추가 근력, 민첩을 부여합니다.</string>
 	<string name="skills.wizard.mastery_3.passive_1.up1.name">강화된 힘</string>
 	<string name="skills.wizard.mastery_3.passive_1.up1.desc">근력당 주문력이 증가합니다.</string>
 	<string name="skills.wizard.mastery_3.passive_1.up2.name">강화된 민첩</string>
