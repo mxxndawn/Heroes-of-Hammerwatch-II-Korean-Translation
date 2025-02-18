@@ -3,42 +3,42 @@
 
 	<string name="tooltips.equipped">Equipped</string>
 
-	<string name="item.info.tooltip.slot.mainhand">Main Hand</string>
-	<string name="item.info.tooltip.slot.offhand">Off Hand</string>
-	<string name="item.info.tooltip.slot.twohand">Two Handed</string>
-	<string name="item.info.tooltip.slot.head">Head</string>
-	<string name="item.info.tooltip.slot.chest">Chest</string>
-	<string name="item.info.tooltip.slot.feet">Feet</string>
-	<string name="item.info.tooltip.slot.hands">Hands</string>
-	<string name="item.info.tooltip.slot.back">Back</string>
-	<string name="item.info.tooltip.slot.accessory">Accessory</string>
-	<string name="item.info.tooltip.slot.potion">Potion</string>
+	<string name="item.info.tooltip.slot.mainhand">주 무기</string>
+	<string name="item.info.tooltip.slot.offhand">보조 무기</string>
+	<string name="item.info.tooltip.slot.twohand">양손 무기</string>
+	<string name="item.info.tooltip.slot.head">머리</string>
+	<string name="item.info.tooltip.slot.chest">상의</string>
+	<string name="item.info.tooltip.slot.feet">발</string>
+	<string name="item.info.tooltip.slot.hands">손</string>
+	<string name="item.info.tooltip.slot.back">등</string>
+	<string name="item.info.tooltip.slot.accessory">악세사리</string>
+	<string name="item.info.tooltip.slot.potion">포션</string>
 
 
 
-	<string name="text.openselsewhere">It opens elsewhere!</string>
-	<string name="text.needakey">I need a key!</string>
-	<string name="text.needbox">I need a toolbox!</string>
-	<string name="text.needpan">I need a pan!</string>
-	<string name="text.needaxe">I need an axe!</string>
-	<string name="text.needshovel">I need a shovel!</string>
-	<string name="text.needpickaxe">I need a\npick axe!</string>
-	<string name="text.needreddye">I need\nred dye!</string>
-	<string name="text.needrope">I need a rope!</string>
-	<string name="text.needladder">I need a ladder!</string>
+	<string name="text.openselsewhere">다른 곳의 문이 열렸어!</string>
+	<string name="text.needakey">키가 필요해!</string>
+	<string name="text.needbox">공구상자가 필요해!</string>
+	<string name="text.needpan">펜이 필요해!</string>
+	<string name="text.needaxe">도끼가 필요해!</string>
+	<string name="text.needshovel">삽이 필요해!</string>
+	<string name="text.needpickaxe">곡굉이가 필요해!</string>
+	<string name="text.needreddye">빨간색 염료가 필요해!</string>
+	<string name="text.needrope">밧줄이 필요해!</string>
+	<string name="text.needladder">사다리가 필요해!</string>
 
 
 
-	<string name="rg_post_phosphor">Post Phosphor</string>
-	<string name="rg_post_phosphor.help">Enable Phosphor retro effect</string>
-	<string name="rg_post_bloom">Post Dot & Bloom</string>
-	<string name="rg_post_bloom.help">Enable Dot and Bloom retro effect</string>
+	<string name="rg_post_phosphor">포스퍼 효과</string>
+	<string name="rg_post_phosphor.help">포스퍼 레트로 효과를 활성화</string>
+	<string name="rg_post_bloom">도트 & 블룸 효과</string>
+	<string name="rg_post_bloom.help">도트와 블룸의 레트로 효과를 활성화</string>
 
 
 
 
-	<string name="button.shop.more">More</string>
-	<string name="button.shop.tailor">Tailor</string>
+	<string name="button.shop.more">더보기</string>
+	<string name="button.shop.tailor">재단사</string>
 
 
 
@@ -115,7 +115,7 @@
 	<string name="epic.name.eye">Eye</string>
 	<string name="epic.name.gaze">Gaze</string>
 
-	<string name="modifiers.enchant.bone_dust.desc">Scoring a kill has a %chance%% chance to summon a crawler.</string>
+	<string name="modifiers.enchant.bone_dust.desc">적 처치 시 %chance%% 확률로 크롤러를 소환합니다.</string>
 	<string name="modifiers.enchant.shambler_claw.desc">Attack hits have a %chance%% chance to strike a different nearby enemy with a bolt of lightning dealing %dmg% Lightning damage.</string>
 	<string name="modifiers.enchant.wasp_stinger.desc">Attacking has a %chance%% chance to fire a stinger projectile at a random enemy.</string>
 	<string name="modifiers.enchant.wasp_stinger.desc2">Casting a Spell fires a stinger projectile at a random enemy.</string>
@@ -198,13 +198,13 @@
 	
 	<string name="text.saving">Saving...</string>
 
-	<string name="menu.playerlist.profile.title">Profile</string>
-	<string name="menu.playerlist.profile.tooltip">Open this player's profile.</string>
-	<string name="menu.playerlist.kick.title">Kick</string>
-	<string name="menu.playerlist.kick.tooltip">Kick this player.</string>
-	<string name="menu.playerlist.kick.prompt">Are you sure you want to kick %name%?</string>
+	<string name="menu.playerlist.profile.title">프로필</string>
+	<string name="menu.playerlist.profile.tooltip">이 플레이어의 프로필을 확인합니다.</string>
+	<string name="menu.playerlist.kick.title">강퇴</string>
+	<string name="menu.playerlist.kick.tooltip">이 플레이어를 강퇴합니다.</string>
+	<string name="menu.playerlist.kick.prompt">정말 %name% 를 강퇴하시겠습니까?</string>
 	<string name="menu.playerlist.ping">%value% ms</string>
-	<string name="menu.playerlist.host">Host</string>
+	<string name="menu.playerlist.host">호스트</string>
 
 
 
@@ -306,17 +306,17 @@
 	<string name="modifiers.class.warlock.fiends_add.desc">You can summon %value% additional %c-highlight%Fiends\d.</string>
 	<string name="modifiers.class.wizard.duplicate_add.desc">You can summon %value% additional %c-highlight%Duplicate\d.</string>
 
-	<string name="skills.desc.params.projectile.dmg">Projectile Damage:</string>
-	<string name="modifiers.misc.attack_hit_health_chance.desc">%chance%% to restore %value% Health on Attack Hit.</string>
-	<string name="modifiers.misc.attack_hit_stamina_chance.desc">%chance%% to restore %value% Stamina on Attack Hit.</string>
-	<string name="modifiers.misc.attack_hit_mana_chance.desc">%chance%% to restore %value% Mana on Attack Hit.</string>
-	<string name="modifiers.enchant.blackheart.prefix">Blackheart</string>
-	<string name="modifiers.enchant.blackheart.suffix">of Corruption</string>
-	<string name="modifiers.damage_taken.desc">%desc%% more damage taken.</string>
+	<string name="skills.desc.params.projectile.dmg">발사체 피해량:</string>
+	<string name="modifiers.misc.attack_hit_health_chance.desc">공격 적중 시 %chance%% 확률로 %value% 생명력을 회복합니다.</string>
+	<string name="modifiers.misc.attack_hit_stamina_chance.desc">공격 적중 시 %chance%% 확률로 %value% 스태미너를 회복합니다.</string>
+	<string name="modifiers.misc.attack_hit_mana_chance.desc">공격 적중 시 %chance%% 확률로 %value% 마나를 회복합니다.</string>
+	<string name="modifiers.enchant.blackheart.prefix">블랙하트</string>
+	<string name="modifiers.enchant.blackheart.suffix">부패의</string>
+	<string name="modifiers.damage_taken.desc">받는 피해량 %desc%% 증가</string>
 
-	<string name="menu.player.stats.mainhand">Mainhand</string>
-	<string name="menu.player.stats.offhand">Offhand</string>
-	<string name="menu.player.stats.damage">Damage</string>
+	<string name="menu.player.stats.mainhand">주 무기</string>
+	<string name="menu.player.stats.offhand">보조 무기</string>
+	<string name="menu.player.stats.damage">피해량</string>
 
 
 	<string name="dialogue.player_door_locked_generic">It's locked!</string>

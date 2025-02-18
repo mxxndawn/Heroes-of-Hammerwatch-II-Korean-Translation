@@ -62,7 +62,8 @@
 	<string name="menu.nav.deposit_to">Deposit to '%to%'</string>
 	<string name="menu.nav.rename">Rename</string>
 	<string name="menu.nav.link_item">Link Item</string>
-
+	<string name="menu.nav.amnt+">Amount+</string>
+	<string name="menu.nav.amnt-">Amount-</string>
 
 
 	<string name="misc.timeletters.hours">h</string>
@@ -355,6 +356,7 @@
 	<string name="building.chapel.desc1">A house for god, lets you pick between two blessings for your runs.\n\n-5% Revive Cost</string>
 	<string name="building.chapel.desc2">Unlocks two more blessings.\n\n-5% Revive Cost</string>
 	<string name="building.chapel.desc3">Unlocks another blessing.\n\n-5% Revive Cost</string>
+	<string name="building.chapel.desc4">Lets you freely donate materials to the chapel, unlocks another blessing.\n\n-5% Revive Cost</string>
 
 	<string name="building.enchanter.name">Enchanter</string>
 	<string name="building.enchanter.desc1">Lets you magically modify your equipment.\n\nUnlocks blueprints for enchants.</string>
@@ -425,6 +427,17 @@
 	<string name="weapon_mastery.wands">Wands</string>
 	<string name="weapon_mastery.tomes">Tomes</string>
 	<string name="weapon_mastery.staffs">Staves</string>
+
+
+	<string name="spell_mastery.bonus.first">Add %dmg% damage and %mana% mana cost</string>
+	<string name="spell_mastery.bonus.curr">%dmg% damage, %mana% mana cost</string>
+
+	<string name="spell_mastery.spells_all">All Spells</string>
+	<string name="spell_mastery.spells_physical">\cffdfb0Physical\d Spells</string>
+	<string name="spell_mastery.spells_fire">\cffdfb0Fire\d Spells</string>
+	<string name="spell_mastery.spells_ice">\cffdfb0Ice\d Spells</string>
+	<string name="spell_mastery.spells_lightning">\cffdfb0Lightning\d Spells</string>
+	<string name="spell_mastery.spells_poison">\cffdfb0Poison\d Spells</string>
 
 
 
@@ -933,11 +946,11 @@
 	<string name="item.stat.tooltip.damagelightningmul">\"icn-dmg-lightn"%stat%%</string>
 	<string name="item.stat.tooltip.damagepoisonmul">\"icn-dmg-poison"%stat%%</string>
 	<string name="item.stat.tooltip.damagepuremul">\"icn-dmg-raw"%stat%%</string>
-	<string name="item.stat.tooltip.armorpen">\"icn-respen-phys"%stat%</string>
-	<string name="item.stat.tooltip.resistancefirepen">\"icn-respen-fire"%stat%</string>
-	<string name="item.stat.tooltip.resistanceicepen">\"icn-respen-ice"%stat%</string>
-	<string name="item.stat.tooltip.resistancelightningpen">\"icn-respen-lightn"%stat%</string>
-	<string name="item.stat.tooltip.resistancepoisonpen">\"icn-respen-poison"%stat%</string>
+	<string name="item.stat.tooltip.armorpen">\"icn-respen-phys"%stat%%</string>
+	<string name="item.stat.tooltip.resistancefirepen">\"icn-respen-fire"%stat%%</string>
+	<string name="item.stat.tooltip.resistanceicepen">\"icn-respen-ice"%stat%%</string>
+	<string name="item.stat.tooltip.resistancelightningpen">\"icn-respen-lightn"%stat%%</string>
+	<string name="item.stat.tooltip.resistancepoisonpen">\"icn-respen-poison"%stat%%</string>
 	<string name="item.stat.tooltip.experiencemul">\"icn-expmul"%stat%%</string>
 	<string name="item.stat.tooltip.lightradius">LR%stat%</string>
 	<string name="item.stat.tooltip.spellcritchance">\"icn-crit-spellchance"%stat%%</string>
@@ -1204,9 +1217,9 @@
 
 
 
-	<string name="htitle.format">Level %lvl%: %desc%</string>
 
 	<!-- Hero Titles -->
+	<string name="htitle.format">Level %lvl%: %desc%</string>
 	<string name="htitle.paladin.desc">Grants %num% Armor, %num-per% per level.</string>
 	<string name="htitle.ranger.desc">Grants %num% Weapon Power, %num-per% per level.</string>
 	<string name="htitle.rogue.desc">Grants %num%% reduced Trap Damage, %num-per%% per level.</string>
@@ -1214,6 +1227,18 @@
 	<string name="htitle.warlock.desc">Grants %num% Fire, Ice, Lightning and Poison Resistance, %num-per% per level.</string>
 	<string name="htitle.warrior.desc">Grants %num% Health, %num-per% per level.</string>
 	<string name="htitle.wizard.desc">Grants %num% Spell Power, %num-per% per level.</string>
+
+
+	<!-- Donation Titles -->
+	<string name="dtitle.format">Donated %amnt%: %desc%</string>
+	<string name="dtitle.gold.name">Magnate</string>
+	<string name="dtitle.gold.desc">Grants +%num%% Weapon Damage.</string>
+	<string name="dtitle.wood.name">Logger</string>
+	<string name="dtitle.wood.desc">Grants +%num%% Spell Damage.</string>
+	<string name="dtitle.stone.name">Quarrier</string>
+	<string name="dtitle.stone.desc">Grants %num%% reduced Damage Taken.</string>
+	<string name="dtitle.iron.name">Smith</string>
+	<string name="dtitle.iron.desc">Grants %num%% Potion, Regen, and Pickup Health Gain.</string>
 
 
 
@@ -1534,24 +1559,24 @@
 	<string name="statistic.valuables-value">Valuables value</string>
 	<string name="statistic.collected-gold">Gold collected</string>
 	<string name="statistic.sent-back-gold">Gold sent back to town</string>
-	<string name="statistic.chapel-revive-gold">Gold "donated" to chapel</string>
+	<string name="statistic.chapel-revive-gold">Gold donated to chapel</string>
 	<string name="statistic.collected-wood">Wood collected</string>
 	<string name="statistic.sent-back-wood">Wood sent back to town</string>
-	<string name="statistic.chapel-revive-wood">Wood "donated" to chapel</string>
+	<string name="statistic.chapel-revive-wood">Wood donated to chapel</string>
 	<string name="statistic.collected-stone">Stone collected</string>
 	<string name="statistic.sent-back-stone">Stone sent back to town</string>
-	<string name="statistic.chapel-revive-stone">Stone "donated" to chapel</string>
+	<string name="statistic.chapel-revive-stone">Stone donated to chapel</string>
 	<string name="statistic.collected-iron">Iron collected</string>
 	<string name="statistic.sent-back-iron">Iron sent back to town</string>
-	<string name="statistic.chapel-revive-iron">Iron "donated" to chapel</string>
+	<string name="statistic.chapel-revive-iron">Iron donated to chapel</string>
 	<string name="statistic.collected-crystals">Crystals collected</string>
 	<string name="statistic.sent-back-crystals">Crystals sent back to town</string>
-	<string name="statistic.chapel-revive-crystals">Crystals "donated" to chapel</string>
+	<string name="statistic.chapel-revive-crystals">Crystals donated to chapel</string>
 	<string name="statistic.collected-dust">Dust collected</string>
 	<string name="statistic.sent-back-dust">Dust sent back to town</string>
-	<string name="statistic.chapel-revive-dust">Dust "donated" to chapel</string>
+	<string name="statistic.chapel-revive-dust">Dust donated to chapel</string>
 	<string name="statistic.collected-fragments">Fragments collected</string>
 	<string name="statistic.sent-back-fragments">Fragments sent back to town</string>
-	<string name="statistic.chapel-revive-fragments">Fragments "donated" to chapel</string>
+	<string name="statistic.chapel-revive-fragments">Fragments donated to chapel</string>
 
 </lang>

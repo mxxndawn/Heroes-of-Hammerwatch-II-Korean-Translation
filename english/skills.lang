@@ -262,7 +262,7 @@
 	<string name="skills.attacks.mainhand.wand.lightning.desc">Discharge a bolt of lightning that can jump between enemies, dealing 40% Weapon damage. The bolt deals 10% less damage for each jump.</string>
 
 	<string name="skills.attacks.offhand.crossbow.name">Quick Shot</string>
-	<string name="skills.attacks.offhand.crossbow.desc">Quickly release a fast bolt that deal 75% Physical damage.</string>
+	<string name="skills.attacks.offhand.crossbow.desc">Quickly release a fast bolt that deal 75% Physical damage with 10% Armor Penetration.</string>
 	<string name="skills.attacks.offhand.shield.name">Shield Bash</string>
 	<string name="skills.attacks.offhand.shield.desc">Bash enemies with your shield inflicting \cb0dfffStun\d.</string>
 	<string name="skills.attacks.offhand.shield.block.desc">Blocks up to %amnt% damage from most projectiles in a 180-degree arc.</string>
@@ -276,16 +276,16 @@
 
 	<string name="skills.attacks.twohanded.shortbow1.name">Quick Shot</string>
 	<string name="skills.attacks.twohanded.shortbow1.desc">Rapidly fires an arrow that deal 50% Weapon damage.</string>
-	<string name="skills.attacks.twohanded.shortbow2.name">Power Shot</string>
-	<string name="skills.attacks.twohanded.shortbow2.desc">Hold to charge up a powerful shot. The range, speed and damage of the projectile is increased by the time charged, dealing up to 150% Weapon damage.</string>
+	<string name="skills.attacks.twohanded.shortbow2.name">Arrow Volley</string>
+	<string name="skills.attacks.twohanded.shortbow2.desc">Hold to continously shoot arrows that split when hitting a target, each arrow dealing 50% Weapon damage.</string>
 
 	<string name="skills.attacks.twohanded.longbow1.name">Quick Shot</string>
 	<string name="skills.attacks.twohanded.longbow1.desc">Rapidly fires an arrow that deal 60% Weapon damage.</string>
 	<string name="skills.attacks.twohanded.longbow2.name">Power Shot</string>
-	<string name="skills.attacks.twohanded.longbow2.desc">Hold to charge up a powerful shot. The range, speed and damage of the projectile is increased by the time charged, dealing up to 150% Weapon damage.</string>
+	<string name="skills.attacks.twohanded.longbow2.desc">Hold to charge up a powerful shot with 3 arrows. The range, speed and damage of the projectiles are increased by the time charged, dealing up to 100% Weapon damage.</string>
 
 	<string name="skills.attacks.twohanded.crossbow1.name">Quick Shot</string>
-	<string name="skills.attacks.twohanded.crossbow1.desc">Quickly unleash a fast bolt that deal 100% Weapon damage.</string>
+	<string name="skills.attacks.twohanded.crossbow1.desc">Quickly unleash a fast bolt that deal 100% Weapon damage with 10% Armor Penetration.</string>
 	<string name="skills.attacks.twohanded.crossbow2.name">Explosive Shot</string>
 	<string name="skills.attacks.twohanded.crossbow2.desc">Fires an armed bolt that explodes upon impact dealing 150% Weapon damage.</string>
 
@@ -374,7 +374,7 @@
 	<string name="skills.paladin.mastery_1.passive_1.name">Lawbringer</string>
 	<string name="skills.paladin.mastery_1.passive_1.desc">When you block or take damage you have a chance to inflict \cb0dfffDisarm\d and \cb0dfffSilence\d to the attacker.</string>
 	<string name="skills.paladin.mastery_1.passive_1.up1.name">Punish the Wicked</string>
-	<string name="skills.paladin.mastery_1.passive_1.up1.desc">You deal more damage to enemies inflicted by \cb0dfffDisarm\d or \cb0dfffSilence\d.</string>
+	<string name="skills.paladin.mastery_1.passive_1.up1.desc">Hitting an enemy inflicted by \cb0dfffDisarm\d or \cb0dfffSilence\d strikes them with a \cb0dfffJudgement\d hammer.</string>
 	<string name="skills.paladin.mastery_1.passive_1.up2.name">Shackles</string>
 	<string name="skills.paladin.mastery_1.passive_1.up2.desc">\cffdfb0Weapon\d and \cffdfb0Spell\d hits gain a chance to shackle the target and a different nearby enemy. Shackled enemies have reduced movement speed and take continuous Physical damage.</string>
 
@@ -408,7 +408,7 @@
 	<string name="skills.paladin.mastery_3.passive_1.name">Inner Flames</string>
 	<string name="skills.paladin.mastery_3.passive_1.desc">Casting Spells generate stacks of \cb0dfffInner Flames\d. While you have stacks of \cb0dfffInner Flames\d you gain an aura dealing Fire damage to nearby enemies.</string>
 	<string name="skills.paladin.mastery_3.passive_1.up1.name">Flames of Devotion</string>
-	<string name="skills.paladin.mastery_3.passive_1.up1.desc">Each stack of \cb0dfffInner Flames\d adds Fire damage to your weapons.</string>
+	<string name="skills.paladin.mastery_3.passive_1.up1.desc">Each stack of \cb0dfffInner Flames\d adds Fire damage per your character level to your weapons.</string>
 	<string name="skills.paladin.mastery_3.passive_1.up2.name">Bringer of Flames</string>
 	<string name="skills.paladin.mastery_3.passive_1.up2.desc">Each stack of \cb0dfffInner Flames\d increases your Fire Resistance and Fire Penetration.</string>
 
@@ -678,7 +678,7 @@
 	<string name="skills.sorcerer.mastery_2.passive_1.up1.name">Shatter</string>
 	<string name="skills.sorcerer.mastery_2.passive_1.up1.desc">Killing enemies with \cffdfb0Ice\d skills have a chance to trigger an explosion dealing Ice damage.</string>
 	<string name="skills.sorcerer.mastery_2.passive_1.up2.name">Ice Block</string>
-	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">You gain a chance to block Physical and Ice damage.</string>
+	<string name="skills.sorcerer.mastery_2.passive_1.up2.desc">You gain a chance to block Physical and Ice damage, when blocking a single shard from your frost nova is unleashed.</string>
 
 	<string name="skills.sorcerer.mastery_3.name">Lightning</string>
 	<string name="skills.sorcerer.mastery_3.desc"></string>
@@ -1002,7 +1002,7 @@
 	<string name="skills.wizard.mastery_3.spell_1.up2.desc">For the duration of the buff you inflict nearby enemies with \cb0dfffSlow\d.</string>
 	
 	<string name="skills.wizard.mastery_3.passive_1.name">Enhanced Physique</string>
-	<string name="skills.wizard.mastery_3.passive_1.desc">Grants additional Strength, Dexterity and Intelligence per character level.</string>
+	<string name="skills.wizard.mastery_3.passive_1.desc">Grants additional Strength and Dexterity per character level.</string>
 	<string name="skills.wizard.mastery_3.passive_1.up1.name">Enhanced Strength</string>
 	<string name="skills.wizard.mastery_3.passive_1.up1.desc">Grants Spell Power per Strength.</string>
 	<string name="skills.wizard.mastery_3.passive_1.up2.name">Enhanced Dexterity</string>
