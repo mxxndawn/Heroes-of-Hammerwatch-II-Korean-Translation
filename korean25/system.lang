@@ -62,7 +62,8 @@
 	<string name="menu.nav.deposit_to">'%to%'에 보관</string>
 	<string name="menu.nav.rename">Rename</string>
 	<string name="menu.nav.link_item">Link Item</string>
-
+	<string name="menu.nav.amnt+">Amount+</string>
+	<string name="menu.nav.amnt-">Amount-</string>
 
 
 	<string name="misc.timeletters.hours">시간</string>
@@ -355,6 +356,7 @@
 	<string name="building.chapel.desc1">신을 위한 집으로, 당신의 도전에서 두 가지 축복 중 하나를 선택할 수 있습니다.\n\n부활 비용 -5%</string>
 	<string name="building.chapel.desc2">두 가지 축복을 더 선택할 수 있습니다.\n\n부활 비용 -5%</string>
 	<string name="building.chapel.desc3">또 다른 축복을 더 선택할 수 있습니다.\n\n부활 비용 -5%</string>
+	<string name="building.chapel.desc4">예배당에 자유롭게 자원을 기부할 수 있으며, 추가 축복을 선택할 수 있습니다.\n\n부활 비용-5%</string>
 
 	<string name="building.enchanter.name">마법 부여사</string>
 	<string name="building.enchanter.desc1">장비를 마밥처럼 수정할 수 있습니다.\n\n인챈트 블루프린트를 획득할 수 있습니다.</string>
@@ -425,6 +427,17 @@
 	<string name="weapon_mastery.wands">완드</string>
 	<string name="weapon_mastery.tomes">책</string>
 	<string name="weapon_mastery.staffs">스태프</string>
+
+
+	<string name="spell_mastery.bonus.first">피해량 증가 %dmg% 및 마나 소모량 증가 %mana%</string>
+	<string name="spell_mastery.bonus.curr">피해량 %dmg%, 마나 소모량 %mana%</string>
+
+	<string name="spell_mastery.spells_all">모든 주문</string>
+	<string name="spell_mastery.spells_physical">\cffdfb0피지컬\d 주문</string>
+	<string name="spell_mastery.spells_fire">\cffdfb0화염\d 주문</string>
+	<string name="spell_mastery.spells_ice">\cffdfb0냉기\d 주문</string>
+	<string name="spell_mastery.spells_lightning">\cffdfb0번개\d 주문</string>
+	<string name="spell_mastery.spells_poison">\cffdfb0중독\d 주문</string>
 
 
 
@@ -933,11 +946,11 @@
 	<string name="item.stat.tooltip.damagelightningmul">\"icn-dmg-lightn"%stat%%</string>
 	<string name="item.stat.tooltip.damagepoisonmul">\"icn-dmg-poison"%stat%%</string>
 	<string name="item.stat.tooltip.damagepuremul">\"icn-dmg-raw"%stat%%</string>
-	<string name="item.stat.tooltip.armorpen">\"icn-respen-phys"%stat%</string>
-	<string name="item.stat.tooltip.resistancefirepen">\"icn-respen-fire"%stat%</string>
-	<string name="item.stat.tooltip.resistanceicepen">\"icn-respen-ice"%stat%</string>
-	<string name="item.stat.tooltip.resistancelightningpen">\"icn-respen-lightn"%stat%</string>
-	<string name="item.stat.tooltip.resistancepoisonpen">\"icn-respen-poison"%stat%</string>
+	<string name="item.stat.tooltip.armorpen">\"icn-respen-phys"%stat%%</string>
+	<string name="item.stat.tooltip.resistancefirepen">\"icn-respen-fire"%stat%%</string>
+	<string name="item.stat.tooltip.resistanceicepen">\"icn-respen-ice"%stat%%</string>
+	<string name="item.stat.tooltip.resistancelightningpen">\"icn-respen-lightn"%stat%%</string>
+	<string name="item.stat.tooltip.resistancepoisonpen">\"icn-respen-poison"%stat%%</string>
 	<string name="item.stat.tooltip.experiencemul">\"icn-expmul"%stat%%</string>
 	<string name="item.stat.tooltip.lightradius">LR%stat%</string>
 	<string name="item.stat.tooltip.spellcritchance">\"icn-crit-spellchance"%stat%%</string>
@@ -1207,6 +1220,7 @@
 
 
 	<!-- Hero Titles -->
+	<string name="htitle.format">레벨 %lvl%: %desc%</string>
 	<string name="htitle.paladin.desc">%num% 방어력을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.ranger.desc">%num% 무기 피해량을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.rogue.desc">%num%% 함정 피해 감소를 부여, 레벨당 %num-per%% 증가.</string>
@@ -1214,6 +1228,18 @@
 	<string name="htitle.warlock.desc">%num% 화염, 냉기, 번개, 독 저항을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.warrior.desc">%num% 생명력을 부여, 레벨당 %num-per% 증가.</string>
 	<string name="htitle.wizard.desc">%num% 주문 피해량을 부여, 레벨당 %num-per% 증가.</string>
+
+
+	<!-- Donation Titles -->
+	<string name="dtitle.format">기부 %amnt%: %desc%</string>
+	<string name="dtitle.gold.name">대부호</string>
+	<string name="dtitle.gold.desc">무기 피해량 +%num%%</string>
+	<string name="dtitle.wood.name">나무꾼</string>
+	<string name="dtitle.wood.desc">주문 피해량 +%num%%</string>
+	<string name="dtitle.stone.name">채석공</string>
+	<string name="dtitle.stone.desc">받는 피해량 감소 %num%%</string>
+	<string name="dtitle.iron.name">장인</string>
+	<string name="dtitle.iron.desc">포션, 재생량 및 아이템 획득시 생명력 획득량 증가 %num%%</string>
 
 
 
@@ -1534,24 +1560,24 @@
 	<string name="statistic.valuables-value">수집된 귀중품 가치</string>
 	<string name="statistic.collected-gold">수집된 금화</string>
 	<string name="statistic.sent-back-gold">마을로 보낸 금화</string>
-	<string name="statistic.chapel-revive-gold">예배당에 "기부"된 금화</string>
+	<string name="statistic.chapel-revive-gold">예배당에 기부된 금화</string>
 	<string name="statistic.collected-wood">수집된 목재</string>
 	<string name="statistic.sent-back-wood">마을로 보낸 목재</string>
-	<string name="statistic.chapel-revive-wood">예배당에 "기부"된 목재</string>
+	<string name="statistic.chapel-revive-wood">예배당에 기부된 목재</string>
 	<string name="statistic.collected-stone">수집된 석재</string>
 	<string name="statistic.sent-back-stone">마을로 보낸 석재</string>
-	<string name="statistic.chapel-revive-stone">예배당에 "기부"된 석재</string>
+	<string name="statistic.chapel-revive-stone">예배당에 기부된 석재</string>
 	<string name="statistic.collected-iron">수집된 강철</string>
 	<string name="statistic.sent-back-iron">마을로 보낸 강철</string>
-	<string name="statistic.chapel-revive-iron">예배당에 "기부"된 강철</string>
+	<string name="statistic.chapel-revive-iron">예배당에 기부된 강철</string>
 	<string name="statistic.collected-crystals">수집된 수정</string>
 	<string name="statistic.sent-back-crystals">마을로 보낸 수정</string>
-	<string name="statistic.chapel-revive-crystals">예배당에 "기부"된 수정</string>
+	<string name="statistic.chapel-revive-crystals">예배당에 기부된 수정</string>
 	<string name="statistic.collected-dust">수집된 가루</string>
 	<string name="statistic.sent-back-dust">마을로 보내진 가루</string>
-	<string name="statistic.chapel-revive-dust">예배당에 "기부"된 가루</string>
+	<string name="statistic.chapel-revive-dust">예배당에 기부된 가루</string>
 	<string name="statistic.collected-fragments">조각 수집가</string>
 	<string name="statistic.sent-back-fragments">마을로 보내진 조각</string>
-	<string name="statistic.chapel-revive-fragments">예배당에 "기부"된 조각</string>
+	<string name="statistic.chapel-revive-fragments">예배당에 기부된 조각</string>
 
 </lang>

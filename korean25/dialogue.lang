@@ -95,9 +95,14 @@
 	<string name="npc.shop.equipment_upgrade">Upgrade Equipment</string>
 	<string name="npc.shop.equipment_enchant">Enchant Equipment</string>
 	<string name="npc.shop.weapon_mastery">Weapon Mastery</string>
+	<string name="npc.shop.spell_mastery">Spell Mastery</string>
 	<string name="npc.shop.trinket_attune">Attune Trinkets</string>
+	<string name="npc.shop.chapel_donation">Chapel Donation</string>
 
+	<string name="npc.shop.spell_mastery.desc">Spell Mastery increases damage of certain spells by %dmg%, but also increases their mana cost by %mana%</string>
 	<string name="npc.shop.equipment_upgrade.upgrade">(Upgrade ilvl by %amnt%)</string>
+	<string name="npc.shop.chapel_donation.donate">Donate %mat%</string>
+	<string name="npc.shop.chapel_donation.donate.desc">%curr% donated, give another %add%.</string>
 
 	<string name="npc.shop.builder">Build Building</string>
 	<string name="npc.shop.builder.empty.demo">The full game has more buildings and upgrades!</string>
@@ -112,6 +117,9 @@
 	<string name="npc.shop.trinket.left">Can buy: %num%</string>
 	<string name="npc.shop.equip.take">Pick a piece of equipment</string>
 	<string name="npc.shop.trinket.picker">Pick a trinket</string>
+
+	<string name="npc.shop.material_trader.buy">Buy %amnt% %mat%</string>
+	<string name="npc.shop.material_trader.sell">Sell %amnt% %mat%</string>
 
 	<string name="npc.shop.buy.gold">Buy for gold</string>
 	<string name="npc.shop.sell.gold">Sell for gold</string>
@@ -156,6 +164,8 @@
 	<string name="dialogue.guard_exit.prompt1">Be careful out there!</string>
 
 
+
+
 	<string name="dialogue.librarian.found">Oh hello! I've been looking for a while now, but there's nothing here. Not a single book.</string>
 	<string name="dialogue.librarian.prompt1.1">Books are truly something special, they can take you to a different world, a different kind of thought.</string>
 	<string name="dialogue.librarian.prompt1.2">You should look in to building a library, it would take this town to the next level.</string>
@@ -168,6 +178,7 @@
 	<string name="dialogue.architect.prompt1">I'll meet you out in the forest by the citadel.</string>
 	<string name="dialogue.architect.prompt2">I'll open this for you.</string>
 
+	<string name="dialogue.spell_mastery.found">Finally someone alive! Do you know the way out?</string>
 
 
 	<string name="dialogue.rogue.found.1">Hello there! You're also out here looking for treasure?</string>
